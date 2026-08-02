@@ -32,7 +32,7 @@ OUT_DIR = Path("out")
 
 CSV_FIELDS = [
     "theater_id", "theater_name",
-    "movie_id", "title", "release_date", "duration", "rating", "star",
+    "movie_id", "title", "release_date", "duration", "rating", "star", "poster",
     "format", "date", "showtimes",
 ]
 
@@ -78,7 +78,7 @@ def _movie_info(section):
     star = star_el.get_text(strip=True) if star_el else ""
 
     return {"movie_id": movie_id, "title": title, "release_date": release_date,
-            "duration": duration, "rating": rating, "star": star}
+            "duration": duration, "rating": rating, "star": star, "poster": ""}
 
 
 def _parse_time_cell(td):
@@ -146,6 +146,25 @@ def save_csv(rows, path):
             writer.writerow(flat)
 
 
+def fetch_posters(movie_ids):
+    posters = {}
+    total = len(movie_ids)
+    for i, movie_id in enumerate(movie_ids, 1):
+        try:
+            soup = fetch(f"{BASE_URL}/movie/{movie_id}/photo/")
+            img = soup.select_one(f"img[src*='/movie/{movie_id}/photo/']")
+            if img:
+                src = img["src"]
+                m = re.match(r"(https://media\.eiga\.com/images/movie/\d+/photo/[0-9a-f]+)\.jpg$", src)
+                posters[movie_id] = (m.group(1) + "/320.jpg") if m else src
+            print(f"  poster [{i}/{total}] {movie_id}: {'OK' if movie_id in posters else 'not found'}")
+        except Exception as e:
+            print(f"  poster [{i}/{total}] {movie_id}: error - {e}")
+        if i < total:
+            time.sleep(1)
+    return posters
+
+
 def _load_prev(out_dir):
     pat = re.compile(r"schedule_(\d{8}_\d{6})\.json")
     candidates = []
@@ -194,22 +213,21 @@ body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,
 #back-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 #topbar-title{font-size:.88rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;color:var(--sub);letter-spacing:.1em;text-transform:uppercase}
 #app{max-width:960px;margin:0 auto;padding:1.2rem .9rem 4rem}
-.tbl-wrap{overflow-x:auto;border-radius:12px;border:1px solid var(--border);-webkit-overflow-scrolling:touch}
-.movie-table{width:100%;border-collapse:collapse;min-width:440px}
-.movie-table th{text-align:left;padding:.55rem .8rem;color:var(--sub);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;background:var(--bg2);border-bottom:1px solid var(--border);font-weight:600;white-space:nowrap}
-.movie-table td{padding:.65rem .8rem;border-bottom:1px solid var(--border);vertical-align:middle;opacity:.9}
-.movie-table tbody tr:last-child td{border-bottom:none}
-.movie-table tbody tr{cursor:pointer;transition:background .1s}
-.movie-table tbody tr:hover td{background:var(--bg3);opacity:1}
-.movie-link{color:var(--accent);text-decoration:none;font-size:.92rem;font-weight:500}
-.movie-link:hover{text-decoration:underline}
-.movie-link:focus-visible{outline:2px solid var(--accent);border-radius:3px;outline-offset:2px}
-.movie-cards{display:none;flex-direction:column;gap:.55rem}
-.movie-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:.85rem 1rem;cursor:pointer;transition:background .1s,border-color .1s}
-.movie-card:hover,.movie-card:focus-visible{background:var(--bg3);border-color:var(--accent2);outline:none}
-.card-title{color:var(--accent);font-size:.95rem;font-weight:500;margin-bottom:.4rem;line-height:1.35}
-.card-meta{color:var(--sub);font-size:.76rem;display:flex;flex-wrap:wrap;gap:.38rem;align-items:center}
-@media(max-width:639px){.tbl-wrap{display:none}.movie-cards{display:flex}}
+.poster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(115px,1fr));gap:10px}
+@media(min-width:480px){.poster-grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}}
+@media(min-width:960px){.poster-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}}
+.poster-card{background:var(--bg2);border:1px solid var(--border);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.poster-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.poster-card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.poster-img-wrap{position:relative;aspect-ratio:2/3;overflow:hidden;background:var(--bg3)}
+.poster-noimg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:.5rem;text-align:center;font-size:.72rem;font-weight:500;color:var(--sub);background:linear-gradient(135deg,var(--bg3) 0%,var(--bg2) 100%)}
+.poster-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.poster-overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.72));padding:1.4rem .45rem .4rem;display:flex;justify-content:space-between;align-items:flex-end;pointer-events:none}
+.poster-score{font-size:.8rem;font-weight:700;color:#fff;font-variant-numeric:tabular-nums;line-height:1}
+.poster-sc{font-size:.63rem;color:rgba(255,255,255,.75);display:flex;align-items:center;gap:.2rem}
+.poster-info{padding:.4rem .5rem .52rem}
+.poster-title{font-size:.74rem;font-weight:500;line-height:1.3;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.poster-release{color:var(--sub);font-size:.66rem;margin-top:.22rem}
 .badge{display:inline-block;padding:.1rem .42rem;border-radius:5px;font-size:.67rem;font-weight:700;letter-spacing:.02em}
 .bg{background:rgba(100,200,100,.15);color:#5ec85e}
 .bpg{background:rgba(240,190,60,.15);color:#c89020}
@@ -274,7 +292,7 @@ function buildMovies(raw) {
     if (!map[r.movie_id]) map[r.movie_id] = {
       id: r.movie_id, title: r.title, release_date: r.release_date,
       duration: r.duration, rating: r.rating,
-      star: parseFloat(r.star)||0, sc: 0
+      star: parseFloat(r.star)||0, sc: 0, poster: r.poster||''
     };
     if (isSat(r.date)) map[r.movie_id].sc += (r.showtimes||[]).length;
   }
@@ -334,27 +352,18 @@ const MOVIES = buildMovies(RAW);
 function renderList() {
   document.getElementById('back-btn').style.display = 'none';
   document.getElementById('topbar-title').textContent = '新宿 Cinema';
-  const rows = MOVIES.map(m => `
-    <tr onclick="go('movie/${esc(m.id)}')">
-      <td><a class="movie-link" href="#/movie/${esc(m.id)}" onclick="event.stopPropagation()">${esc(m.title)}</a></td>
-      <td style="color:var(--sub);font-size:.82rem;white-space:nowrap">${esc(fmtRelease(m.release_date))}</td>
-      <td style="color:var(--sub);font-size:.82rem;font-variant-numeric:tabular-nums">${esc(m.duration)}</td>
-      <td>${starHtml(m.star)}</td>
-      <td><div class="sc-wrap">${m.sc}回${deltaHtml(m.id,m.sc)}</div></td>
-    </tr>`).join('');
-  const cards = MOVIES.map(m => `
-    <div class="movie-card" tabindex="0" onclick="go('movie/${esc(m.id)}')" onkeydown="if(event.key==='Enter')go('movie/${esc(m.id)}')">
-      <div class="card-title">${esc(m.title)}</div>
-      <div class="card-meta">
-        <span>${esc(fmtRelease(m.release_date))}</span><span>${esc(m.duration)}</span>${ratingBadge(m.rating)}${starHtml(m.star)}<span>${m.sc}回</span>${deltaHtml(m.id,m.sc)}
-      </div>
-    </div>`).join('');
+  const cards = MOVIES.map(m => {
+    const imgEl = m.poster ? `<img class="poster-img" src="${esc(m.poster)}" referrerpolicy="no-referrer" alt="${esc(m.title)}" loading="lazy">` : '';
+    const scoreEl = m.star ? `<span class="poster-score">${m.star.toFixed(1)}</span>` : '';
+    const scEl = m.sc ? `<span class="poster-sc">${m.sc}回${deltaHtml(m.id,m.sc)}</span>` : '';
+    return `<div class="poster-card" tabindex="0" onclick="go('movie/${esc(m.id)}')" onkeydown="if(event.key==='Enter')go('movie/${esc(m.id)}')">
+      <div class="poster-img-wrap"><div class="poster-noimg">${esc(m.title.slice(0,8))}</div>${imgEl}<div class="poster-overlay">${scoreEl}${scEl}</div></div>
+      <div class="poster-info"><div class="poster-title">${esc(m.title)}</div><div class="poster-release">${esc(fmtRelease(m.release_date))}</div></div>
+    </div>`;
+  }).join('');
   document.getElementById('app').innerHTML =
     `<p class="page-heading">上映作品一覧 — ${MOVIES.length} 作品</p>` +
-    `<div class="tbl-wrap"><table class="movie-table"><thead><tr>` +
-    `<th>作品名</th><th>公開</th><th>上映時間</th><th>スコア</th><th>上映回数</th>` +
-    `</tr></thead><tbody>${rows}</tbody></table></div>` +
-    `<div class="movie-cards">${cards}</div>`;
+    `<div class="poster-grid">${cards}</div>`;
 }
 
 function renderDetail(movieId) {
@@ -431,6 +440,12 @@ def main():
             print(f"  -> エラー: {e}")
         if i < len(theaters):
             time.sleep(SLEEP_SEC)
+
+    unique_ids = list({r["movie_id"] for r in all_rows if r.get("movie_id")})
+    print(f"\nポスター画像を取得中 ({len(unique_ids)} 作品)...")
+    poster_map = fetch_posters(unique_ids)
+    for row in all_rows:
+        row["poster"] = poster_map.get(row["movie_id"], "")
 
     json_path   = OUT_DIR / f"schedule_{ts}.json"
     csv_path    = OUT_DIR / f"schedule_{ts}.csv"
