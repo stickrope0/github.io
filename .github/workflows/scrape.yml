@@ -1,0 +1,38 @@
+﻿name: 新宿映画館スケジュール取得
+
+on:
+  schedule:
+    # 毎週月曜 09:00 JST = UTC 00:00
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: 依存パッケージインストール
+        run: pip install requests beautifulsoup4
+
+      - name: スクレイピング実行
+        run: |
+          cd cinema
+          mkdir -p out
+          python scraper.py
+
+      - name: 結果をコミット・プッシュ
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cinema/out/
+          git diff --cached --quiet || git commit -m "chore: 新宿映画館スケジュール更新 $(date +%Y-%m-%d)"
+          git push

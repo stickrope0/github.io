@@ -1,0 +1,5270 @@
+[
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104925",
+    "title": "大統領のケーキ",
+    "release_date": "7月10日公開",
+    "duration": "105分",
+    "rating": "PG12",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:00",
+      "12:35",
+      "15:00",
+      "19:50",
+      "22:05"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104925",
+    "title": "大統領のケーキ",
+    "release_date": "7月10日公開",
+    "duration": "105分",
+    "rating": "PG12",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:05",
+      "12:45",
+      "15:05",
+      "17:05",
+      "21:00"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104925",
+    "title": "大統領のケーキ",
+    "release_date": "7月10日公開",
+    "duration": "105分",
+    "rating": "PG12",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:00",
+      "12:35",
+      "14:55",
+      "19:40",
+      "22:00"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104044",
+    "title": "ブリング・ハー・バック",
+    "release_date": "7月10日公開",
+    "duration": "104分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:05",
+      "13:40",
+      "16:05",
+      "19:20"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104044",
+    "title": "ブリング・ハー・バック",
+    "release_date": "7月10日公開",
+    "duration": "104分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:15",
+      "13:40",
+      "16:00",
+      "19:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104044",
+    "title": "ブリング・ハー・バック",
+    "release_date": "7月10日公開",
+    "duration": "104分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:35",
+      "13:45",
+      "16:10",
+      "19:25"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "103730",
+    "title": "ヌーヴェルヴァーグ",
+    "release_date": "7月10日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:10",
+      "12:45",
+      "15:10",
+      "21:10"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "103730",
+    "title": "ヌーヴェルヴァーグ",
+    "release_date": "7月10日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:10",
+      "12:45",
+      "15:10",
+      "18:25"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "103730",
+    "title": "ヌーヴェルヴァーグ",
+    "release_date": "7月10日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:10",
+      "13:05",
+      "15:15",
+      "18:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105207",
+    "title": "ドゥランダル作戦",
+    "release_date": "7月10日公開",
+    "duration": "206分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:30",
+      "14:55",
+      "19:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105207",
+    "title": "ドゥランダル作戦",
+    "release_date": "7月10日公開",
+    "duration": "206分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:20",
+      "14:25",
+      "18:45"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105207",
+    "title": "ドゥランダル作戦",
+    "release_date": "7月10日公開",
+    "duration": "206分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:35",
+      "14:45",
+      "19:35"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "106263",
+    "title": "ホームカミング MLB東京シリーズ",
+    "release_date": "7月10日公開",
+    "duration": "91分",
+    "rating": "G",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "19:50"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "106263",
+    "title": "ホームカミング MLB東京シリーズ",
+    "release_date": "7月10日公開",
+    "duration": "91分",
+    "rating": "G",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "15:35"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "106263",
+    "title": "ホームカミング MLB東京シリーズ",
+    "release_date": "7月10日公開",
+    "duration": "91分",
+    "rating": "G",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "19:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104192",
+    "title": "METライブビューイング2025-26 ガブリエラ・リーナ・フランク《フリーダとディエゴ　最後の夢》",
+    "release_date": "7月10日公開",
+    "duration": "156分",
+    "rating": "",
+    "star": "－",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:35"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104192",
+    "title": "METライブビューイング2025-26 ガブリエラ・リーナ・フランク《フリーダとディエゴ　最後の夢》",
+    "release_date": "7月10日公開",
+    "duration": "156分",
+    "rating": "",
+    "star": "－",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:35"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:10",
+      "14:00",
+      "15:50",
+      "20:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:30",
+      "13:50",
+      "16:35",
+      "21:20"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:40",
+      "14:00",
+      "16:45",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:40",
+      "10:25",
+      "11:15",
+      "12:35",
+      "13:15",
+      "13:45",
+      "15:00",
+      "16:30",
+      "17:25",
+      "19:00",
+      "21:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:25",
+      "10:05",
+      "10:55",
+      "13:05",
+      "13:30",
+      "16:00",
+      "18:00",
+      "19:30",
+      "22:00"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:25",
+      "10:20",
+      "11:10",
+      "13:20",
+      "13:50",
+      "15:50",
+      "16:25",
+      "17:15",
+      "18:55",
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105111",
+    "title": "口に関するアンケート",
+    "release_date": "7月3日公開",
+    "duration": "89分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:25",
+      "15:10",
+      "17:35",
+      "21:50"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105111",
+    "title": "口に関するアンケート",
+    "release_date": "7月3日公開",
+    "duration": "89分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:00",
+      "15:00",
+      "17:35",
+      "22:00"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105111",
+    "title": "口に関するアンケート",
+    "release_date": "7月3日公開",
+    "duration": "89分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:20",
+      "11:00",
+      "15:30",
+      "17:30",
+      "21:50"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105111",
+    "title": "口に関するアンケート",
+    "release_date": "7月3日公開",
+    "duration": "89分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105111",
+    "title": "口に関するアンケート",
+    "release_date": "7月3日公開",
+    "duration": "89分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105427",
+    "title": "黒牢城",
+    "release_date": "6月19日公開",
+    "duration": "147分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "13:35",
+      "18:25"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105427",
+    "title": "黒牢城",
+    "release_date": "6月19日公開",
+    "duration": "147分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "13:50"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105427",
+    "title": "黒牢城",
+    "release_date": "6月19日公開",
+    "duration": "147分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:40",
+      "20:35"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "12:45"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "14:50"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "14:55"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:25"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "20:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:00",
+      "17:25",
+      "21:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:35",
+      "17:10"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:50",
+      "17:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105486",
+    "title": "マジカル・シークレット・ツアー",
+    "release_date": "6月19日公開",
+    "duration": "116分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "18:55"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105486",
+    "title": "マジカル・シークレット・ツアー",
+    "release_date": "6月19日公開",
+    "duration": "116分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "19:10"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105486",
+    "title": "マジカル・シークレット・ツアー",
+    "release_date": "6月19日公開",
+    "duration": "116分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "19:05"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105599",
+    "title": "四月の余白",
+    "release_date": "6月26日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:20"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105599",
+    "title": "四月の余白",
+    "release_date": "6月26日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:00",
+      "12:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105599",
+    "title": "四月の余白",
+    "release_date": "6月26日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:30",
+      "19:45"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "103729",
+    "title": "シラート",
+    "release_date": "6月5日公開",
+    "duration": "115分",
+    "rating": "PG12",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:05"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "103729",
+    "title": "シラート",
+    "release_date": "6月5日公開",
+    "duration": "115分",
+    "rating": "PG12",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:15"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "103729",
+    "title": "シラート",
+    "release_date": "6月5日公開",
+    "duration": "115分",
+    "rating": "PG12",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "20:50"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "21:00"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105620",
+    "title": "ヤマトよ永遠に REBEL3199 第六章　碧い迷宮",
+    "release_date": "6月26日公開",
+    "duration": "100分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:20",
+      "16:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105620",
+    "title": "ヤマトよ永遠に REBEL3199 第六章　碧い迷宮",
+    "release_date": "6月26日公開",
+    "duration": "100分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:25",
+      "16:55",
+      "21:05"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105620",
+    "title": "ヤマトよ永遠に REBEL3199 第六章　碧い迷宮",
+    "release_date": "6月26日公開",
+    "duration": "100分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:20",
+      "16:50",
+      "21:50"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "21:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "22:00"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:20"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:05"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "33423",
+    "title": "時をかける少女（2006）",
+    "release_date": "2021年4月2日公開",
+    "duration": "98分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "18:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "33423",
+    "title": "時をかける少女（2006）",
+    "release_date": "2021年4月2日公開",
+    "duration": "98分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:40"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "33423",
+    "title": "時をかける少女（2006）",
+    "release_date": "2021年4月2日公開",
+    "duration": "98分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "18:15"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:05"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:20"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:15"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105852",
+    "title": "さよなら、僕の英雄",
+    "release_date": "6月19日公開",
+    "duration": "116分",
+    "rating": "PG12",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:30"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105852",
+    "title": "さよなら、僕の英雄",
+    "release_date": "6月19日公開",
+    "duration": "116分",
+    "rating": "PG12",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:10"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105852",
+    "title": "さよなら、僕の英雄",
+    "release_date": "6月19日公開",
+    "duration": "116分",
+    "rating": "PG12",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:05"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105459",
+    "title": "それいけ！アンパンマン　パンタンと約束の星",
+    "release_date": "6月26日公開",
+    "duration": "62分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "12:55"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105459",
+    "title": "それいけ！アンパンマン　パンタンと約束の星",
+    "release_date": "6月26日公開",
+    "duration": "62分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:40",
+      "19:25"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105459",
+    "title": "それいけ！アンパンマン　パンタンと約束の星",
+    "release_date": "6月26日公開",
+    "duration": "62分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:55"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105741",
+    "title": "祝山",
+    "release_date": "6月12日公開",
+    "duration": "97分",
+    "rating": "G",
+    "star": "2.6",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "21:55"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105741",
+    "title": "祝山",
+    "release_date": "6月12日公開",
+    "duration": "97分",
+    "rating": "G",
+    "star": "2.6",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "22:05"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105245",
+    "title": "メモリィズ",
+    "release_date": "6月12日公開",
+    "duration": "97分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:00"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "105932",
+    "title": "億万長者の不都合な終末",
+    "release_date": "6月19日公開",
+    "duration": "107分",
+    "rating": "G",
+    "star": "2.9",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "17:20"
+    ]
+  },
+  {
+    "theater_id": "3017",
+    "theater_name": "新宿ピカデリー",
+    "movie_id": "100976",
+    "title": "劇場版　うたの☆プリンスさまっ♪ TABOO NIGHT XXXX",
+    "release_date": "2025年5月9日公開",
+    "duration": "62分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "19:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105933",
+    "title": "死亡遊戯で飯を食う。 44:CLOUDY BEACH",
+    "release_date": "7月10日公開",
+    "duration": "89分",
+    "rating": "G",
+    "star": "2.0",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:00",
+      "13:00",
+      "15:00",
+      "17:00",
+      "19:00",
+      "21:00",
+      "25:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105933",
+    "title": "死亡遊戯で飯を食う。 44:CLOUDY BEACH",
+    "release_date": "7月10日公開",
+    "duration": "89分",
+    "rating": "G",
+    "star": "2.0",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:00",
+      "13:00",
+      "15:00",
+      "17:00",
+      "19:00",
+      "21:00",
+      "25:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105933",
+    "title": "死亡遊戯で飯を食う。 44:CLOUDY BEACH",
+    "release_date": "7月10日公開",
+    "duration": "89分",
+    "rating": "G",
+    "star": "2.0",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:00",
+      "13:00",
+      "15:00",
+      "17:00",
+      "19:00",
+      "21:00",
+      "25:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105943",
+    "title": "ザ・レイジ",
+    "release_date": "7月10日公開",
+    "duration": "111分",
+    "rating": "PG12",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "18:10"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105943",
+    "title": "ザ・レイジ",
+    "release_date": "7月10日公開",
+    "duration": "111分",
+    "rating": "PG12",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "18:10"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105943",
+    "title": "ザ・レイジ",
+    "release_date": "7月10日公開",
+    "duration": "111分",
+    "rating": "PG12",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "18:10"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "15:00",
+      "23:40"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "15:00",
+      "21:00",
+      "23:45"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "15:00",
+      "21:10",
+      "23:50"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Cinema",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:10",
+      "21:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Cinema",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:10",
+      "18:40"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Cinema",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:10",
+      "18:40"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "106366",
+    "title": "ENHYPEN IMMERSION IN CINEMAS",
+    "release_date": "7月10日公開",
+    "duration": "54分",
+    "rating": "G",
+    "star": "－",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "13:45",
+      "19:40"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "106366",
+    "title": "ENHYPEN IMMERSION IN CINEMAS",
+    "release_date": "7月10日公開",
+    "duration": "54分",
+    "rating": "G",
+    "star": "－",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "13:45",
+      "20:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "106105",
+    "title": "超英雄祭2026 DAY2 SUPER SENTAI 50th",
+    "release_date": "7月10日公開",
+    "duration": "163分",
+    "rating": "G",
+    "star": "－",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:00",
+      "17:15",
+      "20:30",
+      "24:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "106105",
+    "title": "超英雄祭2026 DAY2 SUPER SENTAI 50th",
+    "release_date": "7月10日公開",
+    "duration": "163分",
+    "rating": "G",
+    "star": "－",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:30",
+      "17:45",
+      "21:00",
+      "24:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "106105",
+    "title": "超英雄祭2026 DAY2 SUPER SENTAI 50th",
+    "release_date": "7月10日公開",
+    "duration": "163分",
+    "rating": "G",
+    "star": "－",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:30",
+      "17:45",
+      "21:00",
+      "24:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:40",
+      "13:15",
+      "15:50",
+      "18:25",
+      "21:00",
+      "23:00",
+      "25:45"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:40",
+      "13:15",
+      "15:50",
+      "18:25",
+      "23:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:25",
+      "13:00",
+      "15:35",
+      "17:30",
+      "23:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Cinema",
+    "date": "2026-07-12",
+    "showtimes": [
+      "16:20"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Cinema",
+    "date": "2026-07-13",
+    "showtimes": [
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Cinema",
+    "date": "2026-07-14",
+    "showtimes": [
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:30",
+      "12:45",
+      "17:30",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:30",
+      "12:45",
+      "17:30",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:30",
+      "12:45",
+      "17:40",
+      "22:10"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:40",
+      "10:40",
+      "11:00",
+      "13:20",
+      "15:15",
+      "15:40",
+      "18:00",
+      "20:20",
+      "22:40",
+      "25:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:50",
+      "10:40",
+      "11:10",
+      "13:30",
+      "15:15",
+      "15:50",
+      "18:10",
+      "20:30",
+      "22:50",
+      "25:10"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:50",
+      "10:40",
+      "11:10",
+      "13:30",
+      "15:15",
+      "15:50",
+      "18:10",
+      "20:30",
+      "22:50",
+      "25:10"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Cinema",
+    "date": "2026-07-12",
+    "showtimes": [
+      "14:00",
+      "19:05"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Cinema",
+    "date": "2026-07-13",
+    "showtimes": [
+      "14:00",
+      "24:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Cinema",
+    "date": "2026-07-14",
+    "showtimes": [
+      "14:00",
+      "24:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105248",
+    "title": "免許返納!?",
+    "release_date": "6月19日公開",
+    "duration": "119分",
+    "rating": "PG12",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "9:00",
+      "13:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105248",
+    "title": "免許返納!?",
+    "release_date": "6月19日公開",
+    "duration": "119分",
+    "rating": "PG12",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:00",
+      "13:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105248",
+    "title": "免許返納!?",
+    "release_date": "6月19日公開",
+    "duration": "119分",
+    "rating": "PG12",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:00",
+      "13:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "14:35",
+      "21:00",
+      "23:40"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "15:05",
+      "21:00",
+      "23:40"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "15:05",
+      "21:20"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "12:45",
+      "21:45",
+      "26:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:45",
+      "21:45",
+      "26:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:45",
+      "21:45",
+      "24:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105729",
+    "title": "氷血",
+    "release_date": "7月3日公開",
+    "duration": "98分",
+    "rating": "PG12",
+    "star": "2.8",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:30",
+      "16:05",
+      "20:30",
+      "22:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105729",
+    "title": "氷血",
+    "release_date": "7月3日公開",
+    "duration": "98分",
+    "rating": "PG12",
+    "star": "2.8",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:30",
+      "16:05",
+      "20:30",
+      "22:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105729",
+    "title": "氷血",
+    "release_date": "7月3日公開",
+    "duration": "98分",
+    "rating": "PG12",
+    "star": "2.8",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:30",
+      "16:05",
+      "20:30",
+      "22:35"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104619",
+    "title": "ロングウォーク",
+    "release_date": "6月26日公開",
+    "duration": "108分",
+    "rating": "R15+",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:30",
+      "15:00",
+      "19:30",
+      "24:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104619",
+    "title": "ロングウォーク",
+    "release_date": "6月26日公開",
+    "duration": "108分",
+    "rating": "R15+",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:30",
+      "15:00",
+      "19:30",
+      "24:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104619",
+    "title": "ロングウォーク",
+    "release_date": "6月26日公開",
+    "duration": "108分",
+    "rating": "R15+",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:30",
+      "15:00",
+      "19:30",
+      "24:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "13:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "13:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "13:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "Dolby Cinema",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:50",
+      "24:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "Dolby Cinema",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:50",
+      "16:20"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "Dolby Cinema",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:50",
+      "16:20"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "26:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "26:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "26:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "103594",
+    "title": "劇場版モノノ怪　第三章　蛇神",
+    "release_date": "5月29日公開",
+    "duration": "87分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:00"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "103594",
+    "title": "劇場版モノノ怪　第三章　蛇神",
+    "release_date": "5月29日公開",
+    "duration": "87分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "103594",
+    "title": "劇場版モノノ怪　第三章　蛇神",
+    "release_date": "5月29日公開",
+    "duration": "87分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "26:20"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "26:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "26:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "17:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "17:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "17:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105855",
+    "title": "シンシン アンド ザ マウス SINSIN AND THE MOUSE",
+    "release_date": "6月26日公開",
+    "duration": "108分",
+    "rating": "G",
+    "star": "3.0",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105855",
+    "title": "シンシン アンド ザ マウス SINSIN AND THE MOUSE",
+    "release_date": "6月26日公開",
+    "duration": "108分",
+    "rating": "G",
+    "star": "3.0",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105855",
+    "title": "シンシン アンド ザ マウス SINSIN AND THE MOUSE",
+    "release_date": "6月26日公開",
+    "duration": "108分",
+    "rating": "G",
+    "star": "3.0",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102013",
+    "title": "劇場版　魔法科高校の劣等生　四葉継承編",
+    "release_date": "5月8日公開",
+    "duration": "103分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:30"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102013",
+    "title": "劇場版　魔法科高校の劣等生　四葉継承編",
+    "release_date": "5月8日公開",
+    "duration": "103分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "102013",
+    "title": "劇場版　魔法科高校の劣等生　四葉継承編",
+    "release_date": "5月8日公開",
+    "duration": "103分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:25"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "83973",
+    "title": "劇場版アイカツスターズ！",
+    "release_date": "2016年8月13日公開",
+    "duration": "59分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:45",
+      "17:40",
+      "19:45",
+      "23:45"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "83973",
+    "title": "劇場版アイカツスターズ！",
+    "release_date": "2016年8月13日公開",
+    "duration": "59分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:45",
+      "17:40",
+      "19:45"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "83973",
+    "title": "劇場版アイカツスターズ！",
+    "release_date": "2016年8月13日公開",
+    "duration": "59分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:45",
+      "20:10"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "105950",
+    "title": "SAMURAI BLUE Project for FIFA World Cup 2026™️ 「ONE CREATURE」無数の個性、ひとつの生きもの。",
+    "release_date": "6月5日公開",
+    "duration": "118分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "24:15"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "106084",
+    "title": "GENERATIONS “6IX SENSE” LIVE IN CINEMA",
+    "release_date": "6月19日公開",
+    "duration": "123分",
+    "rating": "G",
+    "star": "4.5",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "24:40"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "106084",
+    "title": "GENERATIONS “6IX SENSE” LIVE IN CINEMA",
+    "release_date": "6月19日公開",
+    "duration": "123分",
+    "rating": "G",
+    "star": "4.5",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "24:40"
+    ]
+  },
+  {
+    "theater_id": "3016",
+    "theater_name": "新宿バルト9",
+    "movie_id": "106084",
+    "title": "GENERATIONS “6IX SENSE” LIVE IN CINEMA",
+    "release_date": "6月19日公開",
+    "duration": "123分",
+    "rating": "G",
+    "star": "4.5",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "24:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106248",
+    "title": "パッセンジャー",
+    "release_date": "7月10日公開",
+    "duration": "94分",
+    "rating": "R15+",
+    "star": "3.0",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:30",
+      "11:30",
+      "16:00",
+      "21:25"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106248",
+    "title": "パッセンジャー",
+    "release_date": "7月10日公開",
+    "duration": "94分",
+    "rating": "R15+",
+    "star": "3.0",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:20",
+      "11:30",
+      "13:45",
+      "18:40",
+      "21:20"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106248",
+    "title": "パッセンジャー",
+    "release_date": "7月10日公開",
+    "duration": "94分",
+    "rating": "R15+",
+    "star": "3.0",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:20",
+      "11:30",
+      "13:45",
+      "18:40",
+      "21:20"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "14:00",
+      "21:05"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "13:55",
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "13:55",
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:00",
+      "13:50",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:00",
+      "15:00",
+      "20:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:00",
+      "15:00",
+      "20:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "IMAX",
+    "date": "2026-07-12",
+    "showtimes": [
+      "9:15",
+      "20:10"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "IMAX",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:15",
+      "20:00"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "IMAX",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:15",
+      "20:00"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Atmos",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:45",
+      "19:10"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Atmos",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:20",
+      "18:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Atmos",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:20",
+      "18:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:35",
+      "14:05",
+      "16:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:35",
+      "14:00",
+      "16:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:35",
+      "14:00",
+      "16:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:40",
+      "11:10",
+      "12:30",
+      "13:40",
+      "15:00",
+      "16:10",
+      "17:35",
+      "18:40",
+      "19:10",
+      "21:10"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:05",
+      "10:35",
+      "12:25",
+      "13:05",
+      "15:00",
+      "15:35",
+      "18:05",
+      "19:00",
+      "20:35"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:05",
+      "10:35",
+      "12:25",
+      "13:05",
+      "15:00",
+      "15:35",
+      "18:05",
+      "19:00",
+      "20:35"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "4D",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:35",
+      "11:00",
+      "13:25",
+      "15:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "4D",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:30",
+      "10:55",
+      "13:25",
+      "15:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "4D",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:30",
+      "10:55",
+      "13:25",
+      "15:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "IMAX",
+    "date": "2026-07-12",
+    "showtimes": [
+      "12:15",
+      "14:50",
+      "17:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "IMAX",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:15",
+      "14:50",
+      "17:25"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "IMAX",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:15",
+      "14:50",
+      "17:25"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-12",
+    "showtimes": [
+      "22:00"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-13",
+    "showtimes": [
+      "21:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-14",
+    "showtimes": [
+      "21:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:40",
+      "14:10",
+      "16:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:15",
+      "13:45",
+      "16:15"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:15",
+      "13:45",
+      "16:15"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "103908",
+    "title": "急に具合が悪くなる",
+    "release_date": "6月19日公開",
+    "duration": "196分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "14:55"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "103908",
+    "title": "急に具合が悪くなる",
+    "release_date": "6月19日公開",
+    "duration": "196分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:25",
+      "14:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "103908",
+    "title": "急に具合が悪くなる",
+    "release_date": "6月19日公開",
+    "duration": "196分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:25",
+      "14:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "12:20",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:55",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104216",
+    "title": "新劇場版☆ケロロ軍曹　復活して速攻地球滅亡の危機であります！",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "1.5",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:55",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "20:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "18:00",
+      "21:05"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "18:00",
+      "21:05"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:40",
+      "13:35"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:00",
+      "13:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:00",
+      "13:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "4D",
+    "date": "2026-07-12",
+    "showtimes": [
+      "18:35",
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "4D",
+    "date": "2026-07-13",
+    "showtimes": [
+      "18:35",
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "4D",
+    "date": "2026-07-14",
+    "showtimes": [
+      "18:35",
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "9:45",
+      "21:20"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:45",
+      "21:15"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:45",
+      "21:15"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "19:15"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "16:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "16:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105673",
+    "title": "ラブ≠コメディ",
+    "release_date": "7月3日公開",
+    "duration": "119分",
+    "rating": "G",
+    "star": "4.4",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:30",
+      "20:05"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105673",
+    "title": "ラブ≠コメディ",
+    "release_date": "7月3日公開",
+    "duration": "119分",
+    "rating": "G",
+    "star": "4.4",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:50",
+      "20:05"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105673",
+    "title": "ラブ≠コメディ",
+    "release_date": "7月3日公開",
+    "duration": "119分",
+    "rating": "G",
+    "star": "4.4",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:50",
+      "20:05"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105990",
+    "title": "サヨナラの引力",
+    "release_date": "7月3日公開",
+    "duration": "115分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:20",
+      "21:15"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105990",
+    "title": "サヨナラの引力",
+    "release_date": "7月3日公開",
+    "duration": "115分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:20",
+      "21:15"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "105990",
+    "title": "サヨナラの引力",
+    "release_date": "7月3日公開",
+    "duration": "115分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:20",
+      "21:15"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:15",
+      "19:00"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:30",
+      "19:00"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:30",
+      "19:00"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "外国語字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "16:35"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "外国語字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "16:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "28558",
+    "title": "魔女の宅急便（1989）",
+    "release_date": "6月19日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "外国語字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "16:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:40"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106059",
+    "title": "THE ORIGIN OF ULTRAMAN",
+    "release_date": "7月3日公開",
+    "duration": "105分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "9:45",
+      "18:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106059",
+    "title": "THE ORIGIN OF ULTRAMAN",
+    "release_date": "7月3日公開",
+    "duration": "105分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:20",
+      "18:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106059",
+    "title": "THE ORIGIN OF ULTRAMAN",
+    "release_date": "7月3日公開",
+    "duration": "105分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:20",
+      "18:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "103594",
+    "title": "劇場版モノノ怪　第三章　蛇神",
+    "release_date": "5月29日公開",
+    "duration": "87分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "8:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "103594",
+    "title": "劇場版モノノ怪　第三章　蛇神",
+    "release_date": "5月29日公開",
+    "duration": "87分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "8:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "16:30"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "16:10"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "16:10"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104665",
+    "title": "SAKAMOTO DAYS",
+    "release_date": "4月29日公開",
+    "duration": "128分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "18:20"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104665",
+    "title": "SAKAMOTO DAYS",
+    "release_date": "4月29日公開",
+    "duration": "128分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "18:20"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104665",
+    "title": "SAKAMOTO DAYS",
+    "release_date": "4月29日公開",
+    "duration": "128分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "18:20"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "16:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "19:20"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104088",
+    "title": "映画　おそ松さん　人類クズ化計画!!!!!?",
+    "release_date": "6月12日公開",
+    "duration": "104分",
+    "rating": "G",
+    "star": "4.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "19:20"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "14:05"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "13:55"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "13:55"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "1004",
+    "title": "A.I.",
+    "release_date": "2001年6月30日公開",
+    "duration": "146分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "1004",
+    "title": "A.I.",
+    "release_date": "2001年6月30日公開",
+    "duration": "146分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "1004",
+    "title": "A.I.",
+    "release_date": "2001年6月30日公開",
+    "duration": "146分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:50"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102013",
+    "title": "劇場版　魔法科高校の劣等生　四葉継承編",
+    "release_date": "5月8日公開",
+    "duration": "103分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:55"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102013",
+    "title": "劇場版　魔法科高校の劣等生　四葉継承編",
+    "release_date": "5月8日公開",
+    "duration": "103分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "17:35"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "102013",
+    "title": "劇場版　魔法科高校の劣等生　四葉継承編",
+    "release_date": "5月8日公開",
+    "duration": "103分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "17:35"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106116",
+    "title": "最終絶叫計画　令和！",
+    "release_date": "6月26日公開",
+    "duration": "96分",
+    "rating": "R15+",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "13:45"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106116",
+    "title": "最終絶叫計画　令和！",
+    "release_date": "6月26日公開",
+    "duration": "96分",
+    "rating": "R15+",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "16:00"
+    ]
+  },
+  {
+    "theater_id": "3263",
+    "theater_name": "TOHOシネマズ 新宿",
+    "movie_id": "106116",
+    "title": "最終絶叫計画　令和！",
+    "release_date": "6月26日公開",
+    "duration": "96分",
+    "rating": "R15+",
+    "star": "3.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "16:00"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "103730",
+    "title": "ヌーヴェルヴァーグ",
+    "release_date": "7月10日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:45",
+      "17:10"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "103730",
+    "title": "ヌーヴェルヴァーグ",
+    "release_date": "7月10日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:15",
+      "16:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "103730",
+    "title": "ヌーヴェルヴァーグ",
+    "release_date": "7月10日公開",
+    "duration": "106分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:15",
+      "16:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105207",
+    "title": "ドゥランダル作戦",
+    "release_date": "7月10日公開",
+    "duration": "206分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "13:25"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105207",
+    "title": "ドゥランダル作戦",
+    "release_date": "7月10日公開",
+    "duration": "206分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "14:40"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105207",
+    "title": "ドゥランダル作戦",
+    "release_date": "7月10日公開",
+    "duration": "206分",
+    "rating": "R15+",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "14:40"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:35"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "20:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "58111",
+    "title": "劇場版　魔法少女まどか☆マギカ　前編　始まりの物語",
+    "release_date": "7月10日公開",
+    "duration": "131分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:20"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "106366",
+    "title": "ENHYPEN IMMERSION IN CINEMAS",
+    "release_date": "7月10日公開",
+    "duration": "54分",
+    "rating": "G",
+    "star": "－",
+    "format": "ScreenX",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:05",
+      "18:55"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "106366",
+    "title": "ENHYPEN IMMERSION IN CINEMAS",
+    "release_date": "7月10日公開",
+    "duration": "54分",
+    "rating": "G",
+    "star": "－",
+    "format": "ScreenX",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:05",
+      "18:55"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:50",
+      "16:10"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:35",
+      "16:35",
+      "17:30"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:35",
+      "16:35"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "ScreenX",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:05",
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "ScreenX",
+    "date": "2026-07-13",
+    "showtimes": [
+      "13:40",
+      "20:25"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "ScreenX",
+    "date": "2026-07-14",
+    "showtimes": [
+      "13:40",
+      "20:25"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Atmos",
+    "date": "2026-07-12",
+    "showtimes": [
+      "12:25",
+      "15:15",
+      "18:05",
+      "21:00"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Atmos",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:25",
+      "15:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "102093",
+    "title": "Michael マイケル",
+    "release_date": "6月12日公開",
+    "duration": "127分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "Dolby Atmos",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:25",
+      "15:15",
+      "18:05",
+      "21:00"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "9:05",
+      "11:05",
+      "13:55",
+      "16:45",
+      "19:10",
+      "21:35"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:15",
+      "11:35",
+      "12:20",
+      "13:55",
+      "14:25",
+      "19:15",
+      "21:35"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "吹替",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:15",
+      "11:35",
+      "13:55",
+      "14:25",
+      "17:55",
+      "19:15",
+      "21:35"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "ScreenX",
+    "date": "2026-07-12",
+    "showtimes": [
+      "17:40"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "ScreenX",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:45",
+      "15:20"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "ScreenX",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:40",
+      "16:30"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "ScreenX",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:40",
+      "16:30"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-12",
+    "showtimes": [
+      "10:00"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-13",
+    "showtimes": [
+      "10:00"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104002",
+    "title": "トイ・ストーリー5",
+    "release_date": "7月3日公開",
+    "duration": "102分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "Dolby Atmos",
+    "date": "2026-07-14",
+    "showtimes": [
+      "10:00"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "14:20"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "14:40"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "101055",
+    "title": "スター・ウォーズ　マンダロリアン・アンド・グローグー",
+    "release_date": "5月22日公開",
+    "duration": "132分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "15:05"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104209",
+    "title": "プロジェクト・ヘイル・メアリー",
+    "release_date": "3月20日公開",
+    "duration": "156分",
+    "rating": "G",
+    "star": "3.8",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "20:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:45",
+      "13:50",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:45",
+      "14:10",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105221",
+    "title": "スーパーガール",
+    "release_date": "6月26日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:45",
+      "14:10",
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "103729",
+    "title": "シラート",
+    "release_date": "6月5日公開",
+    "duration": "115分",
+    "rating": "PG12",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "8:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "103729",
+    "title": "シラート",
+    "release_date": "6月5日公開",
+    "duration": "115分",
+    "rating": "PG12",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "103729",
+    "title": "シラート",
+    "release_date": "6月5日公開",
+    "duration": "115分",
+    "rating": "PG12",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104001",
+    "title": "プラダを着た悪魔2",
+    "release_date": "5月1日公開",
+    "duration": "119分",
+    "rating": "G",
+    "star": "3.9",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104001",
+    "title": "プラダを着た悪魔2",
+    "release_date": "5月1日公開",
+    "duration": "119分",
+    "rating": "G",
+    "star": "3.9",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "12:05"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104001",
+    "title": "プラダを着た悪魔2",
+    "release_date": "5月1日公開",
+    "duration": "119分",
+    "rating": "G",
+    "star": "3.9",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "12:05"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "21:30"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "9:25"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104699",
+    "title": "箱の中の羊",
+    "release_date": "5月29日公開",
+    "duration": "125分",
+    "rating": "G",
+    "star": "3.3",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "9:25"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "外国語字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "21:50"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "外国語字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104539",
+    "title": "名探偵コナン　ハイウェイの堕天使",
+    "release_date": "4月10日公開",
+    "duration": "109分",
+    "rating": "G",
+    "star": "3.2",
+    "format": "外国語字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "33423",
+    "title": "時をかける少女（2006）",
+    "release_date": "2021年4月2日公開",
+    "duration": "98分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "33423",
+    "title": "時をかける少女（2006）",
+    "release_date": "2021年4月2日公開",
+    "duration": "98分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "33423",
+    "title": "時をかける少女（2006）",
+    "release_date": "2021年4月2日公開",
+    "duration": "98分",
+    "rating": "G",
+    "star": "4.0",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "21:45"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104621",
+    "title": "ザ・スーパーマリオギャラクシー・ムービー",
+    "release_date": "4月24日公開",
+    "duration": "99分",
+    "rating": "G",
+    "star": "3.7",
+    "format": "吹替",
+    "date": "2026-07-12",
+    "showtimes": [
+      "19:30"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "106222",
+    "title": "メリリー・ウィー・ロール・アロング",
+    "release_date": "6月26日公開",
+    "duration": "145分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "18:35"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "106222",
+    "title": "メリリー・ウィー・ロール・アロング",
+    "release_date": "6月26日公開",
+    "duration": "145分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "16:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "106222",
+    "title": "メリリー・ウィー・ロール・アロング",
+    "release_date": "6月26日公開",
+    "duration": "145分",
+    "rating": "G",
+    "star": "3.5",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "16:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104315",
+    "title": "ウィキッド　永遠の約束",
+    "release_date": "3月6日公開",
+    "duration": "137分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "18:55"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104315",
+    "title": "ウィキッド　永遠の約束",
+    "release_date": "3月6日公開",
+    "duration": "137分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "18:50"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "104315",
+    "title": "ウィキッド　永遠の約束",
+    "release_date": "3月6日公開",
+    "duration": "137分",
+    "rating": "G",
+    "star": "3.6",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "18:50"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "89230",
+    "title": "ボヘミアン・ラプソディ",
+    "release_date": "2018年11月9日公開",
+    "duration": "135分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:05"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "89230",
+    "title": "ボヘミアン・ラプソディ",
+    "release_date": "2018年11月9日公開",
+    "duration": "135分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "11:35"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "89230",
+    "title": "ボヘミアン・ラプソディ",
+    "release_date": "2018年11月9日公開",
+    "duration": "135分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "11:35"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "86306",
+    "title": "グレイテスト・ショーマン",
+    "release_date": "2018年2月16日公開",
+    "duration": "105分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-12",
+    "showtimes": [
+      "16:15"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "86306",
+    "title": "グレイテスト・ショーマン",
+    "release_date": "2018年2月16日公開",
+    "duration": "105分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-13",
+    "showtimes": [
+      "19:20"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "86306",
+    "title": "グレイテスト・ショーマン",
+    "release_date": "2018年2月16日公開",
+    "duration": "105分",
+    "rating": "G",
+    "star": "4.1",
+    "format": "字幕",
+    "date": "2026-07-14",
+    "showtimes": [
+      "19:20"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "82545",
+    "title": "WE ARE Perfume WORLD TOUR 3rd DOCUMENT",
+    "release_date": "2015年10月31日公開",
+    "duration": "120分",
+    "rating": "G",
+    "star": "4.2",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "11:25"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105305",
+    "title": "Perfume“コールドスリープ” 25 years Document",
+    "release_date": "5月15日公開",
+    "duration": "117分",
+    "rating": "G",
+    "star": "4.3",
+    "format": "通常",
+    "date": "2026-07-12",
+    "showtimes": [
+      "14:05"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105305",
+    "title": "Perfume“コールドスリープ” 25 years Document",
+    "release_date": "5月15日公開",
+    "duration": "117分",
+    "rating": "G",
+    "star": "4.3",
+    "format": "通常",
+    "date": "2026-07-13",
+    "showtimes": [
+      "19:05"
+    ]
+  },
+  {
+    "theater_id": "3318",
+    "theater_name": "109シネマズプレミアム新宿",
+    "movie_id": "105305",
+    "title": "Perfume“コールドスリープ” 25 years Document",
+    "release_date": "5月15日公開",
+    "duration": "117分",
+    "rating": "G",
+    "star": "4.3",
+    "format": "通常",
+    "date": "2026-07-14",
+    "showtimes": [
+      "19:05"
+    ]
+  }
+]

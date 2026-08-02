@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ハコ - 自己紹介</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;700&family=Cinzel:wght@400;700&display=swap');
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-deep:    #0d0b14;
+      --bg-mid:     #130f1f;
+      --bg-card:    #17132a;
+      --accent:     #b48ee0;
+      --accent-glow:#8b5fcf;
+      --rose:       #e08eb4;
+      --text-main:  #e0d8f0;
+      --text-sub:   #8a7aaa;
+      --border:     rgba(180, 142, 224, 0.18);
+    }
+
+    body {
+      background-color: var(--bg-deep);
+      color: var(--text-main);
+      font-family: 'Noto Serif JP', serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow-x: hidden;
+    }
+
+    /* ── 背景グラデーション ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 65% 45% at 15% 25%, rgba(139, 95, 207, 0.13) 0%, transparent 70%),
+        radial-gradient(ellipse 55% 55% at 85% 75%, rgba(224, 142, 180, 0.09) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 40% at 50% 50%, rgba(180, 142, 224, 0.05) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── 浮遊する絵の具エフェクト ── */
+    .paint-drops {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .drop {
+      position: absolute;
+      border-radius: 50% 40% 55% 45%;
+      opacity: 0;
+      animation: float-drop var(--dur, 12s) ease-in-out infinite var(--delay, 0s);
+    }
+
+    @keyframes float-drop {
+      0%   { opacity: 0;    transform: translateY(20px) scale(0.8) rotate(0deg); }
+      20%  { opacity: var(--op, 0.15); }
+      80%  { opacity: var(--op, 0.15); }
+      100% { opacity: 0;    transform: translateY(-30px) scale(1.1) rotate(20deg); }
+    }
+
+    /* ── カードコンテナ ── */
+    .container {
+      position: relative;
+      z-index: 1;
+      width: min(680px, 92vw);
+      padding: 4rem 0 3rem;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3rem 3rem 2.8rem;
+      box-shadow:
+        0 0 70px rgba(139, 95, 207, 0.08),
+        0 20px 60px rgba(0,0,0,0.65),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* カード上部のカラーライン */
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg,
+        transparent 0%,
+        var(--rose) 20%,
+        var(--accent-glow) 50%,
+        var(--accent) 70%,
+        transparent 100%);
+      border-radius: 20px 20px 0 0;
+    }
+
+    /* ── アバター ── */
+    .avatar-wrap {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1.8rem;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #1e1530 0%, #130f1f 100%);
+      border: 2px solid var(--border);
+      box-shadow:
+        0 0 30px rgba(139, 95, 207, 0.28),
+        0 0 60px rgba(224, 142, 180, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      position: relative;
+    }
+
+    .avatar::after {
+      content: '';
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      border: 1px solid rgba(180, 142, 224, 0.3);
+      animation: pulse-ring 3.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse-ring {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50%       { opacity: 0.2; transform: scale(1.07); }
+    }
+
+    /* ── 名前 ── */
+    .name-section {
+      text-align: center;
+      margin-bottom: 2.4rem;
+    }
+
+    .name-label {
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      font-family: 'Cinzel', serif;
+    }
+
+    .name {
+      font-size: 2.6rem;
+      font-weight: 300;
+      letter-spacing: 0.18em;
+      color: #ede8f8;
+      text-shadow: 0 0 35px rgba(180, 142, 224, 0.45);
+    }
+
+    .name-sub {
+      font-size: 0.75rem;
+      color: var(--text-sub);
+      letter-spacing: 0.12em;
+      margin-top: 0.4rem;
+    }
+
+    /* ── 区切り線 ── */
+    .divider {
+      border: none;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border), transparent);
+      margin: 0 0 2rem;
+    }
+
+    /* ── セクション ── */
+    .section {
+      margin-bottom: 1.8rem;
+    }
+
+    .section-title {
+      font-size: 0.65rem;
+      letter-spacing: 0.3em;
+      color: var(--accent);
+      text-transform: uppercase;
+      font-family: 'Cinzel', serif;
+      margin-bottom: 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .section-body {
+      font-size: 0.95rem;
+      line-height: 1.85;
+      color: var(--text-main);
+      padding-left: 0.2rem;
+    }
+
+    /* ── 趣味カード ── */
+    .hobby-card {
+      background: rgba(139, 95, 207, 0.07);
+      border: 1px solid rgba(180, 142, 224, 0.14);
+      border-radius: 12px;
+      padding: 1.4rem 1.6rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1.1rem;
+    }
+
+    .hobby-icon {
+      font-size: 2.2rem;
+      line-height: 1;
+      flex-shrink: 0;
+      filter: drop-shadow(0 0 10px rgba(180, 142, 224, 0.55));
+    }
+
+    .hobby-text h3 {
+      font-size: 0.88rem;
+      font-weight: 400;
+      color: #ede8f8;
+      margin-bottom: 0.4rem;
+      letter-spacing: 0.06em;
+    }
+
+    .hobby-text p {
+      font-size: 0.83rem;
+      color: var(--text-sub);
+      line-height: 1.75;
+    }
+
+    /* ── カラーパレット装飾 ── */
+    .palette {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .palette-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      opacity: 0.7;
+      animation: palette-pulse 3s ease-in-out infinite;
+    }
+
+    .palette-dot:nth-child(1) { background: #e08eb4; animation-delay: 0s;    }
+    .palette-dot:nth-child(2) { background: #b48ee0; animation-delay: 0.4s;  }
+    .palette-dot:nth-child(3) { background: #8eb4e0; animation-delay: 0.8s;  }
+    .palette-dot:nth-child(4) { background: #8ee0b4; animation-delay: 1.2s;  }
+    .palette-dot:nth-child(5) { background: #e0d08e; animation-delay: 1.6s;  }
+
+    @keyframes palette-pulse {
+      0%, 100% { opacity: 0.5; transform: scale(1); }
+      50%       { opacity: 0.9; transform: scale(1.2); }
+    }
+
+    /* ── フッター ── */
+    .footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding-top: 1.6rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer p {
+      font-size: 0.7rem;
+      color: var(--text-sub);
+      letter-spacing: 0.1em;
+    }
+
+    /* ── 星のデコ ── */
+    .stars {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background: #fff;
+      animation: twinkle var(--dur, 4s) ease-in-out infinite var(--delay, 0s);
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.08; }
+      50%       { opacity: 0.5; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 星空 -->
+  <div class="stars" id="stars"></div>
+
+  <!-- 浮遊する絵の具 -->
+  <div class="paint-drops" id="paintDrops"></div>
+
+  <div class="container">
+    <div class="card">
+
+      <!-- アバター -->
+      <div class="avatar-wrap">
+        <div class="avatar">🎨</div>
+      </div>
+
+      <!-- 名前 -->
+      <div class="name-section">
+        <div class="name-label">Self Introduction</div>
+        <div class="name">ハ コ</div>
+        <div class="name-sub">— Hako —</div>
+      </div>
+
+      <hr class="divider">
+
+      <!-- About -->
+      <div class="section">
+        <div class="section-title">About</div>
+        <div class="section-body">
+          はじめまして、ハコです。<br>
+          静かな夜に、筆を走らせるのが好きです。<br>
+          日常の中に美しさを見つけ、絵に閉じ込めています。
+        </div>
+      </div>
+
+      <!-- 趣味 -->
+      <div class="section">
+        <div class="section-title">Hobby</div>
+        <div class="hobby-card">
+          <div class="hobby-icon">🖌️</div>
+          <div class="hobby-text">
+            <h3>絵を描くこと</h3>
+            <p>
+              風景・キャラクター・抽象画など、ジャンルを問わず描きます。<br>
+              キャンバスの前に座ると、時間を忘れてしまいます。
+            </p>
+            <div class="palette">
+              <div class="palette-dot"></div>
+              <div class="palette-dot"></div>
+              <div class="palette-dot"></div>
+              <div class="palette-dot"></div>
+              <div class="palette-dot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- フッター -->
+      <div class="footer">
+        <p>🎨 &nbsp;色彩の世界に、想いを込めて&nbsp; 🖌️</p>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // 星を生成
+    const starsEl = document.getElementById('stars');
+    for (let i = 0; i < 80; i++) {
+      const s = document.createElement('div');
+      s.className = 'star';
+      s.style.cssText = `
+        left: ${Math.random() * 100}%;
+        top:  ${Math.random() * 100}%;
+        --dur:   ${3 + Math.random() * 5}s;
+        --delay: ${-Math.random() * 8}s;
+        opacity: ${0.08 + Math.random() * 0.25};
+      `;
+      starsEl.appendChild(s);
+    }
+
+    // 浮遊する絵の具ドロップを生成
+    const dropColors = [
+      'rgba(180,142,224,VAR)', 'rgba(224,142,180,VAR)',
+      'rgba(142,180,224,VAR)', 'rgba(142,224,180,VAR)',
+      'rgba(224,208,142,VAR)',
+    ];
+    const paintEl = document.getElementById('paintDrops');
+    for (let i = 0; i < 18; i++) {
+      const d = document.createElement('div');
+      d.className = 'drop';
+      const color = dropColors[i % dropColors.length];
+      const op = (0.08 + Math.random() * 0.12).toFixed(2);
+      const size = 6 + Math.random() * 14;
+      d.style.cssText = `
+        left:    ${Math.random() * 100}%;
+        top:     ${Math.random() * 100}%;
+        width:   ${size}px;
+        height:  ${size * (0.7 + Math.random() * 0.6)}px;
+        background: ${color.replace('VAR', '1')};
+        --op:    ${op};
+        --dur:   ${10 + Math.random() * 14}s;
+        --delay: ${-Math.random() * 14}s;
+      `;
+      paintEl.appendChild(d);
+    }
+  </script>
+</body>
+</html>
