@@ -165,6 +165,23 @@ def fetch_posters(movie_ids):
     return posters
 
 
+def _prev_movie_static(prev_rows):
+    """前回取得済みの映画ごとの静的情報(公開日/上映時間/レーティング/ポスター)。
+    これらは変化しない前提で、続映作品は再取得せず流用する。
+    """
+    info = {}
+    for r in prev_rows:
+        mid = r.get("movie_id")
+        if mid and mid not in info:
+            info[mid] = {
+                "release_date": r.get("release_date", ""),
+                "duration": r.get("duration", ""),
+                "rating": r.get("rating", ""),
+                "poster": r.get("poster", ""),
+            }
+    return info
+
+
 def _load_prev(out_dir):
     pat = re.compile(r"schedule_(\d{8}_\d{6})\.json")
     candidates = []
@@ -441,11 +458,22 @@ def main():
         if i < len(theaters):
             time.sleep(SLEEP_SEC)
 
+    prev_static = _prev_movie_static(prev_rows)
+
     unique_ids = list({r["movie_id"] for r in all_rows if r.get("movie_id")})
-    print(f"\nポスター画像を取得中 ({len(unique_ids)} 作品)...")
-    poster_map = fetch_posters(unique_ids)
+    new_ids = [mid for mid in unique_ids if mid not in prev_static]
+    print(f"\nポスター画像を取得中 (新規 {len(new_ids)} 作品 / 続映 {len(unique_ids) - len(new_ids)} 作品はスキップ)...")
+    poster_map = fetch_posters(new_ids)
     for row in all_rows:
-        row["poster"] = poster_map.get(row["movie_id"], "")
+        mid = row["movie_id"]
+        cached = prev_static.get(mid)
+        if cached:
+            row["release_date"] = cached["release_date"]
+            row["duration"] = cached["duration"]
+            row["rating"] = cached["rating"]
+            row["poster"] = cached["poster"]
+        else:
+            row["poster"] = poster_map.get(mid, "")
 
     json_path   = OUT_DIR / f"schedule_{ts}.json"
     csv_path    = OUT_DIR / f"schedule_{ts}.csv"
