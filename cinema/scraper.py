@@ -256,9 +256,14 @@ body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,
 const RAW = DATA_PLACEHOLDER;
 const PREV = PREV_PLACEHOLDER;
 
+function isSat(d) { return new Date(d+'T00:00:00').getDay() === 6; }
+
 function countST(data) {
   const m = {};
-  for (const r of data) m[r.movie_id] = (m[r.movie_id]||0) + (r.showtimes||[]).length;
+  for (const r of data) {
+    if (!isSat(r.date)) continue;
+    m[r.movie_id] = (m[r.movie_id]||0) + (r.showtimes||[]).length;
+  }
   return m;
 }
 const PC = countST(PREV);
@@ -271,7 +276,7 @@ function buildMovies(raw) {
       duration: r.duration, rating: r.rating,
       star: parseFloat(r.star)||0, sc: 0
     };
-    map[r.movie_id].sc += (r.showtimes||[]).length;
+    if (isSat(r.date)) map[r.movie_id].sc += (r.showtimes||[]).length;
   }
   return Object.values(map).sort((a,b) => b.star - a.star);
 }
@@ -313,7 +318,7 @@ function fmtDate(d) {
 }
 function starHtml(s) {
   if (!s) return '<span style="color:var(--sub)">—</span>';
-  return `<span class="star">&#9733; ${s.toFixed(1)}</span>`;
+  return `<span class="star">${s.toFixed(1)}</span>`;
 }
 function deltaHtml(id, cur) {
   if (!PREV.length) return '';
