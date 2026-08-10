@@ -1,0 +1,392 @@
+﻿theater_id,theater_name,movie_id,title,release_date,duration,rating,star,poster,format,date,showtimes
+3017,新宿ピカデリー,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-10,"8:05,11:10,13:30,16:10,19:05,22:05"
+3017,新宿ピカデリー,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-11,"8:05,11:10,13:30,16:10,19:05,22:05"
+3017,新宿ピカデリー,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-12,"8:05,11:10,13:30,16:10,19:05,22:05"
+3017,新宿ピカデリー,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-10,"13:05,15:55,18:30,21:20"
+3017,新宿ピカデリー,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-11,"13:05,15:55,18:30,21:20"
+3017,新宿ピカデリー,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-12,"13:05,15:55,18:30,21:20"
+3017,新宿ピカデリー,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-10,"11:00,16:15,21:15"
+3017,新宿ピカデリー,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-11,"11:00,16:15,21:15"
+3017,新宿ピカデリー,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-12,"11:00,16:15,21:15"
+3017,新宿ピカデリー,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-10,"8:05,13:20,15:40,18:15,21:00"
+3017,新宿ピカデリー,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-11,"8:05,13:20,15:40,18:15,21:00"
+3017,新宿ピカデリー,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-12,"8:05,13:20,15:40,18:15,21:00"
+3017,新宿ピカデリー,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-10,"10:50,16:20"
+3017,新宿ピカデリー,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-11,"10:50,16:20"
+3017,新宿ピカデリー,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-12,"10:50,16:20"
+3017,新宿ピカデリー,104441,あの星が降る丘で、君とまた出会いたい。,8月7日公開,128分,G,3.6,https://media.eiga.com/images/movie/104441/photo/99959b9640d5b33b/320.jpg,通常,2026-08-10,"8:20,10:30,13:25,14:05,16:20,19:15,21:25"
+3017,新宿ピカデリー,104441,あの星が降る丘で、君とまた出会いたい。,8月7日公開,128分,G,3.6,https://media.eiga.com/images/movie/104441/photo/99959b9640d5b33b/320.jpg,通常,2026-08-11,"8:20,10:30,13:25,14:05,16:20,19:15,21:25"
+3017,新宿ピカデリー,104441,あの星が降る丘で、君とまた出会いたい。,8月7日公開,128分,G,3.6,https://media.eiga.com/images/movie/104441/photo/99959b9640d5b33b/320.jpg,通常,2026-08-12,"8:20,10:30,13:25,14:05,16:20,19:15,21:25"
+3017,新宿ピカデリー,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-10,"8:15,13:40,19:20,21:50"
+3017,新宿ピカデリー,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-11,"8:15,13:40,19:20,21:50"
+3017,新宿ピカデリー,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-12,"8:15,13:40,19:20,21:50"
+3017,新宿ピカデリー,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-10,"8:00,10:35,13:15,16:50,18:35"
+3017,新宿ピカデリー,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-11,"8:00,10:35,13:15,16:50,18:35"
+3017,新宿ピカデリー,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-12,"8:00,10:35,13:15,16:50,18:35"
+3017,新宿ピカデリー,105111,口に関するアンケート,7月3日公開,89分,G,2.9,https://media.eiga.com/images/movie/105111/photo/584e2b6c97b95df1/320.jpg,通常,2026-08-10,21:10
+3017,新宿ピカデリー,105111,口に関するアンケート,7月3日公開,89分,G,2.9,https://media.eiga.com/images/movie/105111/photo/584e2b6c97b95df1/320.jpg,通常,2026-08-11,21:10
+3017,新宿ピカデリー,105111,口に関するアンケート,7月3日公開,89分,G,2.9,https://media.eiga.com/images/movie/105111/photo/584e2b6c97b95df1/320.jpg,通常,2026-08-12,21:10
+3017,新宿ピカデリー,105899,だぁれかさんとアソぼ？,7月24日公開,109分,G,2.8,https://media.eiga.com/images/movie/105899/photo/4fd6c98384904dc2/320.jpg,通常,2026-08-10,15:45
+3017,新宿ピカデリー,105899,だぁれかさんとアソぼ？,7月24日公開,109分,G,2.8,https://media.eiga.com/images/movie/105899/photo/4fd6c98384904dc2/320.jpg,通常,2026-08-11,"10:55,15:45"
+3017,新宿ピカデリー,105899,だぁれかさんとアソぼ？,7月24日公開,109分,G,2.8,https://media.eiga.com/images/movie/105899/photo/4fd6c98384904dc2/320.jpg,通常,2026-08-12,"10:55,15:45"
+3017,新宿ピカデリー,105899,だぁれかさんとアソぼ？,7月24日公開,109分,G,2.8,https://media.eiga.com/images/movie/105899/photo/4fd6c98384904dc2/320.jpg,字幕,2026-08-10,10:55
+3017,新宿ピカデリー,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-10,"8:30,10:55,14:55,17:15"
+3017,新宿ピカデリー,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-11,"8:30,10:55,14:55,17:15"
+3017,新宿ピカデリー,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-12,"8:30,10:55,14:55,17:15"
+3017,新宿ピカデリー,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-10,"10:15,13:00,16:55,19:05,21:45"
+3017,新宿ピカデリー,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-11,"10:15,13:00,16:55,19:05,21:45"
+3017,新宿ピカデリー,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-12,"10:15,13:00,16:55,19:05,21:45"
+3017,新宿ピカデリー,105462,君と花火と約束と,7月17日公開,96分,G,3.3,https://media.eiga.com/images/movie/105462/photo/09d627ee2b35ad2f/320.jpg,通常,2026-08-10,12:40
+3017,新宿ピカデリー,105462,君と花火と約束と,7月17日公開,96分,G,3.3,https://media.eiga.com/images/movie/105462/photo/09d627ee2b35ad2f/320.jpg,通常,2026-08-11,12:40
+3017,新宿ピカデリー,105462,君と花火と約束と,7月17日公開,96分,G,3.3,https://media.eiga.com/images/movie/105462/photo/09d627ee2b35ad2f/320.jpg,通常,2026-08-12,12:40
+3017,新宿ピカデリー,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-10,"8:25,10:20,12:30,14:40,19:10,21:35"
+3017,新宿ピカデリー,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-11,"8:25,10:20,12:30,14:40,19:10,21:35"
+3017,新宿ピカデリー,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-12,"8:25,10:20,12:30,14:40,19:10,21:35"
+3017,新宿ピカデリー,104925,大統領のケーキ,7月10日公開,105分,PG12,3.7,https://media.eiga.com/images/movie/104925/photo/64c4e6489d3be77c/320.jpg,字幕,2026-08-10,22:00
+3017,新宿ピカデリー,104925,大統領のケーキ,7月10日公開,105分,PG12,3.7,https://media.eiga.com/images/movie/104925/photo/64c4e6489d3be77c/320.jpg,字幕,2026-08-11,22:00
+3017,新宿ピカデリー,104925,大統領のケーキ,7月10日公開,105分,PG12,3.7,https://media.eiga.com/images/movie/104925/photo/64c4e6489d3be77c/320.jpg,字幕,2026-08-12,22:00
+3017,新宿ピカデリー,105057,パウ・パトロール　ザ・ダイノ・ムービー,7月24日公開,89分,G,4.7,https://media.eiga.com/images/movie/105057/photo/60bf361d9d35146e/320.jpg,吹替,2026-08-10,"8:10,10:30"
+3017,新宿ピカデリー,105057,パウ・パトロール　ザ・ダイノ・ムービー,7月24日公開,89分,G,4.7,https://media.eiga.com/images/movie/105057/photo/60bf361d9d35146e/320.jpg,吹替,2026-08-11,"8:10,10:30"
+3017,新宿ピカデリー,105057,パウ・パトロール　ザ・ダイノ・ムービー,7月24日公開,89分,G,4.7,https://media.eiga.com/images/movie/105057/photo/60bf361d9d35146e/320.jpg,吹替,2026-08-12,"8:10,10:30"
+3017,新宿ピカデリー,103729,シラート,6月5日公開,115分,PG12,3.5,https://media.eiga.com/images/movie/103729/photo/14e8894a728d3d67/320.jpg,字幕,2026-08-10,8:00
+3017,新宿ピカデリー,103729,シラート,6月5日公開,115分,PG12,3.5,https://media.eiga.com/images/movie/103729/photo/14e8894a728d3d67/320.jpg,字幕,2026-08-11,8:00
+3017,新宿ピカデリー,103729,シラート,6月5日公開,115分,PG12,3.5,https://media.eiga.com/images/movie/103729/photo/14e8894a728d3d67/320.jpg,字幕,2026-08-12,8:00
+3017,新宿ピカデリー,105873,デッドマンズ・ワイヤー,7月17日公開,105分,G,3.5,https://media.eiga.com/images/movie/105873/photo/bc7d7991005bf89c/320.jpg,字幕,2026-08-10,8:25
+3017,新宿ピカデリー,105873,デッドマンズ・ワイヤー,7月17日公開,105分,G,3.5,https://media.eiga.com/images/movie/105873/photo/bc7d7991005bf89c/320.jpg,字幕,2026-08-11,8:25
+3017,新宿ピカデリー,105873,デッドマンズ・ワイヤー,7月17日公開,105分,G,3.5,https://media.eiga.com/images/movie/105873/photo/bc7d7991005bf89c/320.jpg,字幕,2026-08-12,8:25
+3017,新宿ピカデリー,1587,パプリカ,1月2日公開,90分,G,3.7,https://media.eiga.com/images/movie/1587/photo/d2ef4ad279bb2dbd/320.jpg,通常,2026-08-10,19:40
+3017,新宿ピカデリー,1587,パプリカ,1月2日公開,90分,G,3.7,https://media.eiga.com/images/movie/1587/photo/d2ef4ad279bb2dbd/320.jpg,通常,2026-08-11,19:40
+3017,新宿ピカデリー,1587,パプリカ,1月2日公開,90分,G,3.7,https://media.eiga.com/images/movie/1587/photo/d2ef4ad279bb2dbd/320.jpg,通常,2026-08-12,19:40
+3022,テアトル新宿,105306,開戦前夜,7月31日公開,138分,G,3.8,https://media.eiga.com/images/movie/105306/photo/7cb4773658f94b4e/320.jpg,通常,2026-08-10,"12:30,15:15,20:10"
+3022,テアトル新宿,105306,開戦前夜,7月31日公開,138分,G,3.8,https://media.eiga.com/images/movie/105306/photo/7cb4773658f94b4e/320.jpg,通常,2026-08-11,"9:25,12:10,17:40,20:25"
+3022,テアトル新宿,105306,開戦前夜,7月31日公開,138分,G,3.8,https://media.eiga.com/images/movie/105306/photo/7cb4773658f94b4e/320.jpg,通常,2026-08-12,"9:25,12:10,14:55,20:25"
+3022,テアトル新宿,105306,開戦前夜,7月31日公開,138分,G,3.8,https://media.eiga.com/images/movie/105306/photo/7cb4773658f94b4e/320.jpg,通常,2026-08-13,"9:45,12:30,15:15,19:55"
+3022,テアトル新宿,105306,開戦前夜,7月31日公開,138分,G,3.8,https://media.eiga.com/images/movie/105306/photo/7cb4773658f94b4e/320.jpg,字幕,2026-08-10,9:45
+3022,テアトル新宿,105408,チルド,7月17日公開,88分,R15+,3.6,https://media.eiga.com/images/movie/105408/photo/b150bfdde74fb967/320.jpg,通常,2026-08-11,15:00
+3022,テアトル新宿,105408,チルド,7月17日公開,88分,R15+,3.6,https://media.eiga.com/images/movie/105408/photo/b150bfdde74fb967/320.jpg,通常,2026-08-13,18:00
+3022,テアトル新宿,105893,トロフィー,7月10日公開,103分,,3.8,https://media.eiga.com/images/movie/105893/photo/3f2b39e7517c990c/320.jpg,通常,2026-08-10,18:00
+3022,テアトル新宿,105893,トロフィー,7月10日公開,103分,,3.8,https://media.eiga.com/images/movie/105893/photo/3f2b39e7517c990c/320.jpg,通常,2026-08-12,17:40
+3020,シネマート新宿,106065,怪速急行■■行き,7月31日公開,95分,G,2.8,https://media.eiga.com/images/movie/106065/photo/4baf9ac2d1a54389/320.jpg,字幕,2026-08-10,"9:45,13:15"
+3020,シネマート新宿,106065,怪速急行■■行き,7月31日公開,95分,G,2.8,https://media.eiga.com/images/movie/106065/photo/4baf9ac2d1a54389/320.jpg,字幕,2026-08-11,"9:45,13:15"
+3020,シネマート新宿,106065,怪速急行■■行き,7月31日公開,95分,G,2.8,https://media.eiga.com/images/movie/106065/photo/4baf9ac2d1a54389/320.jpg,字幕,2026-08-12,"9:45,13:15"
+3020,シネマート新宿,106065,怪速急行■■行き,7月31日公開,95分,G,2.8,https://media.eiga.com/images/movie/106065/photo/4baf9ac2d1a54389/320.jpg,字幕,2026-08-13,"9:45,13:15"
+3020,シネマート新宿,28423,マイ・プライベート・アイダホ,8月7日公開,104分,PG12,3.4,https://media.eiga.com/images/movie/28423/photo/a480bbd673c20bef/320.jpg,字幕,2026-08-10,"11:50,15:15,18:45"
+3020,シネマート新宿,28423,マイ・プライベート・アイダホ,8月7日公開,104分,PG12,3.4,https://media.eiga.com/images/movie/28423/photo/a480bbd673c20bef/320.jpg,字幕,2026-08-11,"11:50,15:15,18:45"
+3020,シネマート新宿,28423,マイ・プライベート・アイダホ,8月7日公開,104分,PG12,3.4,https://media.eiga.com/images/movie/28423/photo/a480bbd673c20bef/320.jpg,字幕,2026-08-12,"11:50,15:15,18:45"
+3020,シネマート新宿,28423,マイ・プライベート・アイダホ,8月7日公開,104分,PG12,3.4,https://media.eiga.com/images/movie/28423/photo/a480bbd673c20bef/320.jpg,字幕,2026-08-13,"11:50,15:15,18:45"
+3020,シネマート新宿,104818,GOOD BOY グッドボーイ,7月10日公開,73分,G,2.9,https://media.eiga.com/images/movie/104818/photo/0df93f1ba1931ff4/320.jpg,字幕,2026-08-10,14:00
+3020,シネマート新宿,104818,GOOD BOY グッドボーイ,7月10日公開,73分,G,2.9,https://media.eiga.com/images/movie/104818/photo/0df93f1ba1931ff4/320.jpg,字幕,2026-08-11,20:55
+3020,シネマート新宿,104818,GOOD BOY グッドボーイ,7月10日公開,73分,G,2.9,https://media.eiga.com/images/movie/104818/photo/0df93f1ba1931ff4/320.jpg,字幕,2026-08-12,14:00
+3020,シネマート新宿,104818,GOOD BOY グッドボーイ,7月10日公開,73分,G,2.9,https://media.eiga.com/images/movie/104818/photo/0df93f1ba1931ff4/320.jpg,字幕,2026-08-13,20:55
+3020,シネマート新宿,53383,ぐるりのこと。,7月24日公開,140分,,3.9,https://media.eiga.com/images/movie/53383/photo/99b1ed753cd298a9/320.jpg,通常,2026-08-10,19:20
+3020,シネマート新宿,53383,ぐるりのこと。,7月24日公開,140分,,3.9,https://media.eiga.com/images/movie/53383/photo/99b1ed753cd298a9/320.jpg,通常,2026-08-11,15:55
+3020,シネマート新宿,53383,ぐるりのこと。,7月24日公開,140分,,3.9,https://media.eiga.com/images/movie/53383/photo/99b1ed753cd298a9/320.jpg,通常,2026-08-12,19:20
+3020,シネマート新宿,53383,ぐるりのこと。,7月24日公開,140分,,3.9,https://media.eiga.com/images/movie/53383/photo/99b1ed753cd298a9/320.jpg,通常,2026-08-13,15:55
+3020,シネマート新宿,85779,海辺の一日,7月10日公開,167分,G,3.6,https://media.eiga.com/images/movie/85779/photo/47834e8b1c36034a/320.jpg,字幕,2026-08-10,10:05
+3020,シネマート新宿,85779,海辺の一日,7月10日公開,167分,G,3.6,https://media.eiga.com/images/movie/85779/photo/47834e8b1c36034a/320.jpg,字幕,2026-08-11,10:05
+3020,シネマート新宿,85779,海辺の一日,7月10日公開,167分,G,3.6,https://media.eiga.com/images/movie/85779/photo/47834e8b1c36034a/320.jpg,字幕,2026-08-12,10:05
+3020,シネマート新宿,85779,海辺の一日,7月10日公開,167分,G,3.6,https://media.eiga.com/images/movie/85779/photo/47834e8b1c36034a/320.jpg,字幕,2026-08-13,10:05
+3020,シネマート新宿,40525,ハッシュ！,7月24日公開,135分,,3.8,https://media.eiga.com/images/movie/40525/photo/236105f1c7ead39c/320.jpg,通常,2026-08-10,15:55
+3020,シネマート新宿,40525,ハッシュ！,7月24日公開,135分,,3.8,https://media.eiga.com/images/movie/40525/photo/236105f1c7ead39c/320.jpg,通常,2026-08-11,19:20
+3020,シネマート新宿,40525,ハッシュ！,7月24日公開,135分,,3.8,https://media.eiga.com/images/movie/40525/photo/236105f1c7ead39c/320.jpg,通常,2026-08-12,15:55
+3020,シネマート新宿,40525,ハッシュ！,7月24日公開,135分,,3.8,https://media.eiga.com/images/movie/40525/photo/236105f1c7ead39c/320.jpg,通常,2026-08-13,19:20
+3020,シネマート新宿,106107,ストレンジ・ハーベスト　インランド・エンパイアの怪事件,7月17日公開,93分,PG12,3.2,https://media.eiga.com/images/movie/106107/photo/089ad610cdb4b0fa/320.jpg,字幕,2026-08-10,17:20
+3020,シネマート新宿,106107,ストレンジ・ハーベスト　インランド・エンパイアの怪事件,7月17日公開,93分,PG12,3.2,https://media.eiga.com/images/movie/106107/photo/089ad610cdb4b0fa/320.jpg,字幕,2026-08-11,17:20
+3020,シネマート新宿,106107,ストレンジ・ハーベスト　インランド・エンパイアの怪事件,7月17日公開,93分,PG12,3.2,https://media.eiga.com/images/movie/106107/photo/089ad610cdb4b0fa/320.jpg,字幕,2026-08-12,17:20
+3020,シネマート新宿,106107,ストレンジ・ハーベスト　インランド・エンパイアの怪事件,7月17日公開,93分,PG12,3.2,https://media.eiga.com/images/movie/106107/photo/089ad610cdb4b0fa/320.jpg,字幕,2026-08-13,17:20
+3020,シネマート新宿,106237,エレファント6レコーディング・カンパニー,7月31日公開,93分,G,4.0,https://media.eiga.com/images/movie/106237/photo/fc19bca7bba4aeed/320.jpg,通常,2026-08-10,20:55
+3020,シネマート新宿,106237,エレファント6レコーディング・カンパニー,7月31日公開,93分,G,4.0,https://media.eiga.com/images/movie/106237/photo/fc19bca7bba4aeed/320.jpg,通常,2026-08-11,14:00
+3020,シネマート新宿,106237,エレファント6レコーディング・カンパニー,7月31日公開,93分,G,4.0,https://media.eiga.com/images/movie/106237/photo/fc19bca7bba4aeed/320.jpg,通常,2026-08-12,20:55
+3020,シネマート新宿,106237,エレファント6レコーディング・カンパニー,7月31日公開,93分,G,4.0,https://media.eiga.com/images/movie/106237/photo/fc19bca7bba4aeed/320.jpg,通常,2026-08-13,14:00
+3322,kino cinema新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-11,19:30
+3322,kino cinema新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-12,10:00
+3322,kino cinema新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-13,8:10
+3322,kino cinema新宿,103908,急に具合が悪くなる,6月19日公開,196分,G,4.1,https://media.eiga.com/images/movie/103908/photo/e92b9e842872b15e/320.jpg,字幕,2026-08-10,"12:55,19:30"
+3322,kino cinema新宿,103908,急に具合が悪くなる,6月19日公開,196分,G,4.1,https://media.eiga.com/images/movie/103908/photo/e92b9e842872b15e/320.jpg,字幕,2026-08-11,15:40
+3322,kino cinema新宿,103908,急に具合が悪くなる,6月19日公開,196分,G,4.1,https://media.eiga.com/images/movie/103908/photo/e92b9e842872b15e/320.jpg,字幕,2026-08-12,19:25
+3322,kino cinema新宿,103908,急に具合が悪くなる,6月19日公開,196分,G,4.1,https://media.eiga.com/images/movie/103908/photo/e92b9e842872b15e/320.jpg,字幕,2026-08-13,"10:40,16:45"
+3322,kino cinema新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-10,21:05
+3322,kino cinema新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-11,15:20
+3322,kino cinema新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-12,21:00
+3322,kino cinema新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-13,20:25
+3322,kino cinema新宿,105408,チルド,7月17日公開,88分,R15+,3.6,https://media.eiga.com/images/movie/105408/photo/b150bfdde74fb967/320.jpg,通常,2026-08-10,17:45
+3322,kino cinema新宿,105408,チルド,7月17日公開,88分,R15+,3.6,https://media.eiga.com/images/movie/105408/photo/b150bfdde74fb967/320.jpg,通常,2026-08-11,"13:45,17:25"
+3322,kino cinema新宿,105408,チルド,7月17日公開,88分,R15+,3.6,https://media.eiga.com/images/movie/105408/photo/b150bfdde74fb967/320.jpg,通常,2026-08-12,17:40
+3322,kino cinema新宿,105408,チルド,7月17日公開,88分,R15+,3.6,https://media.eiga.com/images/movie/105408/photo/b150bfdde74fb967/320.jpg,通常,2026-08-13,14:50
+3322,kino cinema新宿,105907,隣人たち,7月24日公開,94分,G,3.3,https://media.eiga.com/images/movie/105907/photo/4cc92ddb54e0d07b/320.jpg,字幕,2026-08-10,"9:55,13:45"
+3322,kino cinema新宿,105907,隣人たち,7月24日公開,94分,G,3.3,https://media.eiga.com/images/movie/105907/photo/4cc92ddb54e0d07b/320.jpg,字幕,2026-08-11,"8:15,13:25"
+3322,kino cinema新宿,105907,隣人たち,7月24日公開,94分,G,3.3,https://media.eiga.com/images/movie/105907/photo/4cc92ddb54e0d07b/320.jpg,字幕,2026-08-12,"10:55,19:05"
+3322,kino cinema新宿,105907,隣人たち,7月24日公開,94分,G,3.3,https://media.eiga.com/images/movie/105907/photo/4cc92ddb54e0d07b/320.jpg,字幕,2026-08-13,"11:30,18:50"
+3322,kino cinema新宿,105767,インビジブルハーフ,7月31日公開,106分,PG12,2.3,https://media.eiga.com/images/movie/105767/photo/61df383bc83afd0e/320.jpg,通常,2026-08-10,15:40
+3322,kino cinema新宿,105767,インビジブルハーフ,7月31日公開,106分,PG12,2.3,https://media.eiga.com/images/movie/105767/photo/61df383bc83afd0e/320.jpg,通常,2026-08-11,21:05
+3322,kino cinema新宿,105767,インビジブルハーフ,7月31日公開,106分,PG12,2.3,https://media.eiga.com/images/movie/105767/photo/61df383bc83afd0e/320.jpg,通常,2026-08-12,14:45
+3322,kino cinema新宿,105767,インビジブルハーフ,7月31日公開,106分,PG12,2.3,https://media.eiga.com/images/movie/105767/photo/61df383bc83afd0e/320.jpg,通常,2026-08-13,8:25
+3322,kino cinema新宿,105673,ラブ≠コメディ,7月3日公開,119分,G,4.3,https://media.eiga.com/images/movie/105673/photo/c4b7de29a6fa3335/320.jpg,通常,2026-08-10,18:45
+3322,kino cinema新宿,105673,ラブ≠コメディ,7月3日公開,119分,G,4.3,https://media.eiga.com/images/movie/105673/photo/c4b7de29a6fa3335/320.jpg,通常,2026-08-11,11:25
+3322,kino cinema新宿,105673,ラブ≠コメディ,7月3日公開,119分,G,4.3,https://media.eiga.com/images/movie/105673/photo/c4b7de29a6fa3335/320.jpg,通常,2026-08-12,15:20
+3322,kino cinema新宿,105673,ラブ≠コメディ,7月3日公開,119分,G,4.3,https://media.eiga.com/images/movie/105673/photo/c4b7de29a6fa3335/320.jpg,通常,2026-08-13,14:20
+3322,kino cinema新宿,105459,それいけ！アンパンマン　パンタンと約束の星,6月26日公開,62分,G,4.2,https://media.eiga.com/images/movie/105459/photo/868080a8e1e70e54/320.jpg,通常,2026-08-10,11:35
+3322,kino cinema新宿,105459,それいけ！アンパンマン　パンタンと約束の星,6月26日公開,62分,G,4.2,https://media.eiga.com/images/movie/105459/photo/868080a8e1e70e54/320.jpg,通常,2026-08-11,10:00
+3322,kino cinema新宿,105459,それいけ！アンパンマン　パンタンと約束の星,6月26日公開,62分,G,4.2,https://media.eiga.com/images/movie/105459/photo/868080a8e1e70e54/320.jpg,通常,2026-08-12,14:00
+3322,kino cinema新宿,105459,それいけ！アンパンマン　パンタンと約束の星,6月26日公開,62分,G,4.2,https://media.eiga.com/images/movie/105459/photo/868080a8e1e70e54/320.jpg,通常,2026-08-13,13:25
+3322,kino cinema新宿,104298,四十九 SEEK,7月31日公開,93分,G,2.8,https://media.eiga.com/images/movie/104298/photo/55118058d30bef5d/320.jpg,通常,2026-08-10,11:50
+3322,kino cinema新宿,104298,四十九 SEEK,7月31日公開,93分,G,2.8,https://media.eiga.com/images/movie/104298/photo/55118058d30bef5d/320.jpg,通常,2026-08-11,19:10
+3322,kino cinema新宿,104298,四十九 SEEK,7月31日公開,93分,G,2.8,https://media.eiga.com/images/movie/104298/photo/55118058d30bef5d/320.jpg,通常,2026-08-12,12:50
+3322,kino cinema新宿,104298,四十九 SEEK,7月31日公開,93分,G,2.8,https://media.eiga.com/images/movie/104298/photo/55118058d30bef5d/320.jpg,通常,2026-08-13,20:45
+3322,kino cinema新宿,106109,Return to My Blue,7月24日公開,39分,G,4.5,https://media.eiga.com/images/movie/106109/photo/035e6046d457840b/320.jpg,通常,2026-08-10,10:35
+3322,kino cinema新宿,106109,Return to My Blue,7月24日公開,39分,G,4.5,https://media.eiga.com/images/movie/106109/photo/035e6046d457840b/320.jpg,通常,2026-08-11,10:10
+3322,kino cinema新宿,106109,Return to My Blue,7月24日公開,39分,G,4.5,https://media.eiga.com/images/movie/106109/photo/035e6046d457840b/320.jpg,通常,2026-08-12,9:55
+3322,kino cinema新宿,106109,Return to My Blue,7月24日公開,39分,G,4.5,https://media.eiga.com/images/movie/106109/photo/035e6046d457840b/320.jpg,通常,2026-08-13,10:30
+3322,kino cinema新宿,106033,バナ穴 BANA_ANA,6月27日公開,88分,G,3.1,https://media.eiga.com/images/movie/106033/photo/47ac6ce5b18e3748/320.jpg,通常,2026-08-11,8:15
+3322,kino cinema新宿,106033,バナ穴 BANA_ANA,6月27日公開,88分,G,3.1,https://media.eiga.com/images/movie/106033/photo/47ac6ce5b18e3748/320.jpg,通常,2026-08-12,8:10
+3322,kino cinema新宿,105305,Perfume“コールドスリープ” 25 years Document,5月15日公開,117分,G,4.3,https://media.eiga.com/images/movie/105305/photo/c88255979a215fa9/320.jpg,通常,2026-08-10,16:30
+3322,kino cinema新宿,105305,Perfume“コールドスリープ” 25 years Document,5月15日公開,117分,G,4.3,https://media.eiga.com/images/movie/105305/photo/c88255979a215fa9/320.jpg,通常,2026-08-11,11:10
+3322,kino cinema新宿,105305,Perfume“コールドスリープ” 25 years Document,5月15日公開,117分,G,4.3,https://media.eiga.com/images/movie/105305/photo/c88255979a215fa9/320.jpg,通常,2026-08-12,16:50
+3322,kino cinema新宿,105305,Perfume“コールドスリープ” 25 years Document,5月15日公開,117分,G,4.3,https://media.eiga.com/images/movie/105305/photo/c88255979a215fa9/320.jpg,通常,2026-08-13,16:35
+3026,新宿武蔵野館,105612,プライベート・ケース,7月24日公開,107分,PG12,3.2,https://media.eiga.com/images/movie/105612/photo/4058fe7fed84cd65/320.jpg,字幕,2026-08-10,"12:30,17:05"
+3026,新宿武蔵野館,105612,プライベート・ケース,7月24日公開,107分,PG12,3.2,https://media.eiga.com/images/movie/105612/photo/4058fe7fed84cd65/320.jpg,字幕,2026-08-11,"12:30,17:05"
+3026,新宿武蔵野館,105612,プライベート・ケース,7月24日公開,107分,PG12,3.2,https://media.eiga.com/images/movie/105612/photo/4058fe7fed84cd65/320.jpg,字幕,2026-08-12,"12:30,17:05"
+3026,新宿武蔵野館,105612,プライベート・ケース,7月24日公開,107分,PG12,3.2,https://media.eiga.com/images/movie/105612/photo/4058fe7fed84cd65/320.jpg,字幕,2026-08-13,"12:30,17:05"
+3026,新宿武蔵野館,106108,ヒトラーの毒見役,7月31日公開,123分,PG12,3.0,https://media.eiga.com/images/movie/106108/photo/3134fc2bb288cff3/320.jpg,字幕,2026-08-10,"9:45,12:00,14:15,18:50"
+3026,新宿武蔵野館,106108,ヒトラーの毒見役,7月31日公開,123分,PG12,3.0,https://media.eiga.com/images/movie/106108/photo/3134fc2bb288cff3/320.jpg,字幕,2026-08-11,"9:45,12:00,14:15,19:15"
+3026,新宿武蔵野館,106108,ヒトラーの毒見役,7月31日公開,123分,PG12,3.0,https://media.eiga.com/images/movie/106108/photo/3134fc2bb288cff3/320.jpg,字幕,2026-08-12,"9:45,12:00,14:15,19:20"
+3026,新宿武蔵野館,106108,ヒトラーの毒見役,7月31日公開,123分,PG12,3.0,https://media.eiga.com/images/movie/106108/photo/3134fc2bb288cff3/320.jpg,字幕,2026-08-13,"9:45,12:00,14:15,19:20"
+3026,新宿武蔵野館,106053,白パンと独裁者,8月7日公開,93分,G,3.8,https://media.eiga.com/images/movie/106053/photo/e5b7655eab394555/320.jpg,字幕,2026-08-10,"10:00,12:15,14:30,19:10"
+3026,新宿武蔵野館,106053,白パンと独裁者,8月7日公開,93分,G,3.8,https://media.eiga.com/images/movie/106053/photo/e5b7655eab394555/320.jpg,字幕,2026-08-11,"10:00,12:15,14:30,19:00"
+3026,新宿武蔵野館,106053,白パンと独裁者,8月7日公開,93分,G,3.8,https://media.eiga.com/images/movie/106053/photo/e5b7655eab394555/320.jpg,字幕,2026-08-12,"10:00,12:15,14:30,19:05"
+3026,新宿武蔵野館,106053,白パンと独裁者,8月7日公開,93分,G,3.8,https://media.eiga.com/images/movie/106053/photo/e5b7655eab394555/320.jpg,字幕,2026-08-13,"10:00,12:15,14:30,19:05"
+3026,新宿武蔵野館,105617,新凱旋門物語,7月17日公開,106分,G,3.4,https://media.eiga.com/images/movie/105617/photo/8ec831265b451b09/320.jpg,字幕,2026-08-10,16:50
+3026,新宿武蔵野館,105617,新凱旋門物語,7月17日公開,106分,G,3.4,https://media.eiga.com/images/movie/105617/photo/8ec831265b451b09/320.jpg,字幕,2026-08-11,16:45
+3026,新宿武蔵野館,105617,新凱旋門物語,7月17日公開,106分,G,3.4,https://media.eiga.com/images/movie/105617/photo/8ec831265b451b09/320.jpg,字幕,2026-08-12,16:50
+3026,新宿武蔵野館,105617,新凱旋門物語,7月17日公開,106分,G,3.4,https://media.eiga.com/images/movie/105617/photo/8ec831265b451b09/320.jpg,字幕,2026-08-13,16:50
+3026,新宿武蔵野館,106220,PEACOCK ピーコック,7月24日公開,102分,G,3.4,https://media.eiga.com/images/movie/106220/photo/8f5f698679eae80d/320.jpg,字幕,2026-08-10,14:50
+3026,新宿武蔵野館,106220,PEACOCK ピーコック,7月24日公開,102分,G,3.4,https://media.eiga.com/images/movie/106220/photo/8f5f698679eae80d/320.jpg,字幕,2026-08-11,14:50
+3026,新宿武蔵野館,106220,PEACOCK ピーコック,7月24日公開,102分,G,3.4,https://media.eiga.com/images/movie/106220/photo/8f5f698679eae80d/320.jpg,字幕,2026-08-12,14:50
+3026,新宿武蔵野館,106220,PEACOCK ピーコック,7月24日公開,102分,G,3.4,https://media.eiga.com/images/movie/106220/photo/8f5f698679eae80d/320.jpg,字幕,2026-08-13,14:50
+3026,新宿武蔵野館,105861,夢物語 The Living Dragon,7月17日公開,78分,G,4.1,https://media.eiga.com/images/movie/105861/photo/489a6638d5501b9d/320.jpg,通常,2026-08-10,10:40
+3026,新宿武蔵野館,105861,夢物語 The Living Dragon,7月17日公開,78分,G,4.1,https://media.eiga.com/images/movie/105861/photo/489a6638d5501b9d/320.jpg,通常,2026-08-11,10:40
+3026,新宿武蔵野館,105861,夢物語 The Living Dragon,7月17日公開,78分,G,4.1,https://media.eiga.com/images/movie/105861/photo/489a6638d5501b9d/320.jpg,通常,2026-08-12,10:40
+3026,新宿武蔵野館,105861,夢物語 The Living Dragon,7月17日公開,78分,G,4.1,https://media.eiga.com/images/movie/105861/photo/489a6638d5501b9d/320.jpg,通常,2026-08-13,10:40
+3026,新宿武蔵野館,105993,ユースフル・ゴースト,7月10日公開,130分,R15+,3.2,https://media.eiga.com/images/movie/105993/photo/1a8053e775516172/320.jpg,字幕,2026-08-10,19:30
+3026,新宿武蔵野館,105993,ユースフル・ゴースト,7月10日公開,130分,R15+,3.2,https://media.eiga.com/images/movie/105993/photo/1a8053e775516172/320.jpg,字幕,2026-08-11,19:30
+3026,新宿武蔵野館,105993,ユースフル・ゴースト,7月10日公開,130分,R15+,3.2,https://media.eiga.com/images/movie/105993/photo/1a8053e775516172/320.jpg,字幕,2026-08-12,16:30
+3026,新宿武蔵野館,105993,ユースフル・ゴースト,7月10日公開,130分,R15+,3.2,https://media.eiga.com/images/movie/105993/photo/1a8053e775516172/320.jpg,字幕,2026-08-13,16:30
+3026,新宿武蔵野館,105696,死神バーバー,6月26日公開,102分,G,3.6,https://media.eiga.com/images/movie/105696/photo/899b2367b3c42d64/320.jpg,通常,2026-08-10,16:30
+3026,新宿武蔵野館,105696,死神バーバー,6月26日公開,102分,G,3.6,https://media.eiga.com/images/movie/105696/photo/899b2367b3c42d64/320.jpg,通常,2026-08-11,16:30
+3026,新宿武蔵野館,105696,死神バーバー,6月26日公開,102分,G,3.6,https://media.eiga.com/images/movie/105696/photo/899b2367b3c42d64/320.jpg,通常,2026-08-12,19:35
+3026,新宿武蔵野館,105696,死神バーバー,6月26日公開,102分,G,3.6,https://media.eiga.com/images/movie/105696/photo/899b2367b3c42d64/320.jpg,通常,2026-08-13,19:35
+3018,K's cinema,104669,レンタル家族,7月31日公開,89分,G,3.6,https://media.eiga.com/images/movie/104669/photo/0a4daafe59a35a30/320.jpg,通常,2026-08-10,20:10
+3018,K's cinema,104669,レンタル家族,7月31日公開,89分,G,3.6,https://media.eiga.com/images/movie/104669/photo/0a4daafe59a35a30/320.jpg,通常,2026-08-11,20:10
+3018,K's cinema,104669,レンタル家族,7月31日公開,89分,G,3.6,https://media.eiga.com/images/movie/104669/photo/0a4daafe59a35a30/320.jpg,通常,2026-08-12,20:10
+3018,K's cinema,104669,レンタル家族,7月31日公開,89分,G,3.6,https://media.eiga.com/images/movie/104669/photo/0a4daafe59a35a30/320.jpg,通常,2026-08-13,20:10
+3018,K's cinema,104669,レンタル家族,7月31日公開,89分,G,3.6,https://media.eiga.com/images/movie/104669/photo/0a4daafe59a35a30/320.jpg,通常,2026-08-14,20:10
+3018,K's cinema,106314,声をあげるということ　性犯罪　刑法改正の記録,8月1日公開,80分,G,4.0,https://media.eiga.com/images/movie/106314/photo/b27dbbdcadbfa500/320.jpg,通常,2026-08-10,10:00
+3018,K's cinema,106314,声をあげるということ　性犯罪　刑法改正の記録,8月1日公開,80分,G,4.0,https://media.eiga.com/images/movie/106314/photo/b27dbbdcadbfa500/320.jpg,通常,2026-08-11,10:00
+3018,K's cinema,106314,声をあげるということ　性犯罪　刑法改正の記録,8月1日公開,80分,G,4.0,https://media.eiga.com/images/movie/106314/photo/b27dbbdcadbfa500/320.jpg,通常,2026-08-12,10:00
+3018,K's cinema,106314,声をあげるということ　性犯罪　刑法改正の記録,8月1日公開,80分,G,4.0,https://media.eiga.com/images/movie/106314/photo/b27dbbdcadbfa500/320.jpg,通常,2026-08-13,10:00
+3018,K's cinema,106314,声をあげるということ　性犯罪　刑法改正の記録,8月1日公開,80分,G,4.0,https://media.eiga.com/images/movie/106314/photo/b27dbbdcadbfa500/320.jpg,通常,2026-08-14,10:00
+3018,K's cinema,105335,床一面こんな感じ,8月8日公開,61分,,3.6,https://media.eiga.com/images/movie/105335/photo/12faa792aaa24f84/320.jpg,通常,2026-08-10,"14:00,15:25,18:30"
+3018,K's cinema,105335,床一面こんな感じ,8月8日公開,61分,,3.6,https://media.eiga.com/images/movie/105335/photo/12faa792aaa24f84/320.jpg,通常,2026-08-11,"14:00,15:25,18:30"
+3018,K's cinema,105335,床一面こんな感じ,8月8日公開,61分,,3.6,https://media.eiga.com/images/movie/105335/photo/12faa792aaa24f84/320.jpg,通常,2026-08-12,"14:00,15:25,18:30"
+3018,K's cinema,105335,床一面こんな感じ,8月8日公開,61分,,3.6,https://media.eiga.com/images/movie/105335/photo/12faa792aaa24f84/320.jpg,通常,2026-08-13,"14:00,15:25,18:30"
+3018,K's cinema,105335,床一面こんな感じ,8月8日公開,61分,,3.6,https://media.eiga.com/images/movie/105335/photo/12faa792aaa24f84/320.jpg,通常,2026-08-14,"14:00,15:25,18:30"
+3018,K's cinema,58474,青い戦慄,1956年7月26日公開,,,－,https://media.eiga.com/images/movie/58474/photo/abd34d9671cd09e6/320.jpg,字幕,2026-08-12,12:00
+3018,K's cinema,58534,悪徳警官,1955年7月29日公開,,,－,https://media.eiga.com/images/movie/58534/photo/0aa15a237f218364/320.jpg,字幕,2026-08-14,12:00
+3018,K's cinema,9149,キッスで殺せ！,104分,,,2.8,https://media.eiga.com/images/movie/9149/photo/2a0ec398b06e6ad0/320.jpg,字幕,2026-08-13,12:00
+3018,K's cinema,60589,湖中の女,1947年10月14日公開,,,－,https://media.eiga.com/images/movie/60589/photo/44dad2295d056f9e/320.jpg,字幕,2026-08-10,12:00
+3018,K's cinema,100539,スミコ22,2024年6月29日公開,64分,,3.0,https://media.eiga.com/images/movie/100539/photo/e945dccebb1922a7/320.jpg,通常,2026-08-10,16:50
+3018,K's cinema,100539,スミコ22,2024年6月29日公開,64分,,3.0,https://media.eiga.com/images/movie/100539/photo/e945dccebb1922a7/320.jpg,通常,2026-08-11,16:50
+3018,K's cinema,100539,スミコ22,2024年6月29日公開,64分,,3.0,https://media.eiga.com/images/movie/100539/photo/e945dccebb1922a7/320.jpg,通常,2026-08-12,16:50
+3018,K's cinema,100539,スミコ22,2024年6月29日公開,64分,,3.0,https://media.eiga.com/images/movie/100539/photo/e945dccebb1922a7/320.jpg,通常,2026-08-13,16:50
+3018,K's cinema,100539,スミコ22,2024年6月29日公開,64分,,3.0,https://media.eiga.com/images/movie/100539/photo/e945dccebb1922a7/320.jpg,通常,2026-08-14,16:50
+3018,K's cinema,62952,破局（1950）,1951年9月4日公開,,,－,https://media.eiga.com/images/movie/62952/photo/79c99e575794f9d5/320.jpg,字幕,2026-08-11,12:00
+3016,新宿バルト9,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-10,"8:30,9:00,10:40,11:15,12:50,13:30,15:00,15:45,17:10,18:00,19:20,20:15,21:30,22:30,23:40,24:45,25:50"
+3016,新宿バルト9,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-11,"8:00,9:00,10:10,11:15,12:20,13:35,14:30,16:40,17:10,18:50,19:25,21:00,21:40,23:10,23:55,25:20,26:05"
+3016,新宿バルト9,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-12,"8:25,9:00,10:25,11:15,12:35,13:30,14:45,15:45,16:55,18:00,19:00,20:15,21:10,22:30,23:20,24:45,25:30"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-10,"11:10,17:00,21:15"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-11,"10:40,12:30,17:00,18:00,25:00"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-12,"11:10,17:10,21:10"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-10,"8:25,14:05,19:55,25:15"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-11,"15:45,19:55,23:20"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-12,"8:25,14:05,20:05,24:05"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Cinema,2026-08-10,"13:30,19:25,22:30"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Cinema,2026-08-11,"8:00,13:15,19:10,22:15"
+3016,新宿バルト9,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Cinema,2026-08-12,"13:50,19:45,22:50"
+3016,新宿バルト9,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-10,"15:15,22:40,25:30"
+3016,新宿バルト9,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-11,"8:00,17:00,22:15"
+3016,新宿バルト9,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-12,"15:10,22:40,25:30"
+3016,新宿バルト9,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,Dolby Cinema,2026-08-10,8:25
+3016,新宿バルト9,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,Dolby Cinema,2026-08-11,25:20
+3016,新宿バルト9,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,Dolby Cinema,2026-08-12,8:45
+3016,新宿バルト9,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-10,"10:25,20:10"
+3016,新宿バルト9,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-11,"10:25,23:00"
+3016,新宿バルト9,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-12,"10:35,23:00"
+3016,新宿バルト9,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,Dolby Cinema,2026-08-10,16:35
+3016,新宿バルト9,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,Dolby Cinema,2026-08-11,16:20
+3016,新宿バルト9,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,Dolby Cinema,2026-08-12,16:55
+3016,新宿バルト9,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-10,"13:30,22:50"
+3016,新宿バルト9,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-11,"12:25,20:55"
+3016,新宿バルト9,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-12,"13:30,22:15"
+3016,新宿バルト9,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-10,"8:30,18:05"
+3016,新宿バルト9,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-11,"9:00,19:50,26:25"
+3016,新宿バルト9,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-12,"8:20,18:05"
+3016,新宿バルト9,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-10,"10:30,12:45,15:00,17:15,19:30,21:45,24:00"
+3016,新宿バルト9,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-11,"10:15,13:30,15:25,17:40,21:55,24:10"
+3016,新宿バルト9,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-12,"10:30,12:45,15:00,17:15,19:30,21:45,24:00"
+3016,新宿バルト9,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-10,"8:30,11:20,15:55,20:30"
+3016,新宿バルト9,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-11,"8:05,10:15,14:50,22:50"
+3016,新宿バルト9,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-12,"8:30,11:20,15:55,20:30"
+3016,新宿バルト9,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-10,"10:40,13:20,16:00,18:40,21:20,24:10,26:10"
+3016,新宿バルト9,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-11,"10:50,13:30,16:10,18:50,21:30,24:20"
+3016,新宿バルト9,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-12,"10:40,13:20,16:00,18:40,21:20,24:10"
+3016,新宿バルト9,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-10,"8:25,13:00,15:00,17:00,22:45,24:10"
+3016,新宿バルト9,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-11,"8:25,13:00,15:00,19:55,21:00,25:35"
+3016,新宿バルト9,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-12,"8:25,13:10,15:10,17:00,20:15,25:35"
+3016,新宿バルト9,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Cinema,2026-08-10,11:20
+3016,新宿バルト9,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Cinema,2026-08-11,11:05
+3016,新宿バルト9,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Cinema,2026-08-12,11:40
+3016,新宿バルト9,101055,スター・ウォーズ　マンダロリアン・アンド・グローグー,5月22日公開,132分,G,3.8,https://media.eiga.com/images/movie/101055/photo/e99c09f1a8c54c57/320.jpg,字幕,2026-08-10,8:30
+3016,新宿バルト9,101055,スター・ウォーズ　マンダロリアン・アンド・グローグー,5月22日公開,132分,G,3.8,https://media.eiga.com/images/movie/101055/photo/e99c09f1a8c54c57/320.jpg,字幕,2026-08-11,8:00
+3016,新宿バルト9,101055,スター・ウォーズ　マンダロリアン・アンド・グローグー,5月22日公開,132分,G,3.8,https://media.eiga.com/images/movie/101055/photo/e99c09f1a8c54c57/320.jpg,字幕,2026-08-12,8:30
+3016,新宿バルト9,105248,免許返納!?,6月19日公開,119分,PG12,3.7,https://media.eiga.com/images/movie/105248/photo/94358a8b7c9003b7/320.jpg,通常,2026-08-10,24:45
+3016,新宿バルト9,105248,免許返納!?,6月19日公開,119分,PG12,3.7,https://media.eiga.com/images/movie/105248/photo/94358a8b7c9003b7/320.jpg,通常,2026-08-12,24:40
+3016,新宿バルト9,104619,ロングウォーク,6月26日公開,108分,R15+,3.5,https://media.eiga.com/images/movie/104619/photo/a93779f98446aba0/320.jpg,字幕,2026-08-10,26:10
+3016,新宿バルト9,104619,ロングウォーク,6月26日公開,108分,R15+,3.5,https://media.eiga.com/images/movie/104619/photo/a93779f98446aba0/320.jpg,字幕,2026-08-11,25:05
+3016,新宿バルト9,104619,ロングウォーク,6月26日公開,108分,R15+,3.5,https://media.eiga.com/images/movie/104619/photo/a93779f98446aba0/320.jpg,字幕,2026-08-12,26:15
+3016,新宿バルト9,90517,劇場版メイドインアビス　深き魂の黎明,2020年1月17日公開,105分,R15+,4.2,https://media.eiga.com/images/movie/90517/photo/ae1f3aead6cd55a2/320.jpg,通常,2026-08-10,"10:55,19:00"
+3016,新宿バルト9,90517,劇場版メイドインアビス　深き魂の黎明,2020年1月17日公開,105分,R15+,4.2,https://media.eiga.com/images/movie/90517/photo/ae1f3aead6cd55a2/320.jpg,通常,2026-08-11,18:40
+3016,新宿バルト9,90517,劇場版メイドインアビス　深き魂の黎明,2020年1月17日公開,105分,R15+,4.2,https://media.eiga.com/images/movie/90517/photo/ae1f3aead6cd55a2/320.jpg,通常,2026-08-12,"10:45,18:00"
+3263,TOHOシネマズ 新宿,106526,KATSEYE: WILD HEARTS,8月12日公開,80分,,－,https://media.eiga.com/images/movie/106526/photo/4f9ab14ed889804c/320.jpg,字幕,2026-08-12,19:40
+3263,TOHOシネマズ 新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-10,"8:25,9:05,10:55,13:00,13:20,14:45,15:00,17:00,17:10,18:15,18:40,18:45,19:20,19:35,21:15,21:40"
+3263,TOHOシネマズ 新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-11,"8:25,9:05,10:55,13:00,13:20,14:45,15:00,17:00,17:10,18:15,18:40,18:45,19:20,19:35,21:15,21:40"
+3263,TOHOシネマズ 新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-12,"8:25,9:05,10:55,13:00,13:20,14:45,15:00,17:00,17:10,18:15,18:40,18:45,19:20,21:15,21:40"
+3263,TOHOシネマズ 新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,IMAX,2026-08-10,"8:35,22:15"
+3263,TOHOシネマズ 新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,IMAX,2026-08-11,"8:35,22:15"
+3263,TOHOシネマズ 新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,IMAX,2026-08-12,"8:35,22:15"
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-10,"9:45,13:45,15:25,21:05"
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-11,"9:45,13:45,15:25,21:05"
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,字幕,2026-08-12,"9:45,13:45,15:25,21:05"
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-10,"9:10,15:30,20:35"
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-11,"9:10,15:30,20:35"
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-12,"9:10,15:30,20:35"
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,4D,2026-08-10,21:10
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,4D,2026-08-11,21:10
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,4D,2026-08-12,21:10
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,4D,2026-08-10,18:05
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,4D,2026-08-11,18:05
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,4D,2026-08-12,18:05
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,IMAX,2026-08-10,19:05
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,IMAX,2026-08-11,19:05
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,IMAX,2026-08-12,19:05
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Atmos,2026-08-10,11:30
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Atmos,2026-08-11,11:30
+3263,TOHOシネマズ 新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Atmos,2026-08-12,11:30
+3263,TOHOシネマズ 新宿,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-10,"10:45,15:00,18:00,21:00"
+3263,TOHOシネマズ 新宿,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-11,"10:45,15:00,18:00,21:00"
+3263,TOHOシネマズ 新宿,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-12,"10:45,15:00,18:00,21:00"
+3263,TOHOシネマズ 新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-10,"12:45,21:10"
+3263,TOHOシネマズ 新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-11,"12:45,21:10"
+3263,TOHOシネマズ 新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-12,"12:45,21:10"
+3263,TOHOシネマズ 新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-10,"8:20,18:00"
+3263,TOHOシネマズ 新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-11,"8:20,18:00"
+3263,TOHOシネマズ 新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-12,"8:20,18:00"
+3263,TOHOシネマズ 新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-10,"12:20,15:40,20:40"
+3263,TOHOシネマズ 新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-11,"12:20,15:40,20:40"
+3263,TOHOシネマズ 新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-12,"12:20,15:40,20:40"
+3263,TOHOシネマズ 新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,字幕,2026-08-10,"17:00,21:45"
+3263,TOHOシネマズ 新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,字幕,2026-08-11,"17:00,21:45"
+3263,TOHOシネマズ 新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,字幕,2026-08-12,"17:00,21:45"
+3263,TOHOシネマズ 新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-10,"12:20,14:40,19:25"
+3263,TOHOシネマズ 新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-11,"12:20,14:40,19:25"
+3263,TOHOシネマズ 新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-12,"12:20,14:40,19:25"
+3263,TOHOシネマズ 新宿,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-10,"9:00,11:20,13:40,16:00"
+3263,TOHOシネマズ 新宿,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-11,"9:00,11:20,13:40,16:00"
+3263,TOHOシネマズ 新宿,105228,映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション,7月31日公開,101分,G,3.7,https://media.eiga.com/images/movie/105228/photo/306c5c5a451c48b9/320.jpg,通常,2026-08-12,"9:00,11:20,13:40,16:00"
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-10,"9:15,12:10,15:05,18:25"
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-11,"9:15,12:10,15:05,18:25"
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,通常,2026-08-12,"9:15,12:10,15:05,18:25"
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,IMAX,2026-08-10,"11:00,16:10"
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,IMAX,2026-08-11,"11:00,16:10"
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,IMAX,2026-08-12,"11:00,16:10"
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,Dolby Atmos,2026-08-10,21:50
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,Dolby Atmos,2026-08-11,21:50
+3263,TOHOシネマズ 新宿,104707,ブルーロック,8月7日公開,128分,G,4.1,https://media.eiga.com/images/movie/104707/photo/34e32ed67fec8ffd/320.jpg,Dolby Atmos,2026-08-12,21:50
+3263,TOHOシネマズ 新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-10,8:35
+3263,TOHOシネマズ 新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-11,8:35
+3263,TOHOシネマズ 新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-12,8:35
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,字幕,2026-08-10,"8:30,21:55"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,字幕,2026-08-11,"8:30,21:55"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,字幕,2026-08-12,"8:30,21:30"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-10,"10:40,12:50,17:25"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-11,"10:40,12:50,17:25"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-12,"10:40,12:50,17:25"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,4D,2026-08-10,"11:15,13:25,15:35"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,4D,2026-08-11,"11:15,13:25,15:35"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,4D,2026-08-12,"11:15,13:25,15:35"
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,IMAX,2026-08-10,13:55
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,IMAX,2026-08-11,13:55
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,IMAX,2026-08-12,13:55
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Atmos,2026-08-10,19:35
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Atmos,2026-08-11,19:35
+3263,TOHOシネマズ 新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Atmos,2026-08-12,19:35
+3263,TOHOシネマズ 新宿,105057,パウ・パトロール　ザ・ダイノ・ムービー,7月24日公開,89分,G,4.7,https://media.eiga.com/images/movie/105057/photo/60bf361d9d35146e/320.jpg,吹替,2026-08-10,"8:30,10:35"
+3263,TOHOシネマズ 新宿,105057,パウ・パトロール　ザ・ダイノ・ムービー,7月24日公開,89分,G,4.7,https://media.eiga.com/images/movie/105057/photo/60bf361d9d35146e/320.jpg,吹替,2026-08-11,"8:30,10:35"
+3263,TOHOシネマズ 新宿,105057,パウ・パトロール　ザ・ダイノ・ムービー,7月24日公開,89分,G,4.7,https://media.eiga.com/images/movie/105057/photo/60bf361d9d35146e/320.jpg,吹替,2026-08-12,"8:30,10:35"
+3263,TOHOシネマズ 新宿,47295,ドラキュラ（1992）,1992年12月19日公開,128分,PG12,3.5,https://media.eiga.com/images/movie/47295/photo/7ccde54f566e6cf9/320.jpg,字幕,2026-08-10,9:30
+3263,TOHOシネマズ 新宿,47295,ドラキュラ（1992）,1992年12月19日公開,128分,PG12,3.5,https://media.eiga.com/images/movie/47295/photo/7ccde54f566e6cf9/320.jpg,字幕,2026-08-11,9:30
+3263,TOHOシネマズ 新宿,47295,ドラキュラ（1992）,1992年12月19日公開,128分,PG12,3.5,https://media.eiga.com/images/movie/47295/photo/7ccde54f566e6cf9/320.jpg,字幕,2026-08-12,9:30
+3318,109シネマズプレミアム新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-10,"9:25,11:40,14:00,14:30,16:20,18:00,18:35,20:50"
+3318,109シネマズプレミアム新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-11,"9:20,11:50,14:20,15:00,16:50,17:30,19:20,21:40"
+3318,109シネマズプレミアム新宿,105109,映画ちいかわ　人魚の島のひみつ,7月24日公開,99分,G,3.8,https://media.eiga.com/images/movie/105109/photo/1070d756f3d9867f/320.jpg,通常,2026-08-12,"9:25,11:40,14:00,14:30,16:20,18:00,18:35,20:50"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-10,"12:15,16:10"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-11,"12:00,17:50"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,吹替,2026-08-12,"12:15,16:10"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,ScreenX,2026-08-10,"9:25,14:40,20:15"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,ScreenX,2026-08-11,"13:20,16:20,21:25"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,ScreenX,2026-08-12,"9:25,14:40,20:15"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Atmos,2026-08-10,"10:00,15:10,21:05,24:20"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Atmos,2026-08-11,"10:00,15:10,21:05"
+3318,109シネマズプレミアム新宿,102846,スパイダーマン　ブランド・ニュー・デイ,7月31日公開,145分,G,4.1,https://media.eiga.com/images/movie/102846/photo/5f292083f8b31442/320.jpg,Dolby Atmos,2026-08-12,"10:00,15:10,21:05"
+3318,109シネマズプレミアム新宿,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-10,"9:20,12:30,15:30,21:25"
+3318,109シネマズプレミアム新宿,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-11,"9:00,12:00,15:15,20:50"
+3318,109シネマズプレミアム新宿,104266,キングダム　魂の決戦,7月17日公開,134分,G,3.8,https://media.eiga.com/images/movie/104266/photo/11f8ec888abed8ec/320.jpg,通常,2026-08-12,"9:20,12:30,15:30,21:25"
+3318,109シネマズプレミアム新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-10,9:40
+3318,109シネマズプレミアム新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-11,9:15
+3318,109シネマズプレミアム新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,字幕,2026-08-12,9:40
+3318,109シネマズプレミアム新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,Dolby Atmos,2026-08-10,18:15
+3318,109シネマズプレミアム新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,Dolby Atmos,2026-08-11,18:15
+3318,109シネマズプレミアム新宿,102093,Michael マイケル,6月12日公開,127分,G,4.1,https://media.eiga.com/images/movie/102093/photo/fa35064a7248560b/320.jpg,Dolby Atmos,2026-08-12,18:15
+3318,109シネマズプレミアム新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-10,20:20
+3318,109シネマズプレミアム新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-11,20:00
+3318,109シネマズプレミアム新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,字幕,2026-08-12,20:20
+3318,109シネマズプレミアム新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-10,"11:25,15:25"
+3318,109シネマズプレミアム新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-11,"11:05,14:55"
+3318,109シネマズプレミアム新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,吹替,2026-08-12,"11:25,15:25"
+3318,109シネマズプレミアム新宿,104003,モアナと伝説の海,7月31日公開,115分,G,3.6,https://media.eiga.com/images/movie/104003/photo/e8892705b1998bcc/320.jpg,ScreenX,2026-08-11,8:45
+3318,109シネマズプレミアム新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-10,"9:15,16:55,21:30"
+3318,109シネマズプレミアム新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-11,"9:40,17:20,21:45"
+3318,109シネマズプレミアム新宿,104002,トイ・ストーリー5,7月3日公開,102分,G,3.9,https://media.eiga.com/images/movie/104002/photo/b5330044c94ef8b1/320.jpg,吹替,2026-08-12,"9:15,16:55,21:30"
+3318,109シネマズプレミアム新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-10,"18:35,23:25"
+3318,109シネマズプレミアム新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-11,18:10
+3318,109シネマズプレミアム新宿,106213,オブセッション　災愛,7月17日公開,108分,R15+,3.7,https://media.eiga.com/images/movie/106213/photo/63d7f6b1bf6d4413/320.jpg,字幕,2026-08-12,18:35
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,字幕,2026-08-10,"14:00,19:15,24:30"
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,字幕,2026-08-11,"13:40,15:45"
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,字幕,2026-08-12,"14:00,19:15"
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-10,9:15
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-11,9:00
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,吹替,2026-08-12,9:15
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,ScreenX,2026-08-10,"12:30,17:55"
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,ScreenX,2026-08-11,"11:15,19:20"
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,ScreenX,2026-08-12,"12:30,17:55"
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Atmos,2026-08-10,13:00
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Atmos,2026-08-11,13:00
+3318,109シネマズプレミアム新宿,105870,ミニオンズ＆モンスターズ,8月7日公開,90分,G,3.6,https://media.eiga.com/images/movie/105870/photo/b32b39d591282c8d/320.jpg,Dolby Atmos,2026-08-12,13:00
+3318,109シネマズプレミアム新宿,106040,プリミティヴ・ウォー　恐竜戦争,8月7日公開,133分,PG12,3.4,https://media.eiga.com/images/movie/106040/photo/a5862f1d95bb53d9/320.jpg,字幕,2026-08-10,11:35
+3318,109シネマズプレミアム新宿,106040,プリミティヴ・ウォー　恐竜戦争,8月7日公開,133分,PG12,3.4,https://media.eiga.com/images/movie/106040/photo/a5862f1d95bb53d9/320.jpg,字幕,2026-08-11,12:00
+3318,109シネマズプレミアム新宿,106040,プリミティヴ・ウォー　恐竜戦争,8月7日公開,133分,PG12,3.4,https://media.eiga.com/images/movie/106040/photo/a5862f1d95bb53d9/320.jpg,字幕,2026-08-12,11:35
+3318,109シネマズプレミアム新宿,101055,スター・ウォーズ　マンダロリアン・アンド・グローグー,5月22日公開,132分,G,3.8,https://media.eiga.com/images/movie/101055/photo/e99c09f1a8c54c57/320.jpg,字幕,2026-08-10,21:15
+3318,109シネマズプレミアム新宿,101055,スター・ウォーズ　マンダロリアン・アンド・グローグー,5月22日公開,132分,G,3.8,https://media.eiga.com/images/movie/101055/photo/e99c09f1a8c54c57/320.jpg,字幕,2026-08-11,20:40
+3318,109シネマズプレミアム新宿,101055,スター・ウォーズ　マンダロリアン・アンド・グローグー,5月22日公開,132分,G,3.8,https://media.eiga.com/images/movie/101055/photo/e99c09f1a8c54c57/320.jpg,字幕,2026-08-12,21:15
+3318,109シネマズプレミアム新宿,1587,パプリカ,1月2日公開,90分,G,3.7,https://media.eiga.com/images/movie/1587/photo/d2ef4ad279bb2dbd/320.jpg,通常,2026-08-10,"19:20,24:00"
+3318,109シネマズプレミアム新宿,1587,パプリカ,1月2日公開,90分,G,3.7,https://media.eiga.com/images/movie/1587/photo/d2ef4ad279bb2dbd/320.jpg,通常,2026-08-11,19:40
+3318,109シネマズプレミアム新宿,1587,パプリカ,1月2日公開,90分,G,3.7,https://media.eiga.com/images/movie/1587/photo/d2ef4ad279bb2dbd/320.jpg,通常,2026-08-12,19:20
