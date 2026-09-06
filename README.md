@@ -61,6 +61,18 @@ python scraper.py
 
 手動実行: GitHub の Actions タブ → "新宿映画館スケジュール取得" → Run workflow
 
+## GitHub Pages
+
+`.github/workflows/pages.yml` により `master` ブランチへの変更を自動でGitHub Pagesへ公開します。
+初回のみ、リポジトリの Settings > Pages > Build and deployment で
+**Source: GitHub Actions** を選択してください。
+
+公開URL:
+`https://stickrope0.github.io/github.io/`
+
+スケジュール閲覧ページ:
+`https://stickrope0.github.io/github.io/cinema/out/viewer.html`
+
 ## 注意事項
 
 - **個人利用前提**: 本スクリプトは個人的な情報収集を目的としています
