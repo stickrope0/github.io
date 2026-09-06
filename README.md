@@ -53,7 +53,7 @@ python scraper.py
 
 ## 自動実行（GitHub Actions）
 
-`.github/workflows/scrape.yml` により毎週月曜 09:00 JST（UTC 00:00）に自動実行されます。
+`.github/workflows/scrape.yml` により毎週火曜 19:00 JST（UTC 10:00）に自動実行されます。
 
 **必要な設定:**
 リポジトリの Settings > Actions > General > Workflow permissions で
