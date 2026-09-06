@@ -1,6 +1,6 @@
 ﻿# 新宿映画館スケジュール自動取得
 
-新宿エリア9館の上映スケジュールを映画.comから週次で自動取得し、JSON/CSVに保存します。
+新宿エリアを中心とした10館の上映スケジュールを映画.comから週次で自動取得し、JSON/CSVに保存します。
 
 ## 対象映画館
 
@@ -15,6 +15,7 @@
 | 新宿バルト9 | 3016 |
 | TOHOシネマズ 新宿 | 3263 |
 | 109シネマズプレミアム新宿 | 3318 |
+| アップリンク吉祥寺 | 3285 |
 
 ## セットアップ
 
@@ -53,7 +54,7 @@ python scraper.py
 
 ## 自動実行（GitHub Actions）
 
-`.github/workflows/scrape.yml` により毎週月曜 09:00 JST（UTC 00:00）に自動実行されます。
+`.github/workflows/scrape.yml` により毎週火曜 19:00 JST（UTC 10:00）に自動実行されます。
 
 **必要な設定:**
 リポジトリの Settings > Actions > General > Workflow permissions で
