@@ -255,6 +255,10 @@ body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,
 .poster-info{padding:.4rem .5rem .52rem}
 .poster-title{font-size:.74rem;font-weight:500;line-height:1.3;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .poster-release{color:var(--sub);font-size:.66rem;margin-top:.22rem}
+.status-badge{display:inline-block;padding:.1rem .38rem;border-radius:5px;font-size:.64rem;font-weight:700}
+.status-start{background:rgba(94,200,94,.15);color:var(--up)}
+.status-running{background:rgba(180,142,224,.15);color:var(--accent)}
+.status-ending{background:rgba(212,112,48,.15);color:var(--dn)}
 .badge{display:inline-block;padding:.1rem .42rem;border-radius:5px;font-size:.67rem;font-weight:700;letter-spacing:.02em}
 .bg{background:rgba(100,200,100,.15);color:#5ec85e}
 .bpg{background:rgba(240,190,60,.15);color:#c89020}
@@ -301,29 +305,45 @@ body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,
 const RAW = DATA_PLACEHOLDER;
 const PREV = PREV_PLACEHOLDER;
 
-function isSat(d) { return new Date(d+'T00:00:00').getDay() === 6; }
-
-function countST(data) {
+function countTheaters(data) {
   const m = {};
   for (const r of data) {
-    if (!isSat(r.date)) continue;
-    m[r.movie_id] = (m[r.movie_id]||0) + (r.showtimes||[]).length;
+    if (!m[r.movie_id]) m[r.movie_id] = new Set();
+    m[r.movie_id].add(r.theater_id);
   }
+  for (const id of Object.keys(m)) m[id] = m[id].size;
   return m;
 }
-const PC = countST(PREV);
+const PC = countTheaters(PREV);
 
 function buildMovies(raw) {
   const map = {};
+  const dates = raw.map(r => r.date).sort();
+  const lastDataDate = dates[dates.length - 1] || '';
   for (const r of raw) {
     if (!map[r.movie_id]) map[r.movie_id] = {
       id: r.movie_id, title: r.title, release_date: r.release_date,
-      duration: r.duration, rating: r.rating,
-      star: parseFloat(r.star)||0, sc: 0, poster: r.poster||''
+      duration: r.duration, rating: r.rating, theaters: new Set(),
+      firstDate: r.date, lastDate: r.date, lastDataDate,
+      star: parseFloat(r.star)||0, poster: r.poster||''
     };
-    if (isSat(r.date)) map[r.movie_id].sc += (r.showtimes||[]).length;
+    const movie = map[r.movie_id];
+    movie.theaters.add(r.theater_id);
+    if (r.date < movie.firstDate) movie.firstDate = r.date;
+    if (r.date > movie.lastDate) movie.lastDate = r.date;
+  }
+  for (const movie of Object.values(map)) {
+    movie.theaters = movie.theaters.size;
+    movie.status = movieStatus(movie);
   }
   return Object.values(map).sort((a,b) => b.star - a.star);
+}
+
+function movieStatus(movie) {
+  const prev = PC[movie.id] || 0;
+  if (!PREV.length || !prev || movie.theaters > prev) return 'start';
+  if (movie.lastDate < movie.lastDataDate && movie.theaters <= prev) return 'ending';
+  return 'running';
 }
 
 function getSchedules(movieId) {
@@ -374,6 +394,11 @@ function deltaHtml(id, cur) {
   return `<span class="delta-${d>0?'up':'dn'}">${d>0?'↑':'↓'}${Math.abs(d)}</span>`;
 }
 
+function statusHtml(movie) {
+  const labels = {start:'上映開始', running:'上映中', ending:'終了間近'};
+  return `<span class="status-badge status-${movie.status}">${labels[movie.status]}</span>`;
+}
+
 const MOVIES = buildMovies(RAW);
 
 function renderList() {
@@ -382,10 +407,10 @@ function renderList() {
   const cards = MOVIES.map(m => {
     const imgEl = m.poster ? `<img class="poster-img" src="${esc(m.poster)}" referrerpolicy="no-referrer" alt="${esc(m.title)}" loading="lazy">` : '';
     const scoreEl = m.star ? `<span class="poster-score">${m.star.toFixed(1)}</span>` : '';
-    const scEl = m.sc ? `<span class="poster-sc">${m.sc}回${deltaHtml(m.id,m.sc)}</span>` : '';
+    const scEl = `<span class="poster-sc">${m.theaters}館${deltaHtml(m.id,m.theaters)}</span>`;
     return `<div class="poster-card" tabindex="0" onclick="go('movie/${esc(m.id)}')" onkeydown="if(event.key==='Enter')go('movie/${esc(m.id)}')">
       <div class="poster-img-wrap"><div class="poster-noimg">${esc(m.title.slice(0,8))}</div>${imgEl}<div class="poster-overlay">${scoreEl}${scEl}</div></div>
-      <div class="poster-info"><div class="poster-title">${esc(m.title)}</div><div class="poster-release">${esc(fmtRelease(m.release_date))}</div></div>
+      <div class="poster-info"><div class="poster-title">${esc(m.title)}</div><div class="poster-release">${statusHtml(m)} ${esc(fmtRelease(m.release_date))}</div></div>
     </div>`;
   }).join('');
   document.getElementById('app').innerHTML =
@@ -411,7 +436,7 @@ function renderDetail(movieId) {
   document.getElementById('app').innerHTML =
     `<div class="detail-header">` +
     `<div class="detail-title">${esc(movie.title)}</div>` +
-    `<div class="detail-meta"><span>${esc(fmtRelease(movie.release_date))}</span><span>${esc(movie.duration)}</span>${ratingBadge(movie.rating)}${starHtml(movie.star)}</div>` +
+    `<div class="detail-meta">${statusHtml(movie)}<span>${movie.theaters}館${deltaHtml(movie.id,movie.theaters)}</span><span>${esc(fmtRelease(movie.release_date))}</span><span>${esc(movie.duration)}</span>${ratingBadge(movie.rating)}${starHtml(movie.star)}</div>` +
     `</div>` +
     (blocks || '<p class="empty">スケジュールデータがありません</p>');
 }
