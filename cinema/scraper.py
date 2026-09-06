@@ -27,6 +27,13 @@ HEADERS = {
 
 BASE_URL = "https://eiga.com"
 LIST_URL = "https://eiga.com/theater/13/130201/"
+EXTRA_THEATERS = [
+    {
+        "theater_id": "3285",
+        "name": "アップリンク吉祥寺",
+        "url": f"{BASE_URL}/theater/13/130809/3285/",
+    },
+]
 SLEEP_SEC = 2
 OUT_DIR = Path("out")
 
@@ -59,6 +66,9 @@ def get_theaters():
             continue
         seen.add(tid)
         theaters.append({"theater_id": tid, "name": name, "url": BASE_URL + href})
+    for theater in EXTRA_THEATERS:
+        if theater["theater_id"] not in seen:
+            theaters.append(theater)
     return theaters
 
 
