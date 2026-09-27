@@ -52,7 +52,6 @@ main{max-width:1080px;margin:0 auto;padding:20px 16px 64px}
 .seg{display:inline-flex;background:var(--bg-sub);border-radius:8px;padding:3px;gap:2px;flex-shrink:0}
 .seg button{padding:5px 12px;border-radius:6px;font-size:.8rem;font-weight:700;color:var(--sub);white-space:nowrap}
 .seg button[aria-pressed="true"]{background:var(--card);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.12)}
-.period{font-size:.8rem;font-weight:700;color:var(--sub);margin:4px 2px 8px}
 /* 開閉式カード */
 details.acc>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px}
 details.acc>summary::-webkit-details-marker{display:none}
@@ -101,18 +100,21 @@ thead th:first-child{z-index:2}
 .more{margin-top:10px;font-size:.8rem;font-weight:700;color:var(--sub);padding:6px 10px;border:1px solid var(--line);border-radius:999px}
 .more:hover{color:var(--text)}
 
-/* ── ③ 散布図 ── */
-.scatter{position:relative;margin-top:6px}
-.scatter svg{display:block;width:100%;overflow:visible}
 .note{font-size:.72rem;color:var(--muted);margin-top:6px}
 
-/* ── ② 推移（スモールマルチプル） ── */
+/* ── 上映回数の推移 ── */
 .trend{position:relative;margin-top:6px}
 .trend svg{display:block;width:100%;overflow:visible}
-.lg-chk{background:var(--bg-sub);border-radius:999px;padding:1px 4px 1px 8px}
 .lg-x{width:18px;height:18px;border-radius:50%;font-size:.8rem;line-height:1;color:var(--sub);display:grid;place-items:center}
 .lg-x:hover{background:var(--line);color:var(--text)}
 .legend i.ln{height:3px;width:14px;border-radius:2px}
+/* 推移の凡例：番号つきのボタン。押すとその線を強調 */
+#trendLegend{gap:6px}
+.lg-item{display:inline-flex;align-items:center;gap:6px;max-width:100%;padding:3px 8px 3px 3px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:.74rem;color:var(--sub);text-align:left}
+.lg-item[aria-pressed="true"]{border-color:var(--text);color:var(--text);font-weight:700}
+.lg-no{flex-shrink:0;min-width:18px;height:18px;padding:0 4px;border-radius:999px;color:#fff;font-size:.66rem;display:grid;place-items:center;font-variant-numeric:tabular-nums}
+#trendLegend .lg-title{display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:560px){#trendLegend{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.lg-item{border-radius:6px;min-width:0}}
 
 /* ── Tooltip ── */
 #tip{position:fixed;z-index:100;pointer-events:none;background:var(--card);color:var(--text);border:1px solid var(--line);box-shadow:0 4px 16px rgba(0,0,0,.14);border-radius:6px;padding:8px 10px;font-size:.75rem;min-width:120px;max-width:260px;opacity:0;transition:opacity .1s}
@@ -155,9 +157,6 @@ thead th:first-child{z-index:2}
     <details class="table-view"><summary>表で見る（全作品）</summary><div class="tbl-wrap" id="trendTable"></div></details>
   </section>
 
-  <p class="period" id="period"></p>
-  <div class="tiles" id="tiles"></div>
-
   <details class="card acc">
     <summary>
       <div>
@@ -171,17 +170,6 @@ thead th:first-child{z-index:2}
     <button class="more" id="moreBtn"></button>
     <details class="table-view"><summary>表で見る</summary><div class="tbl-wrap" id="rankTable"></div></details>
   </details>
-
-  <section class="card">
-    <h2>評価 × 上映回数</h2>
-    <p class="desc">右下ほど「評価が高いのに上映が少ない」作品です。点を押すと上映スケジュールを開きます。</p>
-    <div class="legend">
-      <span><i class="dot" style="background:var(--s1)"></i>継続上映</span>
-      <span><i class="dot" style="background:var(--s2)"></i>NEW（前回から追加）</span>
-    </div>
-    <div class="scatter" id="scatter"></div>
-    <p class="note" id="scatterNote"></p>
-  </section>
 
   <section class="card">
     <h2>上映終了の判定の実績</h2>
@@ -427,7 +415,7 @@ const EVAL = [];
 const W = ['日','月','火','水','木','金','土'];
 const DATES = [...new Set(RAW.map(r => r.date))].sort();
 const PREV_IDS = new Set(PREV.map(r => r.movie_id));
-const state = { range: 1, showAll: false };
+const state = { range: 1, showAll: false, focus: null };
 const RANGES = [1, 2, 3];
 const $ = id => document.getElementById(id);
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
@@ -498,25 +486,6 @@ function showTip(x, y, head, rows) {
 const hideTip = () => tip.classList.remove('on');
 const centerOf = e => { const r = e.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2]; };
 
-// ── タイル ──
-function renderTiles(movies) {
-  const total = movies.reduce((a, m) => a + m.total, 0);
-  const ths = new Set(RAW.map(r => r.theater_name));
-  const tiles = [
-    ['上映作品', movies.length, '作品'],
-    ['総上映回数', total.toLocaleString(), '回'],
-    ['劇場', ths.size, '館'],
-    ['NEW作品', movies.filter(m => m.isNew).length, '作品'],
-  ];
-  $('tiles').replaceChildren(...tiles.map(([l, v, u]) => {
-    const t = el('div', { class: 'tile' });
-    const val = el('div', { class: 'tile-value' }, String(v));
-    val.append(el('small', {}, u));
-    t.append(el('div', { class: 'tile-label' }, l), val);
-    return t;
-  }));
-}
-
 // ── ① ランキング ──
 function renderRanking(movies) {
   $('rankDesc').textContent = `${PERIOD}の合計。棒の色は劇場です。`;
@@ -572,94 +541,19 @@ function renderRanking(movies) {
   $('rankTable').replaceChildren(tbl);
 }
 
-// ── ③ 散布図 ──
-function renderScatter(movies) {
-  const box = $('scatter');
-  const rated = movies.filter(m => m.star > 0);
-  const unrated = movies.length - rated.length;
-  $('scatterNote').textContent = unrated ? `評価がまだない${unrated}作品は表示していません。` : '';
-  const width = box.clientWidth || 600;
-  const height = width < 500 ? 260 : 320;
-  const M = { l: 36, r: 12, t: 12, b: 34 };
-  const iw = width - M.l - M.r, ih = height - M.t - M.b;
-  const stars = rated.map(m => m.star);
-  const x0 = Math.floor((Math.min(...stars) - 0.1) * 2) / 2, x1 = Math.min(5, Math.ceil((Math.max(...stars) + 0.1) * 2) / 2);
-  const yMax = niceMax(Math.max(...rated.map(m => m.total)));
-  const X = v => M.l + (v - x0) / (x1 - x0) * iw;
-  const Y = v => M.t + ih - v / yMax * ih;
-  const svg = svgEl('svg', { viewBox: `0 0 ${width} ${height}`, height, role: 'img', 'aria-label': '評価と上映回数の散布図' });
-
-  // グリッド・軸
-  const yTicks = 4;
-  for (let i = 0; i <= yTicks; i++) {
-    const v = yMax / yTicks * i, y = Y(v);
-    svg.append(svgEl('line', { x1: M.l, x2: width - M.r, y1: y, y2: y, stroke: i ? css('--grid') : css('--axis'), 'stroke-width': 1 }));
-    const t = svgEl('text', { x: M.l - 6, y: y + 4, 'text-anchor': 'end', 'font-size': 10, fill: css('--muted') });
-    t.textContent = Math.round(v); svg.append(t);
-  }
-  for (let v = x0; v <= x1 + 1e-9; v += 0.5) {
-    const x = X(v);
-    svg.append(svgEl('line', { x1: x, x2: x, y1: M.t, y2: M.t + ih, stroke: css('--grid'), 'stroke-width': 1 }));
-    const t = svgEl('text', { x, y: height - M.b + 16, 'text-anchor': 'middle', 'font-size': 10, fill: css('--muted') });
-    t.textContent = v.toFixed(1); svg.append(t);
-  }
-  const xl = svgEl('text', { x: width - M.r, y: height - 2, 'text-anchor': 'end', 'font-size': 10, fill: css('--sub') });
-  xl.textContent = '評価 →'; svg.append(xl);
-  const yl = svgEl('text', { x: M.l, y: M.t - 2, 'font-size': 10, fill: css('--sub') });
-  yl.textContent = '上映回数'; svg.append(yl);
-
-  // 点（NEWを上に描く）
-  const pts = rated.map(m => ({ m, x: X(m.star), y: Y(m.total) }));
-  const surface = css('--card');
-  for (const p of [...pts].sort((a, b) => a.m.isNew - b.m.isNew)) {
-    svg.append(svgEl('circle', { cx: p.x, cy: p.y, r: 5, fill: p.m.isNew ? css('--s2') : css('--s1'), stroke: surface, 'stroke-width': 2 }));
-  }
-  // ラベルは控えめに：上映回数の上位2作品と、右下（高評価・少上映）の2作品
-  const top = [...pts].sort((a, b) => b.m.total - a.m.total).slice(0, 2);
-  const medianTotal = [...rated].map(m => m.total).sort((a, b) => a - b)[Math.floor(rated.length / 2)];
-  const gems = pts.filter(p => p.m.total <= medianTotal && !top.includes(p)).sort((a, b) => b.m.star - a.m.star || a.m.total - b.m.total).slice(0, 2);
-  // 実際の文字幅を測るため、先にSVGをページに入れてからラベルを置く
-  box.replaceChildren(svg);
-  const placed = [];
-  for (const p of [...top, ...gems]) {
-    const right = p.x < width - 130;
-    const name = p.m.title.length > 11 ? p.m.title.slice(0, 11) + '…' : p.m.title;
-    const t = svgEl('text', { x: p.x + (right ? 9 : -9), y: p.y + 4, 'text-anchor': right ? 'start' : 'end', 'font-size': 11, 'font-weight': 600, fill: css('--text'), 'paint-order': 'stroke', stroke: surface, 'stroke-width': 3 });
-    t.textContent = name; svg.append(t);
-    // ラベル同士が重なる場合は描かない（値はツールチップと表で読める）
-    const b = t.getBBox();
-    if (placed.some(q => b.x < q.x + q.width + 4 && q.x < b.x + b.width + 4 && b.y < q.y + q.height && q.y < b.y + b.height)) { t.remove(); continue; }
-    placed.push(b);
-  }
-  // ホバー：一番近い点（24px以内）を拾う
-  const hl = svgEl('circle', { r: 8, fill: 'none', stroke: css('--text'), 'stroke-width': 1.5, visibility: 'hidden' });
-  svg.append(hl);
-  let hot = null;
-  const nearest = (px, py) => {
-    let best = null, bd = 24 * 24;
-    for (const p of pts) { const d = (p.x - px) ** 2 + (p.y - py) ** 2; if (d < bd) { bd = d; best = p; } }
-    return best;
-  };
-  svg.addEventListener('pointermove', e => {
-    const r = svg.getBoundingClientRect();
-    hot = nearest((e.clientX - r.left) * width / r.width, (e.clientY - r.top) * height / r.height);
-    if (!hot) { hl.setAttribute('visibility', 'hidden'); svg.style.cursor = ''; return hideTip(); }
-    hl.setAttribute('cx', hot.x); hl.setAttribute('cy', hot.y); hl.setAttribute('visibility', 'visible');
-    svg.style.cursor = 'pointer';
-    showTip(e.clientX, e.clientY, hot.m.title, [
-      [css('--star'), hot.m.star.toFixed(1), '評価'],
-      [hot.m.isNew ? css('--s2') : css('--s1'), `${hot.m.total}回`, '上映回数'],
-      ['', `${hot.m.theaters.size}館`, '上映館'],
-    ]);
-  });
-  svg.addEventListener('pointerleave', () => { hl.setAttribute('visibility', 'hidden'); hideTip(); hot = null; });
-  svg.addEventListener('click', () => { if (hot) location.href = movieUrl(hot.m.id); });
-}
-
 // ── 上映回数の推移（今週の上位7作品＋checkした作品） ──
 const TREND_TOP = 7;
 // check が変わったら（別タブ・別端末からの同期を含む）描き直す
 Checks.onChange(() => renderTrend());
+
+// 整数の目盛り：データの最大値から、目盛りが maxTicks 本以内に収まる切りのよい間隔を選ぶ
+function intScale(max, maxTicks) {
+  for (const step of [1, 2, 5, 10, 20, 25, 50, 100, 200, 500]) {
+    const top = Math.max(step, Math.ceil(max / step) * step);
+    if (top / step <= maxTicks) return { top, step };
+  }
+  return { top: Math.ceil(max), step: Math.ceil(max / maxTicks) };
+}
 
 function renderTrend() {
   $('rangeSeg').replaceChildren(...RANGES.map(n => {
@@ -674,7 +568,7 @@ function renderTrend() {
   const pts = idx.map(i => HIST.points[i]);
   const seriesOf = id => ({ id, title: HIST.movies[id].title, vals: idx.map(i => HIST.movies[id].vals[i]) });
 
-  // 色は上位7作品に固定（期間を切り替えても変わらない）。checkした作品は墨色の線で描き、名前で見分ける
+  // 色は上位7作品に固定（期間を切り替えても変わらない）。checkした作品は墨色の線で描き、番号と名前で見分ける
   const checked = Checks.all();
   const topIds = aggregate().map(m => m.id).filter(id => HIST.movies[id]).slice(0, TREND_TOP);
   const colorOf = Object.fromEntries(topIds.map((id, i) => [id, css(`--s${i + 1}`)]));
@@ -684,50 +578,44 @@ function renderTrend() {
   const noShow = extra.filter(s => !s.vals.some(v => v > 0));
   const ink = css('--text');
   const series = [...tops, ...shownExtra];
+  series.forEach((s, i) => { s.no = i + 1; });
   const colorFor = s => colorOf[s.id] || ink;
-
-  // 凡例：checkした作品は × で外せる
-  const legend = [];
-  for (const s of tops) {
-    const sp = el('span'); const i = el('i', { class: 'ln' }); i.style.background = colorFor(s);
-    sp.append(i, document.createTextNode((checked.has(s.id) ? '✓ ' : '') + s.title)); legend.push(sp);
-  }
-  for (const s of shownExtra) {
-    const sp = el('span', { class: 'lg-chk' }); const i = el('i', { class: 'ln' }); i.style.background = ink;
-    const x = el('button', { class: 'lg-x', 'aria-label': `${s.title}のcheckを外す`, title: 'checkを外す' }, '×');
-    x.onclick = () => Checks.remove(s.id);
-    sp.append(i, document.createTextNode('✓ ' + s.title), x); legend.push(sp);
-  }
-  $('trendLegend').replaceChildren(...legend);
+  if (!series.some(s => s.id === state.focus)) state.focus = null;
 
   const box = $('trend');
   const width = box.clientWidth || 600;
   const narrow = width < 560;
-  const height = narrow ? 280 : 360;
-  const M = { l: 34, r: narrow ? 14 : 150, t: 14, b: 28 };
+  const height = narrow ? 300 : 360;
+  const M = { l: 30, r: narrow ? 26 : 150, t: 16, b: 28 };
   const iw = width - M.l - M.r, ih = height - M.t - M.b;
-  const yMax = niceMax(Math.max(1, ...series.flatMap(s => s.vals)));
+  const { top: yMax, step } = intScale(Math.max(1, ...series.flatMap(s => s.vals)), narrow ? 4 : 5);
   const X = i => M.l + (pts.length > 1 ? i / (pts.length - 1) * iw : iw / 2);
   const Y = v => M.t + ih - v / yMax * ih;
   const svg = svgEl('svg', { viewBox: `0 0 ${width} ${height}`, height, role: 'img', 'aria-label': '上映回数の推移' });
+  svg.style.touchAction = 'pan-y';
   const text = (x, y, str, attrs = {}) => {
-    const t = svgEl('text', { x, y, 'font-size': 10, fill: css('--muted'), ...attrs });
+    const t = svgEl('text', { x, y, 'font-size': narrow ? 11 : 10, fill: css('--muted'), ...attrs });
     t.textContent = str; svg.append(t); return t;
   };
 
-  for (let k = 0; k <= 4; k++) {
-    const v = yMax / 4 * k, y = Y(v);
-    svg.append(svgEl('line', { x1: M.l, x2: M.l + iw, y1: y, y2: y, stroke: k ? css('--grid') : css('--axis'), 'stroke-width': 1 }));
-    text(M.l - 6, y + 4, String(+v.toFixed(1)), { 'text-anchor': 'end' });
+  for (let v = 0; v <= yMax; v += step) {
+    const y = Y(v);
+    svg.append(svgEl('line', { x1: M.l, x2: M.l + iw, y1: y, y2: y, stroke: v ? css('--grid') : css('--axis'), 'stroke-width': 1 }));
+    text(M.l - 6, y + 4, String(v), { 'text-anchor': 'end' });
   }
-  pts.forEach((p, i) => text(X(i), height - 8, md(p.date), {
-    'text-anchor': narrow && i === 0 ? 'start' : narrow && i === pts.length - 1 ? 'end' : 'middle' }));
-  text(M.l, M.t - 4, '回/日', { fill: css('--sub') });
+  // 日付：詰まる場合は間引く（最新の日付は必ず出す）
+  const every = Math.max(1, Math.ceil(40 / (iw / Math.max(1, pts.length - 1))));
+  pts.forEach((p, i) => {
+    const lastPt = i === pts.length - 1;
+    if (!lastPt && (pts.length - 1 - i) % every) return;
+    text(X(i), height - 8, md(p.date), { 'text-anchor': narrow && i === 0 ? 'start' : narrow && lastPt ? 'end' : 'middle' });
+  });
+  text(M.l, M.t - 5, '回/日', { fill: css('--sub') });
 
   const pathOf = s => s.vals.map((v, i) => `${i ? 'L' : 'M'}${X(i).toFixed(1)},${Y(v).toFixed(1)}`).join('');
   const lineAttrs = { fill: 'none', 'stroke-linejoin': 'round', 'stroke-linecap': 'round' };
   const surface = css('--card');
-  const paths = new Map();
+  const marks = new Map();
   // 1位が一番上に来るよう逆順に描く
   for (const s of [...series].reverse()) {
     const c = colorFor(s);
@@ -735,48 +623,88 @@ function renderTrend() {
     const li = s.vals.length - 1;
     const dot = svgEl('circle', { cx: X(li), cy: Y(s.vals[li]), r: 4, fill: c, stroke: surface, 'stroke-width': 2 });
     svg.append(path, dot);
-    paths.set(s.id, [path, dot]);
+    marks.set(s.id, [path, dot]);
   }
   const cross = svgEl('line', { y1: M.t, y2: M.t + ih, stroke: css('--muted'), 'stroke-width': 1, visibility: 'hidden' });
   svg.prepend(cross);
   box.replaceChildren(svg);
 
-  // 右端の作品名（重なる場合は描かず、凡例とツールチップに任せる）
-  if (!narrow) {
-    const placed = [];
-    for (const s of series) {
-      const li = s.vals.length - 1;
-      const name = (colorOf[s.id] ? '' : '✓ ') + (s.title.length > 10 ? s.title.slice(0, 10) + '…' : s.title);
-      const t = text(X(li) + 9, Y(s.vals[li]) + 4, name, { fill: css('--text'), 'font-size': 11, 'font-weight': 600 });
-      const b = t.getBBox();
-      if (placed.some(q => b.y < q.y + q.height && q.y < b.y + b.height)) { t.remove(); continue; }
-      placed.push(b);
-    }
+  // 右端のラベル：PCは作品名、スマホは凡例と対応する番号（重なる場合は描かない）
+  const placed = [];
+  for (const s of series) {
+    const li = s.vals.length - 1;
+    const name = narrow ? String(s.no) : `${s.no} ${s.title.length > 10 ? s.title.slice(0, 10) + '…' : s.title}`;
+    const t = text(X(li) + 8, Y(s.vals[li]) + 4, name, { fill: css('--text'), 'font-size': 11, 'font-weight': 700 });
+    t.dataset.id = s.id;
+    const b = t.getBBox();
+    if (placed.some(q => b.y < q.y + q.height && q.y < b.y + b.height)) { t.remove(); continue; }
+    placed.push(b);
+    marks.get(s.id).push(t);
   }
 
-  // ホバー：一番近い取得日に吸着し、その日で縦方向に一番近い線（20px以内）を太く、他を薄くする
-  let hot = null;
-  const focus = id => {
-    for (const [sid, els] of paths) for (const e of els) e.style.opacity = !id || sid === id ? 1 : .25;
-    if (id) paths.get(id)[0].setAttribute('stroke-width', 3);
+  // 強調：指定した線を太く、他を薄くする（凡例のタップ・線へのホバーで使う）
+  const emphasize = id => {
+    for (const [sid, els] of marks) {
+      for (const e of els) e.style.opacity = !id || sid === id ? 1 : .2;
+      els[0].setAttribute('stroke-width', sid === id ? 3 : 2);
+    }
+    if (id) svg.append(...marks.get(id)); // 前面へ
   };
-  const reset = () => { for (const [, [p]] of paths) p.setAttribute('stroke-width', 2); focus(null); };
-  svg.addEventListener('pointermove', e => {
+  emphasize(state.focus);
+
+  // 凡例：番号つき。押すとその作品を強調（もう一度押すと解除）。checkした作品は × で外せる
+  $('trendLegend').replaceChildren(...series.map(s => {
+    const item = el('button', { class: 'lg-item' + (colorOf[s.id] ? '' : ' lg-chk'), 'aria-pressed': state.focus === s.id });
+    const no = el('b', { class: 'lg-no' }, String(s.no)); no.style.background = colorFor(s);
+    item.append(no, el('span', { class: 'lg-title' }, (checked.has(s.id) ? '✓ ' : '') + s.title));
+    item.onclick = e => {
+      if (e.target.closest('.lg-x')) return;
+      state.focus = state.focus === s.id ? null : s.id;
+      renderTrend();
+    };
+    if (!colorOf[s.id]) {
+      const x = el('span', { class: 'lg-x', role: 'button', tabindex: 0, 'aria-label': `${s.title}のcheckを外す`, title: 'checkを外す' }, '×');
+      x.onclick = () => Checks.remove(s.id);
+      x.onkeydown = e => { if (e.key === 'Enter') Checks.remove(s.id); };
+      item.append(x);
+    }
+    return item;
+  }));
+
+  // ホバー／タップ：一番近い取得日に吸着し、その日で縦方向に一番近い線（24px以内）を強調
+  let hot = null;
+  const inspect = e => {
     const r = svg.getBoundingClientRect();
     const px = (e.clientX - r.left) * width / r.width, py = (e.clientY - r.top) * height / r.height;
     let i = 0;
     for (let k = 1; k < pts.length; k++) if (Math.abs(X(k) - px) < Math.abs(X(i) - px)) i = k;
     cross.setAttribute('x1', X(i)); cross.setAttribute('x2', X(i)); cross.setAttribute('visibility', 'visible');
-    hot = null; let bd = 20;
+    const prevHot = hot;
+    hot = null; let bd = 24;
     for (const s of series) { const d = Math.abs(Y(s.vals[i]) - py); if (d < bd) { bd = d; hot = s; } }
-    reset(); if (hot) focus(hot.id);
+    emphasize(hot ? hot.id : state.focus);
     svg.style.cursor = hot ? 'pointer' : '';
     const rows = [...series].sort((a, b) => b.vals[i] - a.vals[i])
-      .map(s => [colorFor(s), s.vals[i].toFixed(1), (colorOf[s.id] ? '' : '✓ ') + s.title]);
-    showTip(e.clientX, e.clientY, `${md(pts[i].date)}〜の週（回/日）`, rows);
+      .map(s => [colorFor(s), s.vals[i].toFixed(1), `${s.no}. ${s.title}`]);
+    showTip(e.clientX, e.clientY, `${md(pts[i].date)}〜の週（1日あたりの回数）`, rows);
+    return prevHot;
+  };
+  const clear = () => { cross.setAttribute('visibility', 'hidden'); emphasize(state.focus); hideTip(); hot = null; };
+  svg.addEventListener('pointermove', e => { if (e.pointerType === 'mouse') inspect(e); });
+  svg.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') clear(); });
+  svg.addEventListener('click', e => { if (hot && e.pointerType !== 'touch') location.href = movieUrl(hot.id); });
+  // タッチ：タップで値を表示、同じ線をもう一度タップすると作品ページへ
+  svg.addEventListener('pointerdown', e => {
+    if (e.pointerType === 'mouse') return;
+    const before = inspect(e);
+    if (hot && before && before.id === hot.id) location.href = movieUrl(hot.id);
   });
-  svg.addEventListener('pointerleave', () => { cross.setAttribute('visibility', 'hidden'); reset(); hideTip(); hot = null; });
-  svg.addEventListener('click', () => { if (hot) location.href = movieUrl(hot.id); });
+  if (!renderTrend.outside) {
+    renderTrend.outside = true;
+    document.addEventListener('pointerdown', e => {
+      if (e.pointerType !== 'mouse' && !e.target.closest('#trend')) { hideTip(); }
+    });
+  }
 
   // 表（全作品。グラフに出ていない作品もここで読める）
   const sum = a => a.reduce((x, y) => x + y, 0);
@@ -860,10 +788,7 @@ function renderEval() {
 
 function render() {
   const movies = aggregate();
-  $('period').textContent = `今週の上映（${PERIOD}）`;
-  renderTiles(movies);
   renderRanking(movies);
-  renderScatter(movies);
 }
 function renderAll() { render(); renderTrend(); renderEval(); }
 
@@ -876,7 +801,7 @@ $('themeBtn').addEventListener('click', () => {
 });
 try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (_) {}
 matchMedia('(prefers-color-scheme: dark)').addEventListener('change', renderAll);
-let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { renderScatter(aggregate()); renderTrend(); }, 150); });
+let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(renderTrend, 150); });
 renderAll();
 </script>
 </body>
