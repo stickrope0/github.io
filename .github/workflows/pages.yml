@@ -5,6 +5,12 @@ on:
     branches:
       - master
   workflow_dispatch:
+  # 週次取得の bot の push（GITHUB_TOKEN）では push トリガーが起動しないため、取得完了をきっかけに公開する
+  workflow_run:
+    workflows:
+      - 新宿映画館スケジュール取得
+    types:
+      - completed
 
 permissions:
   contents: read
@@ -15,6 +21,8 @@ concurrency:
 
 jobs:
   deploy:
+    # 取得が失敗したときは公開しない
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     permissions:
       contents: read
