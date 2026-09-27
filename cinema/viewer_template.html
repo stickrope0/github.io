@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>新宿シネマ</title>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#ffffff;--bg-sub:#f4f4f4;--card:#ffffff;
+  --text:#1f1f1f;--sub:#7a7a7a;--line:#e6e6e6;
+  --star:#ffb800;--star-off:#dcdcdc;
+  --ink:#1f1f1f;--ink-text:#ffffff;
+  --new:#e8433f;--chip:#f0f0f0;--chk:#2a78d6;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121212;--bg-sub:#1b1b1b;--card:#1e1e1e;
+  --text:#ececec;--sub:#9a9a9a;--line:#2c2c2c;
+  --star:#ffc233;--star-off:#3a3a3a;
+  --ink:#ececec;--ink-text:#121212;--chip:#262626;
+}}
+:root[data-theme="dark"]{
+  --bg:#121212;--bg-sub:#1b1b1b;--card:#1e1e1e;
+  --text:#ececec;--sub:#9a9a9a;--line:#2c2c2c;
+  --star:#ffc233;--star-off:#3a3a3a;
+  --ink:#ececec;--ink-text:#121212;--chip:#262626;
+}
+body{background:var(--bg-sub);color:var(--text);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",system-ui,sans-serif;-webkit-text-size-adjust:100%;line-height:1.5}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--star);outline-offset:2px}
+
+/* ── Header ── */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+.hd-in{max-width:1080px;margin:0 auto;padding:0 16px;height:56px;display:flex;align-items:center;gap:16px}
+.logo{font-weight:800;font-size:1.15rem;letter-spacing:.02em;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.logo-mark{width:26px;height:26px;border-radius:6px;background:var(--ink);color:var(--ink-text);display:grid;place-items:center;font-size:.8rem}
+.search{flex:1;max-width:360px;margin-left:auto;position:relative}
+.search input{width:100%;height:36px;border-radius:18px;border:1px solid var(--line);background:var(--bg-sub);color:var(--text);padding:0 14px 0 34px;font-size:.85rem}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--sub)}
+.nav{max-width:1080px;margin:0 auto;padding:0 16px;display:flex;gap:24px}
+.nav button{padding:10px 0 11px;font-size:.88rem;font-weight:700;color:var(--sub);border-bottom:3px solid transparent}
+.nav button[aria-selected="true"]{color:var(--text);border-color:var(--ink)}
+.nav .nav-link{padding:10px 0 11px;font-size:.88rem;font-weight:700;color:var(--sub);border-bottom:3px solid transparent}
+.nav .nav-link:hover{color:var(--text)}
+
+/* ── Layout ── */
+main{max-width:1080px;min-width:0;margin:0 auto;padding:20px 16px 64px}
+.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:16px}
+.chips{display:flex;gap:8px;min-width:0;flex:0 1 auto;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;max-width:100%}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;padding:6px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:.8rem;font-weight:600;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--ink-text);border-color:var(--ink)}
+.chip .dow-sat{color:#3b7ddd}.chip .dow-sun{color:#e0453f}
+.chip[aria-pressed="true"] .dow-sat,.chip[aria-pressed="true"] .dow-sun{color:inherit}
+.sort{display:flex;gap:4px;font-size:.8rem}
+.sort button{padding:4px 8px;color:var(--sub);font-weight:600}
+.sort .sort-chk{margin-left:6px;padding-left:12px;border-left:1px solid var(--line);border-radius:0}
+.sort button[aria-pressed="true"]{color:var(--text);text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
+.sec-title{font-size:1.05rem;font-weight:800;margin-bottom:14px;display:flex;align-items:baseline;gap:8px}
+.sec-title small{font-size:.78rem;color:var(--sub);font-weight:600}
+
+/* ── Stars ── */
+.stars{position:relative;display:inline-block;font-size:.85rem;letter-spacing:1px;line-height:1;color:var(--star-off)}
+.stars::before{content:"★★★★★"}
+.stars i{position:absolute;inset:0;overflow:hidden;color:var(--star);width:calc(var(--v) / 5 * 100%);white-space:nowrap;font-style:normal}
+.stars i::before{content:"★★★★★"}
+.score{font-weight:800;font-size:.95rem;color:var(--text);font-variant-numeric:tabular-nums}
+.rate{display:flex;align-items:center;gap:6px}
+.rate.none .score{color:var(--sub);font-weight:600;font-size:.8rem}
+
+/* ── Poster grid ── */
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 12px}
+@media(min-width:600px){.grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px 16px}}
+@media(min-width:900px){.grid{grid-template-columns:repeat(6,minmax(0,1fr))}}
+.card{display:block;cursor:pointer}
+/* check ボタン */
+.cwrap{position:relative;min-width:0}
+.chk{position:absolute;top:6px;right:6px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:rgba(0,0,0,.5);color:#fff;border:1.5px solid rgba(255,255,255,.85);transition:background .15s,transform .15s}
+.chk:hover{transform:scale(1.08)}
+.chk[aria-pressed="true"]{background:var(--chk);border-color:var(--chk)}
+.chk svg{width:15px;height:15px}
+.chk-lg{display:inline-flex;align-items:center;gap:6px;margin-top:14px;padding:7px 16px;border-radius:999px;font-size:.85rem;font-weight:700;color:#fff;border:1.5px solid rgba(255,255,255,.7);background:rgba(255,255,255,.08)}
+.chk-lg:hover{background:rgba(255,255,255,.18)}
+.chk-lg[aria-pressed="true"]{background:var(--chk);border-color:var(--chk)}
+.chk-lg svg{width:16px;height:16px}
+.poster{position:relative;aspect-ratio:2/3;border-radius:4px;overflow:hidden;background:var(--line);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.poster img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.card:hover .poster img{transform:scale(1.04)}
+.poster .ph{position:absolute;inset:0;display:grid;place-items:center;padding:8px;text-align:center;font-size:.72rem;color:var(--sub)}
+.tag-new{position:absolute;top:6px;left:6px;background:var(--new);color:#fff;font-size:.62rem;font-weight:800;padding:2px 6px;border-radius:3px;letter-spacing:.04em}
+.card h3{font-size:.8rem;font-weight:700;margin-top:6px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
+/* ポスター直下のステータス帯 */
+.card .poster{border-radius:4px 4px 0 0;box-shadow:none}
+.pbox{border-radius:4px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.14);background:var(--card)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);background:var(--card)}
+.stat{display:flex;align-items:center;justify-content:center;gap:3px;padding:6px 2px;font-size:.72rem;font-weight:700;color:var(--sub);font-variant-numeric:tabular-nums;white-space:nowrap;min-width:0}
+.stat+.stat{border-left:1px solid var(--line)}
+.stat svg{flex-shrink:0;width:12px;height:12px}
+.stat small{font-size:.6rem;font-weight:600}
+.stat.st{color:var(--text)}
+.stat.st svg{color:var(--star)}
+.stat.st.none{color:var(--sub)}
+.stat.st.none svg{color:var(--star-off)}
+@media(max-width:420px){.stat{font-size:.66rem;gap:2px}.stat svg{width:10px;height:10px}.stat small{display:none}}
+
+/* ── Theater view ── */
+.th-block{background:var(--card);border-radius:8px;padding:16px;margin-bottom:14px}
+.th-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:12px}
+.th-head h3{font-size:.95rem;font-weight:800}
+.th-head span{font-size:.75rem;color:var(--sub)}
+.row-scroll{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x proximity}
+.row-scroll .cwrap{flex:0 0 116px;scroll-snap-align:start}
+.row-scroll .stat{font-size:.66rem;gap:2px}.row-scroll .stat svg{width:10px;height:10px}.row-scroll .stat small{display:none}
+/* 劇場ビュー：選択日の上映開始時刻 */
+.stimes{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+.stimes span{padding:2px 0;width:calc((100% - 8px) / 3);text-align:center;border:1px solid var(--line);border-radius:3px;background:var(--bg);font-size:.7rem;font-weight:700;font-variant-numeric:tabular-nums;color:var(--text)}
+
+/* ── Detail ── */
+.hero{position:relative;overflow:hidden;background:#111;color:#fff}
+.hero-bg{position:absolute;inset:-40px;background-size:cover;background-position:center;filter:blur(28px) brightness(.45);transform:scale(1.1)}
+.hero-in{position:relative;max-width:1080px;margin:0 auto;padding:28px 16px;display:flex;gap:20px;align-items:flex-end}
+.hero .poster{flex:0 0 120px;box-shadow:0 8px 24px rgba(0,0,0,.5)}
+@media(min-width:600px){.hero .poster{flex-basis:180px}.hero-in{gap:32px;padding:40px 16px}}
+.hero h1{font-size:1.25rem;font-weight:800;line-height:1.35}
+@media(min-width:600px){.hero h1{font-size:1.7rem}}
+.hero-meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:.8rem;color:rgba(255,255,255,.75);margin-top:8px}
+.hero .rate{margin-top:14px}
+.hero .stars{font-size:1.25rem;--star-off:rgba(255,255,255,.25)}
+.hero .score{font-size:1.9rem;color:#fff}
+.hero .rate.none .score{font-size:.9rem;color:rgba(255,255,255,.6)}
+.badge{display:inline-block;padding:1px 7px;border-radius:3px;font-size:.7rem;font-weight:700;border:1px solid currentColor}
+.back{display:inline-flex;align-items:center;gap:4px;font-size:.8rem;color:rgba(255,255,255,.8);margin-bottom:6px}
+
+.sched{background:var(--card);border-radius:8px;overflow:hidden}
+.sched .chips{padding:14px 16px;border-bottom:1px solid var(--line)}
+.th-row{padding:14px 16px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr;gap:8px}
+.th-row:last-child{border-bottom:none}
+@media(min-width:600px){.th-row{grid-template-columns:220px 1fr;align-items:start}}
+.th-name{font-weight:700;font-size:.88rem;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.fmt{font-size:.66rem;font-weight:700;padding:1px 6px;border-radius:3px;background:var(--chip);color:var(--sub)}
+.fmt.hi{background:var(--ink);color:var(--ink-text)}
+.times{display:flex;flex-wrap:wrap;gap:6px}
+.time{min-width:62px;text-align:center;padding:7px 10px;border:1px solid var(--line);border-radius:4px;font-size:.88rem;font-weight:700;font-variant-numeric:tabular-nums;background:var(--bg)}
+.empty{text-align:center;color:var(--sub);padding:48px 16px;font-size:.88rem}
+.theme-btn{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;color:var(--sub);flex-shrink:0}
+.theme-btn:hover{background:var(--bg-sub)}
+@media(max-width:520px){.logo span.t{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hd-in">
+    <a class="logo" href="#/"><span class="logo-mark">▶</span><span class="t">新宿シネマ</span></a>
+    <label class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="作品名で検索" aria-label="作品名で検索">
+    </label>
+    <button class="theme-btn" id="themeBtn" aria-label="テーマ切替">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+  <nav class="nav" id="nav" role="tablist">
+    <button role="tab" data-view="movies">作品から探す</button>
+    <button role="tab" data-view="theaters">劇場から探す</button>
+    <a class="nav-link" href="stats.html">グラフ</a>
+  </nav>
+</header>
+<div id="app"></div>
+
+<script>
+/*@include check_sync.js*/
+const RAW = DATA_PLACEHOLDER;
+const PREV = PREV_PLACEHOLDER;
+
+const PREV_IDS = new Set(PREV.map(r => r.movie_id));
+const DATES = [...new Set(RAW.map(r => r.date))].sort();
+const THEATERS = [...new Set(RAW.map(r => r.theater_name))].sort((a,b)=>a.localeCompare(b,'ja'));
+const W = ['日','月','火','水','木','金','土'];
+
+const state = { date: 'all', sort: 'count', q: '' };
+
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function dInfo(d){const t=new Date(d+'T00:00:00');return{md:`${t.getMonth()+1}/${t.getDate()}`,w:W[t.getDay()],dow:t.getDay()}}
+function dateChip(d, on, attr){
+  if(d==='all') return `<button class="chip" ${attr}="all" aria-pressed="${on}">すべて</button>`;
+  const i=dInfo(d), cls=i.dow===6?'dow-sat':i.dow===0?'dow-sun':'';
+  return `<button class="chip" ${attr}="${d}" aria-pressed="${on}">${i.md}<span class="${cls}">（${i.w}）</span></button>`;
+}
+function relKey(s){const m=String(s).match(/(\d+)月(\d+)日/);return m?(+m[1])*100+(+m[2]):0}
+function relShort(s){const m=String(s).match(/(\d+)月(\d+)日/);return m?`${m[1]}/${m[2]}公開`:''}
+function rate(star, cls=''){
+  if(!star) return `<div class="rate none ${cls}"><span class="stars" style="--v:0"><i></i></span><span class="score">評価なし</span></div>`;
+  return `<div class="rate ${cls}"><span class="stars" style="--v:${star}"><i></i></span><span class="score">${star.toFixed(1)}</span></div>`;
+}
+const ICON = {
+  star:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg>',
+  film:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/></svg>',
+  pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
+};
+// ポスター＋直下のステータス帯（評価・上映回数・上映館）
+function posterBox(m, n, th){
+  const st = m.star
+    ? `<span class="stat st" title="評価">${ICON.star}${m.star.toFixed(1)}</span>`
+    : `<span class="stat st none" title="評価なし">${ICON.star}-</span>`;
+  return `<div class="pbox">${posterHtml(m)}<div class="stats">${st}` +
+    `<span class="stat" title="上映回数">${ICON.film}${n}<small>回</small></span>` +
+    `<span class="stat" title="上映館">${ICON.pin}${th}<small>館</small></span></div></div>`;
+}
+function syncChk(b){
+  const on = Checks.has(b.dataset.chk);
+  b.setAttribute('aria-pressed', on);
+  b.setAttribute('aria-label', on ? 'checkを外す' : 'checkする');
+  if (b.classList.contains('chk-lg')) b.querySelector('span').textContent = on ? 'checked' : 'check';
+}
+const CHK_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
+const chkBtn = id => `<button class="chk" data-chk="${esc(id)}" aria-pressed="${Checks.has(id)}" aria-label="${Checks.has(id)?'checkを外す':'checkする'}" title="check">${CHK_ICON}</button>`;
+// check が変わったら（このページ・別タブ・別端末からの同期のいずれでも）ボタンと一覧を更新
+Checks.onChange(()=>{
+  document.querySelectorAll('[data-chk]').forEach(syncChk);
+  if(state.sort==='checked' && !/^#\/(movie|theaters)/.test(location.hash)) router();
+});
+function posterHtml(m){
+  return `<div class="poster"><div class="ph">${esc(m.title)}</div>${m.poster?`<img src="${esc(m.poster)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}${m.isNew?'<span class="tag-new">NEW</span>':''}</div>`;
+}
+
+// 作品ごとに集約
+const MOVIES = (()=>{
+  const map={};
+  for(const r of RAW){
+    const m = map[r.movie_id] ??= {id:r.movie_id,title:r.title,release:r.release_date,duration:r.duration,rating:r.rating,
+      star:parseFloat(r.star)||0,poster:r.poster||'',isNew:PREV.length>0&&!PREV_IDS.has(r.movie_id),byDate:{},thByDate:{},theaters:new Set()};
+    m.byDate[r.date]=(m.byDate[r.date]||0)+(r.showtimes||[]).length;
+    m.theaters.add(r.theater_name);
+    (m.thByDate[r.date]??=new Set()).add(r.theater_name);
+  }
+  return Object.values(map);
+})();
+const byId = Object.fromEntries(MOVIES.map(m=>[m.id,m]));
+const count = m => state.date==='all' ? Object.values(m.byDate).reduce((a,b)=>a+b,0) : (m.byDate[state.date]||0);
+const thCount = (m, d=state.date) => d==='all' ? m.theaters.size : (m.thByDate[d]?.size||0);
+
+function setNav(view){
+  document.querySelectorAll('#nav button').forEach(b=>b.setAttribute('aria-selected', b.dataset.view===view));
+  document.getElementById('nav').style.display = view ? '' : 'none';
+}
+
+function renderMovies(){
+  setNav('movies');
+  const q=state.q.trim().toLowerCase();
+  const onlyChecked = state.sort==='checked';
+  let list = MOVIES.filter(m=>count(m)>0 && (!q || m.title.toLowerCase().includes(q)) && (!onlyChecked || Checks.has(m.id)));
+  const sorters = {
+    count:(a,b)=>count(b)-count(a)||b.star-a.star,
+    star:(a,b)=>b.star-a.star||count(b)-count(a),
+    release:(a,b)=>relKey(b.release)-relKey(a.release),
+  };
+  list.sort(sorters[onlyChecked ? 'count' : state.sort]);
+  const cards = list.map(m=>`
+    <div class="cwrap"><a class="card" href="#/movie/${esc(m.id)}">
+      ${posterBox(m, count(m), thCount(m))}
+      <h3>${esc(m.title)}</h3>
+    </a>${chkBtn(m.id)}</div>`).join('');
+  app.innerHTML = `<main>
+    <div class="toolbar">
+      <div class="chips">${['all',...DATES].map(d=>dateChip(d,state.date===d,'data-date')).join('')}</div>
+      <div class="sort">
+        <button data-sort="count" aria-pressed="${state.sort==='count'}">上映回数順</button>
+        <button data-sort="star" aria-pressed="${state.sort==='star'}">評価順</button>
+        <button data-sort="release" aria-pressed="${state.sort==='release'}">公開日順</button>
+        <button data-sort="checked" aria-pressed="${onlyChecked}" class="sort-chk">✓ checkのみ</button>
+      </div>
+    </div>
+    <h2 class="sec-title">${onlyChecked?'check した作品':'上映中の作品'}<small>${list.length}作品</small></h2>
+    ${list.length?`<div class="grid">${cards}</div>`:`<p class="empty">${onlyChecked&&!q?'check した作品はまだありません。<br>ポスター右上の ✓ ボタンで check できます。':'該当する作品がありません'}</p>`}
+  </main>`;
+}
+
+function renderTheaters(){
+  setNav('theaters');
+  const day = state.date==='all' ? DATES[0] : state.date;
+  const q=state.q.trim().toLowerCase();
+  const blocks = THEATERS.map(th=>{
+    const rows = RAW.filter(r=>r.theater_name===th && r.date===day && (!q||r.title.toLowerCase().includes(q)));
+    const per={};
+    for(const r of rows){(per[r.movie_id]??=[]).push(...r.showtimes)}
+    const ids=Object.keys(per).sort((a,b)=>per[b].length-per[a].length);
+    if(!ids.length) return '';
+    const cards=ids.map(id=>{const m=byId[id];const t=[...new Set(per[id])].sort((a,b)=>a.padStart(5,'0').localeCompare(b.padStart(5,'0')));
+      return `<div class="cwrap"><a class="card" href="#/movie/${esc(id)}">${posterBox(m, t.length, thCount(m, day))}<h3>${esc(m.title)}</h3><div class="stimes">${t.map(x=>`<span>${esc(x)}</span>`).join('')}</div></a>${chkBtn(id)}</div>`}).join('');
+    return `<section class="th-block"><div class="th-head"><h3>${esc(th)}</h3><span>${ids.length}作品</span></div><div class="row-scroll">${cards}</div></section>`;
+  }).join('');
+  app.innerHTML = `<main>
+    <div class="toolbar"><div class="chips">${DATES.map(d=>dateChip(d,day===d,'data-date')).join('')}</div></div>
+    ${blocks||'<p class="empty">該当する上映がありません</p>'}
+  </main>`;
+}
+
+function renderDetail(id){
+  const m=byId[id];
+  setNav(null);
+  if(!m){app.innerHTML='<p class="empty">作品が見つかりません</p>';return}
+  const days = DATES.filter(d=>m.byDate[d]);
+  const day = days.includes(state.detailDate) ? state.detailDate : days[0];
+  const ents={};
+  for(const r of RAW){
+    if(r.movie_id!==id||r.date!==day) continue;
+    const e = ents[r.theater_name] ??= {name:r.theater_name,fmts:{}};
+    (e.fmts[r.format]??=[]).push(...r.showtimes);
+  }
+  const hi=/IMAX|Dolby|4D|ScreenX/i;
+  const rows = Object.values(ents).sort((a,b)=>a.name.localeCompare(b.name,'ja')).flatMap(e=>
+    Object.entries(e.fmts).map(([f,t])=>`
+      <div class="th-row">
+        <div class="th-name">${esc(e.name)}${f&&f!=='通常'?`<span class="fmt ${hi.test(f)?'hi':''}">${esc(f)}</span>`:''}</div>
+        <div class="times">${[...new Set(t)].sort((a,b)=>a.padStart(5,'0').localeCompare(b.padStart(5,'0'))).map(x=>`<span class="time">${esc(x)}</span>`).join('')}</div>
+      </div>`)).join('');
+  app.innerHTML = `
+    <section class="hero">
+      <div class="hero-bg" style="background-image:url('${esc(m.poster)}')"></div>
+      <div class="hero-in">
+        ${posterHtml(m)}
+        <div>
+          <a class="back" href="#/">‹ 一覧に戻る</a>
+          <h1>${esc(m.title)}</h1>
+          <div class="hero-meta">
+            ${m.release?`<span>${esc(relShort(m.release)||m.release)}</span>`:''}
+            ${m.duration?`<span>${esc(m.duration)}</span>`:''}
+            ${m.rating?`<span class="badge">${esc(m.rating)}</span>`:''}
+          </div>
+          ${rate(m.star)}
+          <button class="chk-lg" data-chk="${esc(m.id)}" aria-pressed="${Checks.has(m.id)}">${CHK_ICON}<span>${Checks.has(m.id)?'checked':'check'}</span></button>
+        </div>
+      </div>
+    </section>
+    <main>
+      <h2 class="sec-title">上映スケジュール<small>${m.theaters.size}館</small></h2>
+      <div class="sched">
+        <div class="chips">${days.map(d=>dateChip(d,d===day,'data-ddate')).join('')}</div>
+        ${rows||'<p class="empty">スケジュールがありません</p>'}
+      </div>
+    </main>`;
+  window.scrollTo(0,0);
+}
+
+const app=document.getElementById('app');
+function router(){
+  const h=location.hash.replace(/^#\/?/,'');
+  const mm=h.match(/^movie\/(\d+)$/);
+  if(mm) return renderDetail(mm[1]);
+  if(h==='theaters') return renderTheaters();
+  renderMovies();
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  if(b.dataset.chk){e.preventDefault();Checks.toggle(b.dataset.chk);return}
+  if(b.dataset.view){location.hash='/'+(b.dataset.view==='movies'?'':b.dataset.view);return}
+  if(b.dataset.date){state.date=b.dataset.date;router()}
+  if(b.dataset.ddate){state.detailDate=b.dataset.ddate;router()}
+  if(b.dataset.sort){state.sort=b.dataset.sort;router()}
+});
+document.getElementById('q').addEventListener('input',e=>{
+  state.q=e.target.value;
+  if(/^#\/movie\//.test(location.hash)) location.hash='/'; else router();
+});
+document.getElementById('themeBtn').addEventListener('click',()=>{
+  const r=document.documentElement;
+  const dark = r.dataset.theme ? r.dataset.theme==='dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  r.dataset.theme = dark ? 'light' : 'dark';
+  try{localStorage.setItem('theme',r.dataset.theme)}catch(_){}
+});
+try{const t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(_){}
+window.addEventListener('hashchange',router);
+router();
+</script>
+</body>
+</html>

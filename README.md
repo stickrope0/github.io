@@ -74,6 +74,12 @@ python scraper.py
 スケジュール閲覧ページ:
 `https://stickrope0.github.io/github.io/cinema/out/viewer.html`
 
+グラフページ（上映回数の推移・ランキング・評価との散布図）:
+`https://stickrope0.github.io/github.io/cinema/out/stats.html`
+
+どちらも `scraper.py` の実行時に `cinema/viewer_template.html` / `cinema/stats_template.html` から生成されます。
+作品の check 状態はブラウザ内（localStorage）に保存され、2ページで共有されます。
+
 ## 注意事項
 
 - **個人利用前提**: 本スクリプトは個人的な情報収集を目的としています

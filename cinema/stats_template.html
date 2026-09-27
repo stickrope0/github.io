@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>新宿シネマ｜上映データ</title>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#ffffff;--bg-sub:#f4f4f4;--card:#ffffff;
+  --text:#1f1f1f;--sub:#6b6b6b;--muted:#8f8f8f;--line:#e6e6e6;
+  --grid:#ececec;--axis:#c9c9c9;
+  --ink:#1f1f1f;--ink-text:#ffffff;--star:#ffb800;
+  --s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300;--s7:#4a3aa7;--other:#b9b8b2;
+}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121212;--bg-sub:#1b1b1b;--card:#1e1e1e;
+  --text:#ececec;--sub:#a5a5a5;--muted:#8a8a8a;--line:#2c2c2c;
+  --grid:#2a2a2a;--axis:#3d3d3d;
+  --ink:#ececec;--ink-text:#121212;--star:#ffc233;
+  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--other:#5c5b57;
+}}
+:root[data-theme="dark"]{
+  --bg:#121212;--bg-sub:#1b1b1b;--card:#1e1e1e;
+  --text:#ececec;--sub:#a5a5a5;--muted:#8a8a8a;--line:#2c2c2c;
+  --grid:#2a2a2a;--axis:#3d3d3d;
+  --ink:#ececec;--ink-text:#121212;--star:#ffc233;
+  --s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--other:#5c5b57;
+}
+body{background:var(--bg-sub);color:var(--text);font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",system-ui,sans-serif;-webkit-text-size-adjust:100%;line-height:1.5}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--s1);outline-offset:2px}
+
+/* ── Header（viewer と共通） ── */
+header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+.hd-in{max-width:1080px;margin:0 auto;padding:0 16px;height:56px;display:flex;align-items:center;gap:16px}
+.logo{font-weight:800;font-size:1.15rem;display:flex;align-items:center;gap:8px;white-space:nowrap;margin-right:auto}
+.logo-mark{width:26px;height:26px;border-radius:6px;background:var(--ink);color:var(--ink-text);display:grid;place-items:center;font-size:.8rem}
+.theme-btn{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;color:var(--sub)}
+.theme-btn:hover{background:var(--bg-sub)}
+.nav{max-width:1080px;margin:0 auto;padding:0 16px;display:flex;gap:24px}
+.nav a{padding:10px 0 11px;font-size:.88rem;font-weight:700;color:var(--sub);border-bottom:3px solid transparent}
+.nav a[aria-current="page"]{color:var(--text);border-color:var(--ink)}
+
+main{max-width:1080px;margin:0 auto;padding:20px 16px 64px}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;min-width:0}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;padding:6px 14px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-size:.8rem;font-weight:600;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--ink-text);border-color:var(--ink)}
+.card-head{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:flex-start;justify-content:space-between}
+.seg{display:inline-flex;background:var(--bg-sub);border-radius:8px;padding:3px;gap:2px;flex-shrink:0}
+.seg button{padding:5px 12px;border-radius:6px;font-size:.8rem;font-weight:700;color:var(--sub);white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--card);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.period{font-size:.8rem;font-weight:700;color:var(--sub);margin:4px 2px 8px}
+/* 開閉式カード */
+details.acc>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px}
+details.acc>summary::-webkit-details-marker{display:none}
+details.acc>summary .chev{flex-shrink:0;color:var(--sub);transition:transform .2s}
+details.acc[open]>summary .chev{transform:rotate(180deg)}
+details.acc>summary:hover h2{text-decoration:underline;text-underline-offset:3px}
+
+/* ── Stat tiles ── */
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:16px}
+@media(min-width:700px){.tiles{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.tile{background:var(--card);border-radius:8px;padding:14px 16px}
+.tile-label{font-size:.75rem;color:var(--sub);font-weight:600}
+.tile-value{font-size:1.6rem;font-weight:700;line-height:1.3}
+.tile-value small{font-size:.8rem;color:var(--sub);font-weight:600;margin-left:2px}
+
+/* ── Card ── */
+.card{background:var(--card);border-radius:8px;padding:18px 16px 16px;margin-bottom:16px}
+@media(min-width:700px){.card{padding:22px 24px 20px}}
+.card h2{font-size:1rem;font-weight:800}
+.card .desc{font-size:.78rem;color:var(--sub);margin-top:2px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin:14px 0 6px;font-size:.74rem;color:var(--sub)}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend i{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+.legend i.dot{border-radius:50%}
+details.table-view{margin-top:14px;font-size:.78rem}
+details.table-view summary{cursor:pointer;color:var(--sub);font-weight:600;width:max-content}
+.tbl-wrap{overflow-x:auto;margin-top:8px;max-height:360px;overflow-y:auto;border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:var(--card);max-width:200px;overflow:hidden;text-overflow:ellipsis}
+thead th{position:sticky;top:0;background:var(--card);color:var(--sub);font-weight:600;z-index:1}
+thead th:first-child{z-index:2}
+
+/* ── ① ランキング（積み上げ横棒） ── */
+.bars{margin-top:10px}
+.bar-row{display:grid;grid-template-columns:1fr;gap:3px;padding:6px 4px;border-radius:6px;cursor:pointer}
+@media(min-width:700px){.bar-row{grid-template-columns:220px 1fr;gap:12px;align-items:center}}
+.bar-row:hover,.bar-row:focus-visible{background:var(--bg-sub)}
+.bar-title{font-size:.8rem;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-title b{display:inline-block;width:1.8em;color:var(--muted);font-weight:600;font-variant-numeric:tabular-nums}
+.bar-track{display:flex;align-items:center;gap:8px;min-width:0}
+.bar{display:flex;gap:2px;height:16px;min-width:0}
+.bar span{height:100%;flex-shrink:0}
+.bar span:last-child{border-radius:0 4px 4px 0}
+.bar-val{font-size:.78rem;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
+.more{margin-top:10px;font-size:.8rem;font-weight:700;color:var(--sub);padding:6px 10px;border:1px solid var(--line);border-radius:999px}
+.more:hover{color:var(--text)}
+
+/* ── ③ 散布図 ── */
+.scatter{position:relative;margin-top:6px}
+.scatter svg{display:block;width:100%;overflow:visible}
+.note{font-size:.72rem;color:var(--muted);margin-top:6px}
+
+/* ── ② 推移（スモールマルチプル） ── */
+.trend{position:relative;margin-top:6px}
+.trend svg{display:block;width:100%;overflow:visible}
+.lg-chk{background:var(--bg-sub);border-radius:999px;padding:1px 4px 1px 8px}
+.lg-x{width:18px;height:18px;border-radius:50%;font-size:.8rem;line-height:1;color:var(--sub);display:grid;place-items:center}
+.lg-x:hover{background:var(--line);color:var(--text)}
+.legend i.ln{height:3px;width:14px;border-radius:2px}
+
+/* ── Tooltip ── */
+#tip{position:fixed;z-index:100;pointer-events:none;background:var(--card);color:var(--text);border:1px solid var(--line);box-shadow:0 4px 16px rgba(0,0,0,.14);border-radius:6px;padding:8px 10px;font-size:.75rem;min-width:120px;max-width:260px;opacity:0;transition:opacity .1s}
+#tip.on{opacity:1}
+#tip .tt-head{font-weight:700;margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#tip .tt-row{display:flex;align-items:center;gap:6px;line-height:1.6}
+#tip .tt-row i{width:10px;height:2px;border-radius:1px;flex-shrink:0}
+#tip .tt-row b{font-variant-numeric:tabular-nums;min-width:2.4em;text-align:right}
+#tip .tt-row span{color:var(--sub)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hd-in">
+    <a class="logo" href="viewer.html#/"><span class="logo-mark">▶</span><span>新宿シネマ</span></a>
+    <button class="theme-btn" id="themeBtn" aria-label="テーマ切替">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+  <nav class="nav">
+    <a href="viewer.html#/">作品から探す</a>
+    <a href="viewer.html#/theaters">劇場から探す</a>
+    <a href="stats.html" aria-current="page">グラフ</a>
+  </nav>
+</header>
+
+<main>
+  <section class="card">
+    <div class="card-head">
+      <div>
+        <h2>上映回数の推移</h2>
+        <p class="desc">今週の上映回数が多い7作品と、check した作品の「1日あたりの平均上映回数」です。</p>
+      </div>
+      <div class="seg" id="rangeSeg" role="group" aria-label="表示期間"></div>
+    </div>
+    <div class="legend" id="trendLegend"></div>
+    <div class="trend" id="trend"></div>
+    <p class="note" id="histNote"></p>
+    <details class="table-view"><summary>表で見る（全作品）</summary><div class="tbl-wrap" id="trendTable"></div></details>
+  </section>
+
+  <p class="period" id="period"></p>
+  <div class="tiles" id="tiles"></div>
+
+  <details class="card acc">
+    <summary>
+      <div>
+        <h2>上映回数ランキング</h2>
+        <p class="desc" id="rankDesc"></p>
+      </div>
+      <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+    </summary>
+    <div class="legend" id="rankLegend"></div>
+    <div class="bars" id="bars"></div>
+    <button class="more" id="moreBtn"></button>
+    <details class="table-view"><summary>表で見る</summary><div class="tbl-wrap" id="rankTable"></div></details>
+  </details>
+
+  <section class="card">
+    <h2>評価 × 上映回数</h2>
+    <p class="desc">右下ほど「評価が高いのに上映が少ない」作品です。点を押すと上映スケジュールを開きます。</p>
+    <div class="legend">
+      <span><i class="dot" style="background:var(--s1)"></i>継続上映</span>
+      <span><i class="dot" style="background:var(--s2)"></i>NEW（前回から追加）</span>
+    </div>
+    <div class="scatter" id="scatter"></div>
+    <p class="note" id="scatterNote"></p>
+  </section>
+</main>
+<div id="tip" role="tooltip"></div>
+
+<script>
+/*@include check_sync.js*/
+const RAW = DATA_PLACEHOLDER;
+const PREV = PREV_PLACEHOLDER;
+const HIST = HIST_PLACEHOLDER;
+
+const W = ['日','月','火','水','木','金','土'];
+const DATES = [...new Set(RAW.map(r => r.date))].sort();
+const PREV_IDS = new Set(PREV.map(r => r.movie_id));
+const state = { range: 1, showAll: false };
+const RANGES = [1, 2, 3];
+const $ = id => document.getElementById(id);
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el = (tag, attrs = {}, text) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  if (text != null) e.textContent = text;
+  return e;
+};
+const SVGNS = 'http://www.w3.org/2000/svg';
+const svgEl = (tag, attrs = {}) => {
+  const e = document.createElementNS(SVGNS, tag);
+  for (const [k, v] of Object.entries(attrs)) e.setAttribute(k, v);
+  return e;
+};
+const md = d => { const t = new Date(d + 'T00:00:00'); return `${t.getMonth() + 1}/${t.getDate()}`; };
+const PERIOD = `${md(DATES[0])}〜${md(DATES[DATES.length - 1])}`;
+const movieUrl = id => `viewer.html#/movie/${encodeURIComponent(id)}`;
+function niceMax(v) {
+  if (v <= 0) return 1;
+  const p = Math.pow(10, Math.floor(Math.log10(v)));
+  for (const m of [1, 2, 2.5, 5, 10]) if (m * p >= v) return m * p;
+  return 10 * p;
+}
+
+// ── 劇場の色：全期間の上映回数順に固定（日付を切り替えても色は変わらない） ──
+const TH_TOTAL = {};
+for (const r of RAW) TH_TOTAL[r.theater_name] = (TH_TOTAL[r.theater_name] || 0) + r.showtimes.length;
+const TH_ORDER = Object.keys(TH_TOTAL).sort((a, b) => TH_TOTAL[b] - TH_TOTAL[a]);
+const MAIN_TH = TH_ORDER.slice(0, 7);
+const OTHER_TH = TH_ORDER.slice(7);
+const GROUPS = [...MAIN_TH.map((t, i) => ({ key: t, label: t, color: `var(--s${i + 1})` }))];
+if (OTHER_TH.length) GROUPS.push({ key: '__other', label: `その他（${OTHER_TH.length}館）`, color: 'var(--other)', members: OTHER_TH });
+const groupOf = th => MAIN_TH.includes(th) ? th : '__other';
+
+// ── 集計 ──
+function aggregate() {
+  const map = {};
+  for (const r of RAW) {
+    const m = map[r.movie_id] ??= { id: r.movie_id, title: r.title, star: parseFloat(r.star) || 0,
+      isNew: PREV.length > 0 && !PREV_IDS.has(r.movie_id), total: 0, byGroup: {}, theaters: new Set() };
+    const n = r.showtimes.length;
+    m.total += n;
+    m.byGroup[groupOf(r.theater_name)] = (m.byGroup[groupOf(r.theater_name)] || 0) + n;
+    m.theaters.add(r.theater_name);
+  }
+  return Object.values(map).filter(m => m.total > 0).sort((a, b) => b.total - a.total || b.star - a.star);
+}
+
+// ── Tooltip ──
+const tip = $('tip');
+function showTip(x, y, head, rows) {
+  tip.replaceChildren(el('div', { class: 'tt-head' }, head));
+  for (const [color, value, label] of rows) {
+    const row = el('div', { class: 'tt-row' });
+    const key = el('i'); key.style.background = color || 'transparent';
+    row.append(key, el('b', {}, value), el('span', {}, label));
+    tip.append(row);
+  }
+  tip.classList.add('on');
+  const r = tip.getBoundingClientRect();
+  let left = x + 14, top = y + 14;
+  if (left + r.width > innerWidth - 8) left = x - r.width - 14;
+  if (top + r.height > innerHeight - 8) top = y - r.height - 14;
+  tip.style.left = Math.max(8, left) + 'px';
+  tip.style.top = Math.max(8, top) + 'px';
+}
+const hideTip = () => tip.classList.remove('on');
+const centerOf = e => { const r = e.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2]; };
+
+// ── タイル ──
+function renderTiles(movies) {
+  const total = movies.reduce((a, m) => a + m.total, 0);
+  const ths = new Set(RAW.map(r => r.theater_name));
+  const tiles = [
+    ['上映作品', movies.length, '作品'],
+    ['総上映回数', total.toLocaleString(), '回'],
+    ['劇場', ths.size, '館'],
+    ['NEW作品', movies.filter(m => m.isNew).length, '作品'],
+  ];
+  $('tiles').replaceChildren(...tiles.map(([l, v, u]) => {
+    const t = el('div', { class: 'tile' });
+    const val = el('div', { class: 'tile-value' }, String(v));
+    val.append(el('small', {}, u));
+    t.append(el('div', { class: 'tile-label' }, l), val);
+    return t;
+  }));
+}
+
+// ── ① ランキング ──
+function renderRanking(movies) {
+  $('rankDesc').textContent = `${PERIOD}の合計。棒の色は劇場です。`;
+  $('rankLegend').replaceChildren(...GROUPS.map(g => {
+    const s = el('span'); const i = el('i'); i.style.background = g.color;
+    s.append(i, document.createTextNode(g.label));
+    if (g.members) s.title = g.members.join('、');
+    return s;
+  }));
+  const LIMIT = 20;
+  const list = state.showAll ? movies : movies.slice(0, LIMIT);
+  const max = movies[0]?.total || 1;
+  $('bars').replaceChildren(...list.map((m, idx) => {
+    const row = el('a', { class: 'bar-row', href: movieUrl(m.id), 'aria-label': `${m.title} ${m.total}回` });
+    const title = el('div', { class: 'bar-title' });
+    title.append(el('b', {}, String(idx + 1)), document.createTextNode(m.title));
+    const track = el('div', { class: 'bar-track' });
+    const bar = el('div', { class: 'bar' });
+    const segs = GROUPS.filter(g => m.byGroup[g.key]);
+    // 2pxの隙間の分を差し引いて、棒の長さを回数に比例させる
+    bar.style.width = `calc(${(m.total / max) * 88}% )`;
+    for (const g of segs) {
+      const s = el('span'); s.style.background = g.color;
+      s.style.width = `calc((100% - ${(segs.length - 1) * 2}px) * ${m.byGroup[g.key] / m.total})`;
+      bar.append(s);
+    }
+    track.append(bar, el('span', { class: 'bar-val' }, `${m.total}回`));
+    row.append(title, track);
+    const rows = () => segs.map(g => [g.color, `${m.byGroup[g.key]}回`, g.label]);
+    row.addEventListener('pointermove', e => showTip(e.clientX, e.clientY, m.title, rows()));
+    row.addEventListener('pointerleave', hideTip);
+    row.addEventListener('focus', () => { const [x, y] = centerOf(bar); showTip(x, y, m.title, rows()); });
+    row.addEventListener('blur', hideTip);
+    return row;
+  }));
+  const btn = $('moreBtn');
+  btn.hidden = movies.length <= LIMIT;
+  btn.textContent = state.showAll ? '上位20作品だけ表示' : `すべて表示（${movies.length}作品）`;
+  btn.onclick = () => { state.showAll = !state.showAll; render(); };
+
+  // 表
+  const tbl = el('table');
+  const hr = el('tr');
+  hr.append(el('th', {}, '作品'), el('th', {}, '合計'), ...GROUPS.map(g => el('th', {}, g.label)));
+  tbl.append(el('thead')); tbl.tHead.append(hr);
+  const tb = el('tbody');
+  for (const m of movies) {
+    const tr = el('tr');
+    tr.append(el('td', { title: m.title }, m.title), el('td', {}, String(m.total)), ...GROUPS.map(g => el('td', {}, String(m.byGroup[g.key] || ''))));
+    tb.append(tr);
+  }
+  tbl.append(tb);
+  $('rankTable').replaceChildren(tbl);
+}
+
+// ── ③ 散布図 ──
+function renderScatter(movies) {
+  const box = $('scatter');
+  const rated = movies.filter(m => m.star > 0);
+  const unrated = movies.length - rated.length;
+  $('scatterNote').textContent = unrated ? `評価がまだない${unrated}作品は表示していません。` : '';
+  const width = box.clientWidth || 600;
+  const height = width < 500 ? 260 : 320;
+  const M = { l: 36, r: 12, t: 12, b: 34 };
+  const iw = width - M.l - M.r, ih = height - M.t - M.b;
+  const stars = rated.map(m => m.star);
+  const x0 = Math.floor((Math.min(...stars) - 0.1) * 2) / 2, x1 = Math.min(5, Math.ceil((Math.max(...stars) + 0.1) * 2) / 2);
+  const yMax = niceMax(Math.max(...rated.map(m => m.total)));
+  const X = v => M.l + (v - x0) / (x1 - x0) * iw;
+  const Y = v => M.t + ih - v / yMax * ih;
+  const svg = svgEl('svg', { viewBox: `0 0 ${width} ${height}`, height, role: 'img', 'aria-label': '評価と上映回数の散布図' });
+
+  // グリッド・軸
+  const yTicks = 4;
+  for (let i = 0; i <= yTicks; i++) {
+    const v = yMax / yTicks * i, y = Y(v);
+    svg.append(svgEl('line', { x1: M.l, x2: width - M.r, y1: y, y2: y, stroke: i ? css('--grid') : css('--axis'), 'stroke-width': 1 }));
+    const t = svgEl('text', { x: M.l - 6, y: y + 4, 'text-anchor': 'end', 'font-size': 10, fill: css('--muted') });
+    t.textContent = Math.round(v); svg.append(t);
+  }
+  for (let v = x0; v <= x1 + 1e-9; v += 0.5) {
+    const x = X(v);
+    svg.append(svgEl('line', { x1: x, x2: x, y1: M.t, y2: M.t + ih, stroke: css('--grid'), 'stroke-width': 1 }));
+    const t = svgEl('text', { x, y: height - M.b + 16, 'text-anchor': 'middle', 'font-size': 10, fill: css('--muted') });
+    t.textContent = v.toFixed(1); svg.append(t);
+  }
+  const xl = svgEl('text', { x: width - M.r, y: height - 2, 'text-anchor': 'end', 'font-size': 10, fill: css('--sub') });
+  xl.textContent = '評価 →'; svg.append(xl);
+  const yl = svgEl('text', { x: M.l, y: M.t - 2, 'font-size': 10, fill: css('--sub') });
+  yl.textContent = '上映回数'; svg.append(yl);
+
+  // 点（NEWを上に描く）
+  const pts = rated.map(m => ({ m, x: X(m.star), y: Y(m.total) }));
+  const surface = css('--card');
+  for (const p of [...pts].sort((a, b) => a.m.isNew - b.m.isNew)) {
+    svg.append(svgEl('circle', { cx: p.x, cy: p.y, r: 5, fill: p.m.isNew ? css('--s2') : css('--s1'), stroke: surface, 'stroke-width': 2 }));
+  }
+  // ラベルは控えめに：上映回数の上位2作品と、右下（高評価・少上映）の2作品
+  const top = [...pts].sort((a, b) => b.m.total - a.m.total).slice(0, 2);
+  const medianTotal = [...rated].map(m => m.total).sort((a, b) => a - b)[Math.floor(rated.length / 2)];
+  const gems = pts.filter(p => p.m.total <= medianTotal && !top.includes(p)).sort((a, b) => b.m.star - a.m.star || a.m.total - b.m.total).slice(0, 2);
+  // 実際の文字幅を測るため、先にSVGをページに入れてからラベルを置く
+  box.replaceChildren(svg);
+  const placed = [];
+  for (const p of [...top, ...gems]) {
+    const right = p.x < width - 130;
+    const name = p.m.title.length > 11 ? p.m.title.slice(0, 11) + '…' : p.m.title;
+    const t = svgEl('text', { x: p.x + (right ? 9 : -9), y: p.y + 4, 'text-anchor': right ? 'start' : 'end', 'font-size': 11, 'font-weight': 600, fill: css('--text'), 'paint-order': 'stroke', stroke: surface, 'stroke-width': 3 });
+    t.textContent = name; svg.append(t);
+    // ラベル同士が重なる場合は描かない（値はツールチップと表で読める）
+    const b = t.getBBox();
+    if (placed.some(q => b.x < q.x + q.width + 4 && q.x < b.x + b.width + 4 && b.y < q.y + q.height && q.y < b.y + b.height)) { t.remove(); continue; }
+    placed.push(b);
+  }
+  // ホバー：一番近い点（24px以内）を拾う
+  const hl = svgEl('circle', { r: 8, fill: 'none', stroke: css('--text'), 'stroke-width': 1.5, visibility: 'hidden' });
+  svg.append(hl);
+  let hot = null;
+  const nearest = (px, py) => {
+    let best = null, bd = 24 * 24;
+    for (const p of pts) { const d = (p.x - px) ** 2 + (p.y - py) ** 2; if (d < bd) { bd = d; best = p; } }
+    return best;
+  };
+  svg.addEventListener('pointermove', e => {
+    const r = svg.getBoundingClientRect();
+    hot = nearest((e.clientX - r.left) * width / r.width, (e.clientY - r.top) * height / r.height);
+    if (!hot) { hl.setAttribute('visibility', 'hidden'); svg.style.cursor = ''; return hideTip(); }
+    hl.setAttribute('cx', hot.x); hl.setAttribute('cy', hot.y); hl.setAttribute('visibility', 'visible');
+    svg.style.cursor = 'pointer';
+    showTip(e.clientX, e.clientY, hot.m.title, [
+      [css('--star'), hot.m.star.toFixed(1), '評価'],
+      [hot.m.isNew ? css('--s2') : css('--s1'), `${hot.m.total}回`, '上映回数'],
+      ['', `${hot.m.theaters.size}館`, '上映館'],
+    ]);
+  });
+  svg.addEventListener('pointerleave', () => { hl.setAttribute('visibility', 'hidden'); hideTip(); hot = null; });
+  svg.addEventListener('click', () => { if (hot) location.href = movieUrl(hot.m.id); });
+}
+
+// ── 上映回数の推移（今週の上位7作品＋checkした作品） ──
+const TREND_TOP = 7;
+// check が変わったら（別タブ・別端末からの同期を含む）描き直す
+Checks.onChange(() => renderTrend());
+
+function renderTrend() {
+  $('rangeSeg').replaceChildren(...RANGES.map(n => {
+    const b = el('button', { 'aria-pressed': state.range === n }, `${n}か月`);
+    b.onclick = () => { state.range = n; renderTrend(); };
+    return b;
+  }));
+  // 最新の取得日からさかのぼって、選んだ月数に入る取得回だけを使う
+  const last = new Date(HIST.points[HIST.points.length - 1].date + 'T00:00:00');
+  const from = new Date(last); from.setMonth(from.getMonth() - state.range);
+  const idx = HIST.points.map((p, i) => i).filter(i => new Date(HIST.points[i].date + 'T00:00:00') >= from);
+  const pts = idx.map(i => HIST.points[i]);
+  const seriesOf = id => ({ id, title: HIST.movies[id].title, vals: idx.map(i => HIST.movies[id].vals[i]) });
+
+  // 色は上位7作品に固定（期間を切り替えても変わらない）。checkした作品は墨色の線で描き、名前で見分ける
+  const checked = Checks.all();
+  const topIds = aggregate().map(m => m.id).filter(id => HIST.movies[id]).slice(0, TREND_TOP);
+  const colorOf = Object.fromEntries(topIds.map((id, i) => [id, css(`--s${i + 1}`)]));
+  const tops = topIds.map(seriesOf);
+  const extra = [...checked].filter(id => HIST.movies[id] && !colorOf[id]).map(seriesOf);
+  const shownExtra = extra.filter(s => s.vals.some(v => v > 0));
+  const noShow = extra.filter(s => !s.vals.some(v => v > 0));
+  const ink = css('--text');
+  const series = [...tops, ...shownExtra];
+  const colorFor = s => colorOf[s.id] || ink;
+
+  // 凡例：checkした作品は × で外せる
+  const legend = [];
+  for (const s of tops) {
+    const sp = el('span'); const i = el('i', { class: 'ln' }); i.style.background = colorFor(s);
+    sp.append(i, document.createTextNode((checked.has(s.id) ? '✓ ' : '') + s.title)); legend.push(sp);
+  }
+  for (const s of shownExtra) {
+    const sp = el('span', { class: 'lg-chk' }); const i = el('i', { class: 'ln' }); i.style.background = ink;
+    const x = el('button', { class: 'lg-x', 'aria-label': `${s.title}のcheckを外す`, title: 'checkを外す' }, '×');
+    x.onclick = () => Checks.remove(s.id);
+    sp.append(i, document.createTextNode('✓ ' + s.title), x); legend.push(sp);
+  }
+  $('trendLegend').replaceChildren(...legend);
+
+  const box = $('trend');
+  const width = box.clientWidth || 600;
+  const narrow = width < 560;
+  const height = narrow ? 280 : 360;
+  const M = { l: 34, r: narrow ? 14 : 150, t: 14, b: 28 };
+  const iw = width - M.l - M.r, ih = height - M.t - M.b;
+  const yMax = niceMax(Math.max(1, ...series.flatMap(s => s.vals)));
+  const X = i => M.l + (pts.length > 1 ? i / (pts.length - 1) * iw : iw / 2);
+  const Y = v => M.t + ih - v / yMax * ih;
+  const svg = svgEl('svg', { viewBox: `0 0 ${width} ${height}`, height, role: 'img', 'aria-label': '上映回数の推移' });
+  const text = (x, y, str, attrs = {}) => {
+    const t = svgEl('text', { x, y, 'font-size': 10, fill: css('--muted'), ...attrs });
+    t.textContent = str; svg.append(t); return t;
+  };
+
+  for (let k = 0; k <= 4; k++) {
+    const v = yMax / 4 * k, y = Y(v);
+    svg.append(svgEl('line', { x1: M.l, x2: M.l + iw, y1: y, y2: y, stroke: k ? css('--grid') : css('--axis'), 'stroke-width': 1 }));
+    text(M.l - 6, y + 4, String(+v.toFixed(1)), { 'text-anchor': 'end' });
+  }
+  pts.forEach((p, i) => text(X(i), height - 8, md(p.date), {
+    'text-anchor': narrow && i === 0 ? 'start' : narrow && i === pts.length - 1 ? 'end' : 'middle' }));
+  text(M.l, M.t - 4, '回/日', { fill: css('--sub') });
+
+  const pathOf = s => s.vals.map((v, i) => `${i ? 'L' : 'M'}${X(i).toFixed(1)},${Y(v).toFixed(1)}`).join('');
+  const lineAttrs = { fill: 'none', 'stroke-linejoin': 'round', 'stroke-linecap': 'round' };
+  const surface = css('--card');
+  const paths = new Map();
+  // 1位が一番上に来るよう逆順に描く
+  for (const s of [...series].reverse()) {
+    const c = colorFor(s);
+    const path = svgEl('path', { d: pathOf(s), stroke: c, 'stroke-width': 2, ...lineAttrs });
+    const li = s.vals.length - 1;
+    const dot = svgEl('circle', { cx: X(li), cy: Y(s.vals[li]), r: 4, fill: c, stroke: surface, 'stroke-width': 2 });
+    svg.append(path, dot);
+    paths.set(s.id, [path, dot]);
+  }
+  const cross = svgEl('line', { y1: M.t, y2: M.t + ih, stroke: css('--muted'), 'stroke-width': 1, visibility: 'hidden' });
+  svg.prepend(cross);
+  box.replaceChildren(svg);
+
+  // 右端の作品名（重なる場合は描かず、凡例とツールチップに任せる）
+  if (!narrow) {
+    const placed = [];
+    for (const s of series) {
+      const li = s.vals.length - 1;
+      const name = (colorOf[s.id] ? '' : '✓ ') + (s.title.length > 10 ? s.title.slice(0, 10) + '…' : s.title);
+      const t = text(X(li) + 9, Y(s.vals[li]) + 4, name, { fill: css('--text'), 'font-size': 11, 'font-weight': 600 });
+      const b = t.getBBox();
+      if (placed.some(q => b.y < q.y + q.height && q.y < b.y + b.height)) { t.remove(); continue; }
+      placed.push(b);
+    }
+  }
+
+  // ホバー：一番近い取得日に吸着し、その日で縦方向に一番近い線（20px以内）を太く、他を薄くする
+  let hot = null;
+  const focus = id => {
+    for (const [sid, els] of paths) for (const e of els) e.style.opacity = !id || sid === id ? 1 : .25;
+    if (id) paths.get(id)[0].setAttribute('stroke-width', 3);
+  };
+  const reset = () => { for (const [, [p]] of paths) p.setAttribute('stroke-width', 2); focus(null); };
+  svg.addEventListener('pointermove', e => {
+    const r = svg.getBoundingClientRect();
+    const px = (e.clientX - r.left) * width / r.width, py = (e.clientY - r.top) * height / r.height;
+    let i = 0;
+    for (let k = 1; k < pts.length; k++) if (Math.abs(X(k) - px) < Math.abs(X(i) - px)) i = k;
+    cross.setAttribute('x1', X(i)); cross.setAttribute('x2', X(i)); cross.setAttribute('visibility', 'visible');
+    hot = null; let bd = 20;
+    for (const s of series) { const d = Math.abs(Y(s.vals[i]) - py); if (d < bd) { bd = d; hot = s; } }
+    reset(); if (hot) focus(hot.id);
+    svg.style.cursor = hot ? 'pointer' : '';
+    const rows = [...series].sort((a, b) => b.vals[i] - a.vals[i])
+      .map(s => [colorFor(s), s.vals[i].toFixed(1), (colorOf[s.id] ? '' : '✓ ') + s.title]);
+    showTip(e.clientX, e.clientY, `${md(pts[i].date)}〜の週（回/日）`, rows);
+  });
+  svg.addEventListener('pointerleave', () => { cross.setAttribute('visibility', 'hidden'); reset(); hideTip(); hot = null; });
+  svg.addEventListener('click', () => { if (hot) location.href = movieUrl(hot.id); });
+
+  // 表（全作品。グラフに出ていない作品もここで読める）
+  const sum = a => a.reduce((x, y) => x + y, 0);
+  const all = Object.keys(HIST.movies).map(seriesOf).filter(s => s.vals.some(v => v > 0));
+  const lastOf = s => s.vals[s.vals.length - 1];
+  const tbl = el('table'); const hr = el('tr');
+  hr.append(el('th', {}, '作品'), ...pts.map(p => el('th', {}, md(p.date))));
+  tbl.append(el('thead')); tbl.tHead.append(hr);
+  const tb = el('tbody');
+  for (const s of all.sort((a, b) => lastOf(b) - lastOf(a) || sum(b.vals) - sum(a.vals))) {
+    const tr = el('tr');
+    tr.append(el('td', { title: s.title }, (checked.has(s.id) ? '✓ ' : '') + s.title), ...s.vals.map(v => el('td', {}, v ? v.toFixed(1) : '')));
+    tb.append(tr);
+  }
+  tbl.append(tb);
+  $('trendTable').replaceChildren(tbl);
+
+  const first = new Date(HIST.points[0].date + 'T00:00:00');
+  const notes = [];
+  if (first > from) notes.push(`データは${md(HIST.points[0].date)}からしかないため、それ以前は表示されません。`);
+  if (!checked.size) notes.push('作品一覧の ✓ ボタンで check した作品も、ここに追加されます。');
+  if (noShow.length) notes.push(`checkした作品のうち「${noShow.map(s => s.title).join('」「')}」は、この期間に上映がありません。`);
+  const thMin = Math.min(...pts.map(p => p.theaters)), thMax = Math.max(...pts.map(p => p.theaters));
+  notes.push(`同じ週に複数回取得した日はまとめています${thMin !== thMax ? `。取得した劇場数は回によって${thMin}〜${thMax}館と異なります` : ''}。`);
+  $('histNote').textContent = notes.join('');
+}
+
+function render() {
+  const movies = aggregate();
+  $('period').textContent = `今週の上映（${PERIOD}）`;
+  renderTiles(movies);
+  renderRanking(movies);
+  renderScatter(movies);
+}
+function renderAll() { render(); renderTrend(); }
+
+$('themeBtn').addEventListener('click', () => {
+  const r = document.documentElement;
+  const dark = r.dataset.theme ? r.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  r.dataset.theme = dark ? 'light' : 'dark';
+  try { localStorage.setItem('theme', r.dataset.theme); } catch (_) {}
+  renderAll();
+});
+try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (_) {}
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', renderAll);
+let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { renderScatter(aggregate()); renderTrend(); }, 150); });
+renderAll();
+</script>
+</body>
+</html>
