@@ -16,6 +16,8 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+import end_judge
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -233,38 +235,15 @@ def _render(template_path, out_path, **placeholders):
         f.write(html)
 
 
-def save_html(rows, path, prev_rows=None):
-    _render(VIEWER_TEMPLATE, path, DATA=rows, PREV=prev_rows or [])
+def save_html(rows, path, prev_rows=None, status=None):
+    _render(VIEWER_TEMPLATE, path, DATA=rows, PREV=prev_rows or [], STATUS=status or {})
 
 
 def build_history(out_dir):
     """取得履歴から、作品ごとの「1日あたり平均上映回数」の推移を作る。
     上映開始日が3日以内に重なる取得回は1つにまとめ、行数の多い方を採用する。
     """
-    pat = re.compile(r"schedule_\d{8}_\d{6}\.json$")
-    runs = []
-    for p in sorted(out_dir.glob("schedule_*.json")):
-        if not pat.match(p.name):
-            continue
-        try:
-            with open(p, encoding="utf-8") as f:
-                rows = json.load(f)
-        except Exception:
-            continue
-        if not rows:
-            continue
-        dates = sorted({r["date"] for r in rows})
-        runs.append({"start": dates[0], "days": len(dates), "rows": rows})
-    runs.sort(key=lambda r: r["start"])
-
-    kept = []
-    for r in runs:
-        if kept and (date.fromisoformat(r["start"]) - date.fromisoformat(kept[-1]["start"])).days <= 3:
-            if len(r["rows"]) >= len(kept[-1]["rows"]):
-                kept[-1] = r
-            continue
-        kept.append(r)
-
+    kept = end_judge.load_runs(out_dir)
     points = [
         {"date": r["start"], "theaters": len({x["theater_name"] for x in r["rows"]})}
         for r in kept
@@ -282,9 +261,9 @@ def build_history(out_dir):
     return {"points": points, "movies": movies}
 
 
-def save_stats_html(rows, path, prev_rows=None, history=None):
+def save_stats_html(rows, path, prev_rows=None, history=None, evaluations=None):
     _render(STATS_TEMPLATE, path, DATA=rows, PREV=prev_rows or [],
-            HIST=history or {"points": [], "movies": {}})
+            HIST=history or {"points": [], "movies": {}}, EVAL=evaluations or [])
 
 
 def main():
@@ -333,12 +312,16 @@ def main():
     latest_path = OUT_DIR / "schedule_latest.json"
     html_path   = OUT_DIR / "viewer.html"
     stats_path  = OUT_DIR / "stats.html"
+    judge_path  = OUT_DIR / "end_judgments.json"
 
     save_json(all_rows, json_path)
     save_csv(all_rows, csv_path)
     save_json(all_rows, latest_path)
-    save_html(all_rows, html_path, prev_rows)
-    save_stats_html(all_rows, stats_path, prev_rows, build_history(OUT_DIR))
+    # 上映終了の判定と、前回の判定の答え合わせ
+    status = end_judge.judge(all_rows, OUT_DIR)
+    judge_log = end_judge.update_log(judge_path, all_rows, status)
+    save_html(all_rows, html_path, prev_rows, status)
+    save_stats_html(all_rows, stats_path, prev_rows, build_history(OUT_DIR), judge_log["evaluations"])
 
     print(f"\n完了: {len(all_rows)} 行")
     print(f"  JSON : {json_path}")
@@ -346,6 +329,8 @@ def main():
     print(f"  最新 : {latest_path}")
     print(f"  HTML : {html_path}")
     print(f"  グラフ: {stats_path}")
+    alerts = sum(1 for v in status.values() if v["level"])
+    print(f"  終了判定: {alerts} 作品に警告（記録: {judge_path}）")
 
 
 if __name__ == "__main__":

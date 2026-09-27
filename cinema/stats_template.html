@@ -182,6 +182,12 @@ thead th:first-child{z-index:2}
     <div class="scatter" id="scatter"></div>
     <p class="note" id="scatterNote"></p>
   </section>
+
+  <section class="card">
+    <h2>上映終了の判定の実績</h2>
+    <p class="desc">毎週の「終了濃厚」「終了注意」の判定が、翌週の取得で実際に当たったかを集計しています。</p>
+    <div id="evalBody"></div>
+  </section>
 </main>
 <div id="tip" role="tooltip"></div>
 
@@ -190,6 +196,8 @@ thead th:first-child{z-index:2}
 const RAW = DATA_PLACEHOLDER;
 const PREV = PREV_PLACEHOLDER;
 const HIST = HIST_PLACEHOLDER;
+// 上映終了の判定の答え合わせ（end_judge.py が毎週追記）
+const EVAL = EVAL_PLACEHOLDER;
 
 const W = ['日','月','火','水','木','金','土'];
 const DATES = [...new Set(RAW.map(r => r.date))].sort();
@@ -571,6 +579,60 @@ function renderTrend() {
   $('histNote').textContent = notes.join('');
 }
 
+// ── 上映終了の判定の実績 ──
+function renderEval() {
+  const body = $('evalBody');
+  const done = EVAL.filter(e => !e.skipped);
+  const ref = el('p', { class: 'note' }, '参考：判定条件を決めた過去データ（7〜9月）では、的中率 79%・終了作品の事前警告 36%・継続作品への誤警告 4% でした。');
+  if (!done.length) {
+    body.replaceChildren(el('p', { class: 'desc' }, '答え合わせは次回の取得（毎週火曜）から始まります。'), ref);
+    return;
+  }
+  let movies = 0, ended = 0, hit = 0, miss = 0, fp = 0;
+  const lv = { high: [0, 0], watch: [0, 0] };
+  for (const e of done) {
+    movies += e.movies; ended += e.ended;
+    for (const a of e.alerts) { lv[a.level][a.ended ? 0 : 1]++; a.ended ? hit++ : fp++; }
+    miss += e.missed.length;
+  }
+  const pct = (a, b) => b ? `${Math.round(a / b * 100)}%` : '—';
+  const tiles = [
+    ['警告の的中率', pct(hit, hit + fp), `${hit + fp}件中 ${hit}件が翌週に終了`],
+    ['終了作品の事前警告', pct(hit, ended), `終了 ${ended}件のうち ${hit}件`],
+    ['継続作品への誤警告', pct(fp, movies - ended), `継続 ${movies - ended}件のうち ${fp}件`],
+  ];
+  const grid = el('div', { class: 'tiles' });
+  grid.style.marginTop = '12px';
+  for (const [l, v, sub] of tiles) {
+    const t = el('div', { class: 'tile' }); t.style.border = '1px solid var(--line)';
+    t.append(el('div', { class: 'tile-label' }, l), el('div', { class: 'tile-value' }, v), el('div', { class: 'tile-label' }, sub));
+    grid.append(t);
+  }
+  const tbl = el('table'); const hr = el('tr');
+  for (const h of ['判定した週', '対象', '翌週終了', '濃厚（的中/警告）', '注意（的中/警告）', '見逃し']) hr.append(el('th', {}, h));
+  tbl.append(el('thead')); tbl.tHead.append(hr);
+  const tb = el('tbody');
+  for (const e of [...EVAL].reverse()) {
+    const tr = el('tr');
+    if (e.skipped) { tr.append(el('td', {}, `${md(e.start)}〜`), el('td', { colspan: 5 }, e.skipped)); tb.append(tr); continue; }
+    const c = l => { const a = e.alerts.filter(x => x.level === l); return `${a.filter(x => x.ended).length}/${a.length}`; };
+    tr.append(el('td', {}, `${md(e.start)}〜`), el('td', {}, String(e.movies)), el('td', {}, String(e.ended)),
+      el('td', {}, c('high')), el('td', {}, c('watch')), el('td', {}, String(e.missed.length)));
+    tb.append(tr);
+  }
+  tbl.append(tb);
+  // 警告した作品の結果一覧（直近の週）
+  const last = done[done.length - 1];
+  const list = el('ul'); list.style.cssText = 'margin:8px 0 0 1.2em;font-size:.78rem;line-height:1.8';
+  for (const a of last.alerts) {
+    list.append(el('li', {}, `${a.level === 'high' ? '終了濃厚' : '終了注意'}：${a.title} → ${a.ended ? '終了した（的中）' : '上映が続いた（外れ）'}`));
+  }
+  const det = el('details', { class: 'table-view' });
+  det.append(el('summary', {}, `${md(last.start)}〜の週に警告した作品の結果`), list);
+  const wrap = el('div', { class: 'tbl-wrap' }); wrap.append(tbl);
+  body.replaceChildren(grid, wrap, det, ref);
+}
+
 function render() {
   const movies = aggregate();
   $('period').textContent = `今週の上映（${PERIOD}）`;
@@ -578,7 +640,7 @@ function render() {
   renderRanking(movies);
   renderScatter(movies);
 }
-function renderAll() { render(); renderTrend(); }
+function renderAll() { render(); renderTrend(); renderEval(); }
 
 $('themeBtn').addEventListener('click', () => {
   const r = document.documentElement;
