@@ -1,13 +1,12 @@
 {
  "pending": {
-  "start": "2026-10-07",
-  "end": "2026-10-13",
-  "generated": "2026-10-06T16:37:49",
+  "start": "2026-10-14",
+  "end": "2026-10-16",
+  "generated": "2026-10-13T17:29:12",
   "theaters": [
    "109シネマズプレミアム新宿",
    "K's cinema",
    "TOHOシネマズ 新宿",
-   "kino cinema新宿",
    "アップリンク吉祥寺",
    "シネマート新宿",
    "テアトル新宿",
@@ -15,6 +14,61 @@
    "新宿ピカデリー"
   ],
   "movies": {
+   "106123": {
+    "title": "バイオハザード",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "109シネマズプレミアム新宿",
+     "TOHOシネマズ 新宿",
+     "新宿バルト9",
+     "新宿ピカデリー"
+    ]
+   },
+   "104217": {
+    "title": "汝、星のごとく",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "109シネマズプレミアム新宿",
+     "TOHOシネマズ 新宿",
+     "新宿バルト9",
+     "新宿ピカデリー"
+    ]
+   },
+   "105275": {
+    "title": "DIGGER ディガー",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "109シネマズプレミアム新宿",
+     "TOHOシネマズ 新宿",
+     "新宿バルト9",
+     "新宿ピカデリー"
+    ]
+   },
+   "105261": {
+    "title": "ディスクロージャー・デイ",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "109シネマズプレミアム新宿",
+     "TOHOシネマズ 新宿",
+     "新宿バルト9",
+     "新宿ピカデリー"
+    ]
+   },
+   "103045": {
+    "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "109シネマズプレミアム新宿",
+     "TOHOシネマズ 新宿",
+     "新宿バルト9",
+     "新宿ピカデリー"
+    ]
+   },
    "106332": {
     "title": "ハート・オブ・ビースト",
     "type": "regular",
@@ -37,108 +91,8 @@
      "新宿ピカデリー"
     ]
    },
-   "103045": {
-    "title": "踊る大捜査線 N.E.W. メトロポリスを駆け抜けろ！",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "109シネマズプレミアム新宿",
-     "TOHOシネマズ 新宿",
-     "新宿バルト9",
-     "新宿ピカデリー"
-    ]
-   },
-   "105470": {
-    "title": "白鳥とコウモリ",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "新宿ピカデリー"
-    ]
-   },
-   "105261": {
-    "title": "ディスクロージャー・デイ",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "109シネマズプレミアム新宿",
-     "TOHOシネマズ 新宿",
-     "新宿バルト9",
-     "新宿ピカデリー"
-    ]
-   },
-   "105477": {
-    "title": "八つ墓村",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "新宿ピカデリー"
-    ]
-   },
    "105109": {
     "title": "映画ちいかわ　人魚の島のひみつ",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "109シネマズプレミアム新宿",
-     "TOHOシネマズ 新宿",
-     "新宿バルト9",
-     "新宿ピカデリー"
-    ]
-   },
-   "105204": {
-    "title": "マッチング TRUE LOVE",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "TOHOシネマズ 新宿",
-     "新宿バルト9",
-     "新宿ピカデリー"
-    ]
-   },
-   "105185": {
-    "title": "ルックバック",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "109シネマズプレミアム新宿",
-     "TOHOシネマズ 新宿",
-     "新宿バルト9",
-     "新宿ピカデリー"
-    ]
-   },
-   "102093": {
-    "title": "Michael マイケル",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "109シネマズプレミアム新宿",
-     "TOHOシネマズ 新宿",
-     "新宿バルト9",
-     "新宿ピカデリー"
-    ]
-   },
-   "106590": {
-    "title": "アベンジャーズ　エンドゲーム　アンコール",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "109シネマズプレミアム新宿",
-     "TOHOシネマズ 新宿",
-     "新宿バルト9",
-     "新宿ピカデリー"
-    ]
-   },
-   "105726": {
-    "title": "ナギダイアリー",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "新宿ピカデリー"
-    ]
-   },
-   "106287": {
-    "title": "バックルームズ",
     "type": "regular",
     "level": null,
     "theaters": [
@@ -157,26 +111,41 @@
      "新宿ピカデリー"
     ]
    },
-   "106215": {
-    "title": "襲名",
+   "105470": {
+    "title": "白鳥とコウモリ",
     "type": "regular",
     "level": null,
-    "theaters": [
-     "109シネマズプレミアム新宿",
-     "アップリンク吉祥寺",
-     "新宿ピカデリー"
-    ]
-   },
-   "104441": {
-    "title": "あの星が降る丘で、君とまた出会いたい。",
-    "type": "regular",
-    "level": "watch",
     "theaters": [
      "新宿ピカデリー"
     ]
    },
    "105416": {
     "title": "時給三〇〇円の死神",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "TOHOシネマズ 新宿",
+     "新宿ピカデリー"
+    ]
+   },
+   "105503": {
+    "title": "どこよりも遠い場所にいる君へ",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "新宿ピカデリー"
+    ]
+   },
+   "105477": {
+    "title": "八つ墓村",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "新宿ピカデリー"
+    ]
+   },
+   "106287": {
+    "title": "バックルームズ",
     "type": "regular",
     "level": null,
     "theaters": [
@@ -192,34 +161,26 @@
      "新宿ピカデリー"
     ]
    },
-   "106095": {
-    "title": "最終楽章　響け！ユーフォニアム　後編",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "新宿バルト9",
-     "新宿ピカデリー"
-    ]
-   },
-   "105699": {
-    "title": "5秒で完全犯罪を生成する方法",
+   "105204": {
+    "title": "マッチング TRUE LOVE",
     "type": "regular",
     "level": null,
     "theaters": [
      "TOHOシネマズ 新宿",
+     "新宿バルト9",
      "新宿ピカデリー"
     ]
    },
-   "92069": {
-    "title": "すばらしき世界",
-    "type": "revival",
+   "105726": {
+    "title": "ナギダイアリー",
+    "type": "regular",
     "level": null,
     "theaters": [
      "新宿ピカデリー"
     ]
    },
-   "104266": {
-    "title": "キングダム　魂の決戦",
+   "102093": {
+    "title": "Michael マイケル",
     "type": "regular",
     "level": null,
     "theaters": [
@@ -229,12 +190,39 @@
      "新宿ピカデリー"
     ]
    },
-   "105228": {
-    "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
+   "106095": {
+    "title": "最終楽章　響け！ユーフォニアム　後編",
     "type": "regular",
     "level": null,
     "theaters": [
      "新宿バルト9",
+     "新宿ピカデリー"
+    ]
+   },
+   "106215": {
+    "title": "襲名",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺",
+     "新宿ピカデリー"
+    ]
+   },
+   "104266": {
+    "title": "キングダム　魂の決戦",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "TOHOシネマズ 新宿",
+     "新宿バルト9",
+     "新宿ピカデリー"
+    ]
+   },
+   "104441": {
+    "title": "あの星が降る丘で、君とまた出会いたい。",
+    "type": "regular",
+    "level": "watch",
+    "theaters": [
      "新宿ピカデリー"
     ]
    },
@@ -248,35 +236,12 @@
      "新宿ピカデリー"
     ]
    },
-   "104817": {
-    "title": "カーンターラ　炎の決戦",
+   "106331": {
+    "title": "本当にあった話（の話）",
     "type": "regular",
-    "level": "watch",
-    "theaters": [
-     "新宿ピカデリー"
-    ]
-   },
-   "38641": {
-    "title": "PERFECT BLUE パーフェクトブルー",
-    "type": "revival",
     "level": null,
     "theaters": [
-     "新宿ピカデリー"
-    ]
-   },
-   "1759": {
-    "title": "ゆれる",
-    "type": "revival",
-    "level": null,
-    "theaters": [
-     "新宿ピカデリー"
-    ]
-   },
-   "55066": {
-    "title": "ミッシェル・ガン・エレファント“THEE MOVIE” LAST HEAVEN 031011",
-    "type": "revival",
-    "level": null,
-    "theaters": [
+     "アップリンク吉祥寺",
      "テアトル新宿"
     ]
    },
@@ -289,22 +254,38 @@
      "テアトル新宿"
     ]
    },
-   "106331": {
-    "title": "本当にあった話（の話）",
-    "type": "regular",
-    "level": null,
+   "55066": {
+    "title": "ミッシェル・ガン・エレファント“THEE MOVIE” LAST HEAVEN 031011",
+    "type": "revival",
+    "level": "high",
     "theaters": [
      "アップリンク吉祥寺",
      "テアトル新宿"
     ]
    },
-   "105306": {
-    "title": "開戦前夜",
+   "106371": {
+    "title": "月影のゴールデン街",
+    "type": "limited",
+    "level": null,
+    "theaters": [
+     "テアトル新宿"
+    ]
+   },
+   "106491": {
+    "title": "エヴィレンコ",
     "type": "regular",
     "level": null,
     "theaters": [
-     "109シネマズプレミアム新宿",
-     "テアトル新宿"
+     "シネマート新宿"
+    ]
+   },
+   "106688": {
+    "title": "セックス・ピストルズ　破壊の設計図",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺",
+     "シネマート新宿"
     ]
    },
    "104752": {
@@ -323,93 +304,28 @@
      "シネマート新宿"
     ]
    },
-   "106733": {
-    "title": "デス・バイ・メタル　デス・メタルを作った男",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "シネマート新宿"
-    ]
-   },
    "106732": {
     "title": "マーダー・イン・ザ・フロント・ロウ　俺たちのベイエリア・スラッシュ物語",
     "type": "regular",
-    "level": null,
+    "level": "watch",
     "theaters": [
      "シネマート新宿"
     ]
    },
-   "102645": {
-    "title": "ラブ・ライズ",
+   "106733": {
+    "title": "デス・バイ・メタル　デス・メタルを作った男",
+    "type": "regular",
+    "level": "watch",
+    "theaters": [
+     "シネマート新宿"
+    ]
+   },
+   "106671": {
+    "title": "CBGB ニューヨーク、PUNKが生まれた場所",
     "type": "limited",
     "level": null,
     "theaters": [
      "シネマート新宿"
-    ]
-   },
-   "51925": {
-    "title": "BULLY ブリー",
-    "type": "revival",
-    "level": "high",
-    "theaters": [
-     "シネマート新宿"
-    ]
-   },
-   "105911": {
-    "title": "ネルソンさん、あなたは人を殺しましたか？",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "kino cinema新宿"
-    ]
-   },
-   "106365": {
-    "title": "沖晴くんの涙を殺して",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "kino cinema新宿",
-     "アップリンク吉祥寺"
-    ]
-   },
-   "103908": {
-    "title": "急に具合が悪くなる",
-    "type": "regular",
-    "level": "watch",
-    "theaters": [
-     "kino cinema新宿"
-    ]
-   },
-   "106677": {
-    "title": "逃げろお嬢さん",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "kino cinema新宿"
-    ]
-   },
-   "101811": {
-    "title": "ひゃくえむ。",
-    "type": "revival",
-    "level": "high",
-    "theaters": [
-     "kino cinema新宿"
-    ]
-   },
-   "105804": {
-    "title": "ホーム スイート ホーム",
-    "type": "regular",
-    "level": "watch",
-    "theaters": [
-     "kino cinema新宿"
-    ]
-   },
-   "106515": {
-    "title": "歌って！",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "kino cinema新宿"
     ]
    },
    "105481": {
@@ -420,8 +336,24 @@
      "K's cinema"
     ]
    },
-   "106790": {
-    "title": "サマーキャンプ・インフェルノ",
+   "105865": {
+    "title": "かぶと島が浮く日",
+    "type": "limited",
+    "level": null,
+    "theaters": [
+     "K's cinema"
+    ]
+   },
+   "106604": {
+    "title": "still dark",
+    "type": "limited",
+    "level": "high",
+    "theaters": [
+     "K's cinema"
+    ]
+   },
+   "106605": {
+    "title": "冒険の夜",
     "type": "limited",
     "level": null,
     "theaters": [
@@ -436,93 +368,36 @@
      "K's cinema"
     ]
    },
-   "45918": {
-    "title": "ステッペンウルフ 荒野の狼",
-    "type": "revival",
-    "level": "high",
-    "theaters": [
-     "K's cinema"
-    ]
-   },
-   "46654": {
-    "title": "探偵スルース",
-    "type": "revival",
-    "level": "high",
-    "theaters": [
-     "K's cinema"
-    ]
-   },
-   "107021": {
-    "title": "ドリダム",
-    "type": "limited",
-    "level": "watch",
-    "theaters": [
-     "K's cinema"
-    ]
-   },
-   "65610": {
-    "title": "墓にツバをかけろ",
-    "type": "revival",
-    "level": null,
-    "theaters": [
-     "K's cinema"
-    ]
-   },
-   "106605": {
-    "title": "冒険の夜",
+   "107022": {
+    "title": "29",
     "type": "limited",
     "level": null,
     "theaters": [
      "K's cinema"
     ]
    },
-   "106074": {
-    "title": "ボンブ　神の音",
-    "type": "limited",
-    "level": "watch",
-    "theaters": [
-     "K's cinema"
-    ]
-   },
-   "106073": {
-    "title": "マーリーサン　幻術師",
-    "type": "limited",
-    "level": null,
-    "theaters": [
-     "K's cinema"
-    ]
-   },
-   "49799": {
-    "title": "ミート・ザ・フィーブルズ",
+   "47513": {
+    "title": "肉体の悪魔（1971）",
     "type": "revival",
-    "level": "high",
+    "level": null,
     "theaters": [
      "K's cinema"
     ]
    },
-   "49995": {
-    "title": "ムーンフリート",
+   "39859": {
+    "title": "闇の中の魑魅魍魎",
     "type": "revival",
-    "level": "high",
-    "theaters": [
-     "K's cinema"
-    ]
-   },
-   "106604": {
-    "title": "still dark",
-    "type": "limited",
     "level": null,
     "theaters": [
      "K's cinema"
     ]
    },
-   "105075": {
-    "title": "我々は宇宙人",
-    "type": "regular",
+   "51968": {
+    "title": "リベンジャーズ・トラジディ",
+    "type": "revival",
     "level": null,
     "theaters": [
-     "TOHOシネマズ 新宿",
-     "新宿バルト9"
+     "K's cinema"
     ]
    },
    "106044": {
@@ -535,21 +410,21 @@
      "新宿バルト9"
     ]
    },
-   "105942": {
-    "title": "藁にもすがる獣たち",
+   "105075": {
+    "title": "我々は宇宙人",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "TOHOシネマズ 新宿",
+     "新宿バルト9"
+    ]
+   },
+   "104848": {
+    "title": "愛し合ってるかい？　忌野清志郎が教えてくれた",
     "type": "regular",
     "level": null,
     "theaters": [
      "アップリンク吉祥寺",
-     "新宿バルト9"
-    ]
-   },
-   "102846": {
-    "title": "スパイダーマン　ブランド・ニュー・デイ",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "109シネマズプレミアム新宿",
      "新宿バルト9"
     ]
    },
@@ -560,6 +435,25 @@
     "theaters": [
      "109シネマズプレミアム新宿",
      "TOHOシネマズ 新宿",
+     "新宿バルト9"
+    ]
+   },
+   "105083": {
+    "title": "ガールズ＆パンツァー　最終章　第5話",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "109シネマズプレミアム新宿",
+     "TOHOシネマズ 新宿",
+     "新宿バルト9"
+    ]
+   },
+   "105942": {
+    "title": "藁にもすがる獣たち",
+    "type": "regular",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺",
      "新宿バルト9"
     ]
    },
@@ -582,6 +476,14 @@
      "新宿バルト9"
     ]
    },
+   "34600": {
+    "title": "あぶない刑事",
+    "type": "revival",
+    "level": null,
+    "theaters": [
+     "新宿バルト9"
+    ]
+   },
    "105327": {
     "title": "ファーストライド",
     "type": "regular",
@@ -593,49 +495,42 @@
    "105225": {
     "title": "縁の手紙",
     "type": "regular",
-    "level": null,
+    "level": "watch",
     "theaters": [
-     "新宿バルト9"
-    ]
-   },
-   "104848": {
-    "title": "愛し合ってるかい？　忌野清志郎が教えてくれた",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "アップリンク吉祥寺",
      "新宿バルト9"
     ]
    },
    "106032": {
     "title": "カードファイト!! ヴァンガード Divinez 運命星戦編",
     "type": "regular",
-    "level": null,
+    "level": "watch",
     "theaters": [
      "新宿バルト9"
     ]
    },
-   "95360": {
-    "title": "劇場版 RE:cycle of the PENGUINDRUM 後編　僕は君を愛してる",
+   "90809": {
+    "title": "ゲキ×シネ「修羅天魔　髑髏城の七人」Season極",
     "type": "revival",
     "level": null,
     "theaters": [
      "新宿バルト9"
     ]
    },
-   "90807": {
-    "title": "ゲキ×シネ「髑髏城の七人」Season月　上弦の月",
-    "type": "revival",
+   "105185": {
+    "title": "ルックバック",
+    "type": "regular",
     "level": null,
     "theaters": [
-     "新宿バルト9"
+     "109シネマズプレミアム新宿",
+     "TOHOシネマズ 新宿"
     ]
    },
-   "106578": {
-    "title": "クイーン　ブダペスト",
-    "type": "limited",
+   "106590": {
+    "title": "アベンジャーズ　エンドゲーム　アンコール",
+    "type": "regular",
     "level": null,
     "theaters": [
+     "109シネマズプレミアム新宿",
      "TOHOシネマズ 新宿"
     ]
    },
@@ -648,18 +543,9 @@
      "アップリンク吉祥寺"
     ]
    },
-   "106146": {
-    "title": "さとこはいつも",
-    "type": "regular",
-    "level": null,
-    "theaters": [
-     "TOHOシネマズ 新宿",
-     "アップリンク吉祥寺"
-    ]
-   },
-   "35330": {
-    "title": "踊る大捜査線 THE MOVIE",
-    "type": "revival",
+   "106578": {
+    "title": "クイーン　ブダペスト",
+    "type": "limited",
     "level": null,
     "theaters": [
      "TOHOシネマズ 新宿"
@@ -668,17 +554,17 @@
    "30971": {
     "title": "用心棒",
     "type": "revival",
-    "level": null,
+    "level": "high",
     "theaters": [
      "TOHOシネマズ 新宿"
     ]
    },
-   "105571": {
-    "title": "平行と垂直",
-    "type": "regular",
-    "level": "watch",
+   "1138": {
+    "title": "踊る大捜査線 THE MOVIE 2 レインボーブリッジを封鎖せよ！",
+    "type": "revival",
+    "level": null,
     "theaters": [
-     "アップリンク吉祥寺"
+     "TOHOシネマズ 新宿"
     ]
    },
    "106358": {
@@ -689,8 +575,8 @@
      "アップリンク吉祥寺"
     ]
    },
-   "104398": {
-    "title": "ヒンド・ラジャブの声",
+   "106146": {
+    "title": "さとこはいつも",
     "type": "regular",
     "level": "watch",
     "theaters": [
@@ -705,26 +591,34 @@
      "アップリンク吉祥寺"
     ]
    },
+   "106365": {
+    "title": "沖晴くんの涙を殺して",
+    "type": "regular",
+    "level": "watch",
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "105571": {
+    "title": "平行と垂直",
+    "type": "regular",
+    "level": "watch",
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "104398": {
+    "title": "ヒンド・ラジャブの声",
+    "type": "regular",
+    "level": "watch",
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
    "106444": {
     "title": "リサ・ラーソンがいた時間",
     "type": "regular",
     "level": "watch",
-    "theaters": [
-     "アップリンク吉祥寺"
-    ]
-   },
-   "106465": {
-    "title": "ベイ・シティ・ローラーズ　ウッディ・ウッドが語る真実",
-    "type": "regular",
-    "level": "watch",
-    "theaters": [
-     "アップリンク吉祥寺"
-    ]
-   },
-   "106688": {
-    "title": "セックス・ピストルズ　破壊の設計図",
-    "type": "regular",
-    "level": null,
     "theaters": [
      "アップリンク吉祥寺"
     ]
@@ -737,18 +631,34 @@
      "アップリンク吉祥寺"
     ]
    },
-   "53279": {
-    "title": "≒草間彌生　わたし大好き",
-    "type": "revival",
+   "106465": {
+    "title": "ベイ・シティ・ローラーズ　ウッディ・ウッドが語る真実",
+    "type": "regular",
+    "level": "watch",
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "106577": {
+    "title": "遠近を抱えた女　完全版",
+    "type": "limited",
     "level": null,
     "theaters": [
      "アップリンク吉祥寺"
     ]
    },
-   "104767": {
-    "title": "リンカ リンカ　あの夏の先",
-    "type": "regular",
-    "level": "watch",
+   "53279": {
+    "title": "≒草間彌生　わたし大好き",
+    "type": "revival",
+    "level": "high",
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "106647": {
+    "title": "インビジブル・ビューティー　ランウェイの革命",
+    "type": "limited",
+    "level": null,
     "theaters": [
      "アップリンク吉祥寺"
     ]
@@ -757,6 +667,62 @@
     "title": "クロノス・カイロス",
     "type": "regular",
     "level": "watch",
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "106254": {
+    "title": "サクラマスのラストワルツ",
+    "type": "limited",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "104427": {
+    "title": "ガザからの声 Episode2「ミュージシャン・アハマドのメッセージ」",
+    "type": "revival",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "104023": {
+    "title": "天使の集まる島",
+    "type": "revival",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "81442": {
+    "title": "ディオールと私",
+    "type": "revival",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "104693": {
+    "title": "ネタニヤフ調書　汚職と戦争",
+    "type": "revival",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "102237": {
+    "title": "忘れない、パレスチナの子どもたちを",
+    "type": "revival",
+    "level": null,
+    "theaters": [
+     "アップリンク吉祥寺"
+    ]
+   },
+   "102486": {
+    "title": "ガザ＝ストロフ　パレスチナの吟（うた）",
+    "type": "revival",
+    "level": null,
     "theaters": [
      "アップリンク吉祥寺"
     ]
@@ -1325,6 +1291,268 @@
      "id": "106231",
      "title": "9月のアル・ラシード通り",
      "type": "limited",
+     "level": null,
+     "ended": true
+    }
+   ]
+  },
+  {
+   "start": "2026-10-07",
+   "next_start": "2026-10-14",
+   "movies": 80,
+   "ended": 23,
+   "alerts": [
+    {
+     "id": "104441",
+     "title": "あの星が降る丘で、君とまた出会いたい。",
+     "type": "regular",
+     "level": "watch",
+     "ended": false
+    },
+    {
+     "id": "104470",
+     "title": "新劇場版　銀魂　吉原大炎上",
+     "type": "revival",
+     "level": "high",
+     "ended": false
+    },
+    {
+     "id": "104817",
+     "title": "カーンターラ　炎の決戦",
+     "type": "regular",
+     "level": "watch",
+     "ended": true
+    },
+    {
+     "id": "21804",
+     "title": "ドラッグストア・カウボーイ",
+     "type": "revival",
+     "level": "high",
+     "ended": false
+    },
+    {
+     "id": "51925",
+     "title": "BULLY ブリー",
+     "type": "revival",
+     "level": "high",
+     "ended": true
+    },
+    {
+     "id": "105173",
+     "title": "サルダール",
+     "type": "limited",
+     "level": "watch",
+     "ended": false
+    },
+    {
+     "id": "45918",
+     "title": "ステッペンウルフ 荒野の狼",
+     "type": "revival",
+     "level": "high",
+     "ended": true
+    },
+    {
+     "id": "46654",
+     "title": "探偵スルース",
+     "type": "revival",
+     "level": "high",
+     "ended": true
+    },
+    {
+     "id": "107021",
+     "title": "ドリダム",
+     "type": "limited",
+     "level": "watch",
+     "ended": true
+    },
+    {
+     "id": "106074",
+     "title": "ボンブ　神の音",
+     "type": "limited",
+     "level": "watch",
+     "ended": true
+    },
+    {
+     "id": "49799",
+     "title": "ミート・ザ・フィーブルズ",
+     "type": "revival",
+     "level": "high",
+     "ended": true
+    },
+    {
+     "id": "49995",
+     "title": "ムーンフリート",
+     "type": "revival",
+     "level": "high",
+     "ended": true
+    },
+    {
+     "id": "94928",
+     "title": "劇場版　魔法少女まどか☆マギカ　ワルプルギスの廻天",
+     "type": "revival",
+     "level": "high",
+     "ended": false
+    },
+    {
+     "id": "105011",
+     "title": "超かぐや姫！",
+     "type": "revival",
+     "level": "high",
+     "ended": false
+    },
+    {
+     "id": "105571",
+     "title": "平行と垂直",
+     "type": "regular",
+     "level": "watch",
+     "ended": false
+    },
+    {
+     "id": "106358",
+     "title": "モネと時間旅行",
+     "type": "regular",
+     "level": "watch",
+     "ended": false
+    },
+    {
+     "id": "104398",
+     "title": "ヒンド・ラジャブの声",
+     "type": "regular",
+     "level": "watch",
+     "ended": false
+    },
+    {
+     "id": "17126",
+     "title": "スワロウテイル",
+     "type": "revival",
+     "level": "high",
+     "ended": false
+    },
+    {
+     "id": "106444",
+     "title": "リサ・ラーソンがいた時間",
+     "type": "regular",
+     "level": "watch",
+     "ended": false
+    },
+    {
+     "id": "106465",
+     "title": "ベイ・シティ・ローラーズ　ウッディ・ウッドが語る真実",
+     "type": "regular",
+     "level": "watch",
+     "ended": false
+    },
+    {
+     "id": "104767",
+     "title": "リンカ リンカ　あの夏の先",
+     "type": "regular",
+     "level": "watch",
+     "ended": true
+    },
+    {
+     "id": "106561",
+     "title": "クロノス・カイロス",
+     "type": "regular",
+     "level": "watch",
+     "ended": false
+    }
+   ],
+   "missed": [
+    {
+     "id": "105699",
+     "title": "5秒で完全犯罪を生成する方法",
+     "type": "regular",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "92069",
+     "title": "すばらしき世界",
+     "type": "revival",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "105228",
+     "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
+     "type": "regular",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "38641",
+     "title": "PERFECT BLUE パーフェクトブルー",
+     "type": "revival",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "1759",
+     "title": "ゆれる",
+     "type": "revival",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "105306",
+     "title": "開戦前夜",
+     "type": "regular",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "102645",
+     "title": "ラブ・ライズ",
+     "type": "limited",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "106790",
+     "title": "サマーキャンプ・インフェルノ",
+     "type": "limited",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "65610",
+     "title": "墓にツバをかけろ",
+     "type": "revival",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "106073",
+     "title": "マーリーサン　幻術師",
+     "type": "limited",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "102846",
+     "title": "スパイダーマン　ブランド・ニュー・デイ",
+     "type": "regular",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "95360",
+     "title": "劇場版 RE:cycle of the PENGUINDRUM 後編　僕は君を愛してる",
+     "type": "revival",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "90807",
+     "title": "ゲキ×シネ「髑髏城の七人」Season月　上弦の月",
+     "type": "revival",
+     "level": null,
+     "ended": true
+    },
+    {
+     "id": "35330",
+     "title": "踊る大捜査線 THE MOVIE",
+     "type": "revival",
      "level": null,
      "ended": true
     }
